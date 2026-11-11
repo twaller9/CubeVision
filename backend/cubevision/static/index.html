@@ -4,40 +4,70 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>CubeVision Console</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Crect width='16' height='16' rx='3' fill='%23111'/%3E%3Crect x='2' y='2' width='5' height='5' rx='1' fill='%23ffd500'/%3E%3Crect x='9' y='2' width='5' height='5' rx='1' fill='%23c8102e'/%3E%3Crect x='2' y='9' width='5' height='5' rx='1' fill='%23009b48'/%3E%3Crect x='9' y='9' width='5' height='5' rx='1' fill='%230046ad'/%3E%3C/svg%3E">
 <style>
   :root {
-    --bg: #f6f6f4; --panel: #ffffff; --ink: #1d1d1f; --muted: #6b6b70; --line: #e3e3e0; --accent: #2f6fde;
-    --W: #ffffff; --Y: #ffd400; --R: #d62828; --O: #ff8c1a; --G: #1f9d55; --B: #1e5bd8; --unk: #c9c9c9;
+    --bg: #f3f3f1; --panel: #ffffff; --ink: #1b1b1f; --muted: #6a6a72; --line: #e2e2de;
+    --accent: #2f6fde; --ok: #1f9d55; --stage-a: #e9ecf3; --stage-b: #d5dbe7;
   }
   @media (prefers-color-scheme: dark) {
-    :root { --bg: #141416; --panel: #1d1d20; --ink: #ededee; --muted: #9a9aa0; --line: #2e2e33; --accent: #6c9bff; }
+    :root:not([data-theme="light"]) {
+      --bg: #0f1013; --panel: #17181c; --ink: #ececef; --muted: #9a9ba3; --line: #2a2b31;
+      --accent: #6c9bff; --ok: #3ccf7f; --stage-a: #1d2230; --stage-b: #0d0f14;
+    }
+  }
+  :root[data-theme="dark"] {
+    --bg: #0f1013; --panel: #17181c; --ink: #ececef; --muted: #9a9ba3; --line: #2a2b31;
+    --accent: #6c9bff; --ok: #3ccf7f; --stage-a: #1d2230; --stage-b: #0d0f14;
   }
   * { box-sizing: border-box; }
   body { margin: 0; background: var(--bg); color: var(--ink); font: 15px/1.45 -apple-system, system-ui, sans-serif; }
-  header { padding: 16px 20px; border-bottom: 1px solid var(--line); display: flex; gap: 12px; align-items: center; flex-wrap: wrap; }
-  header h1 { font-size: 18px; margin: 0 auto 0 0; }
+  header { padding: 14px 20px; border-bottom: 1px solid var(--line); display: flex; gap: 10px; align-items: center; flex-wrap: wrap; }
+  header h1 { font-size: 18px; margin: 0 auto 0 0; letter-spacing: -.01em; }
   .pill { padding: 3px 10px; border-radius: 99px; background: var(--line); font-size: 13px; }
-  main { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1.3fr); gap: 16px; padding: 16px 20px; }
-  @media (max-width: 860px) { main { grid-template-columns: 1fr; padding: 16px; } }
-  section { background: var(--panel); border: 1px solid var(--line); border-radius: 12px; padding: 16px; min-width: 0; }
-  h2 { font-size: 13px; text-transform: uppercase; letter-spacing: .06em; color: var(--muted); margin: 0 0 10px; }
-  .net { display: grid; grid-template-columns: repeat(12, 1fr); gap: 2px; max-width: 420px; }
-  .net div { aspect-ratio: 1; border-radius: 3px; border: 1px solid rgba(0,0,0,.25); }
-  .net .gap { border: 0; background: transparent; }
-  button { font: inherit; padding: 7px 12px; border-radius: 8px; border: 1px solid var(--line); background: var(--panel); color: var(--ink); cursor: pointer; }
+  .pill.live { background: color-mix(in srgb, var(--ok) 22%, transparent); }
+  main { display: grid; grid-template-columns: minmax(0, 1.25fr) minmax(0, 1fr); gap: 16px; padding: 16px 20px; }
+  @media (max-width: 900px) { main { grid-template-columns: 1fr; padding: 16px; } }
+  section { background: var(--panel); border: 1px solid var(--line); border-radius: 14px; padding: 16px; min-width: 0; }
+  h2 { font-size: 12px; text-transform: uppercase; letter-spacing: .07em; color: var(--muted); margin: 0 0 10px; }
+  .col { display: grid; gap: 16px; min-width: 0; align-content: start; }
+
+  /* 3D stage */
+  .stage { position: relative; padding: 0; overflow: hidden; border-radius: 16px;
+           background: radial-gradient(120% 90% at 50% 35%, var(--stage-a), var(--stage-b)); }
+  #viewer { display: block; width: 100%; height: min(68vh, 620px); min-height: 360px; touch-action: none; cursor: grab; }
+  #viewer:active { cursor: grabbing; }
+  .hud { position: absolute; left: 16px; right: 16px; top: 14px; display: flex; justify-content: space-between; gap: 10px; pointer-events: none; }
+  .badge { background: color-mix(in srgb, var(--panel) 82%, transparent); backdrop-filter: blur(8px); border: 1px solid var(--line);
+           border-radius: 99px; padding: 5px 12px; font-size: 13px; font-weight: 600; }
+  .badge.done { color: var(--ok); border-color: color-mix(in srgb, var(--ok) 45%, transparent); }
+  .progress { position: absolute; left: 16px; right: 16px; bottom: 16px; pointer-events: none; }
+  .bar { height: 6px; border-radius: 99px; background: color-mix(in srgb, var(--ink) 12%, transparent); overflow: hidden; }
+  .bar > div { height: 100%; width: 0; background: var(--accent); border-radius: 99px; transition: width .35s ease, background .4s; }
+  .progress .label { display: flex; justify-content: space-between; font-size: 12px; color: var(--muted); margin-bottom: 6px; }
+  .say { font-size: 18px; min-height: 1.5em; }
+  .fallback { position: absolute; inset: 0; display: none; align-items: center; justify-content: center; text-align: center; padding: 24px; color: var(--muted); }
+
+  button, select { font: inherit; padding: 7px 12px; border-radius: 8px; border: 1px solid var(--line); background: var(--panel); color: var(--ink); cursor: pointer; }
   button.primary { background: var(--accent); color: #fff; border-color: transparent; }
-  .row { display: flex; gap: 8px; flex-wrap: wrap; margin: 10px 0; }
+  .row { display: flex; gap: 8px; flex-wrap: wrap; margin: 10px 0; align-items: center; }
   .step { border-left: 3px solid var(--accent); padding: 6px 10px; margin: 6px 0; }
   .step.done { opacity: .45; border-color: var(--line); }
   .step.cur { background: color-mix(in srgb, var(--accent) 10%, transparent); }
   .alg { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: 14px; }
   .alg .m { padding: 1px 3px; border-radius: 4px; }
   .alg .m.now { background: var(--accent); color: #fff; }
-  #log { font-family: ui-monospace, Menlo, monospace; font-size: 12px; max-height: 300px; overflow: auto; white-space: pre-wrap; }
-  #say { font-size: 18px; min-height: 1.5em; }
+  #log { font-family: ui-monospace, Menlo, monospace; font-size: 12px; max-height: 260px; overflow: auto; white-space: pre-wrap; }
   textarea { width: 100%; min-height: 90px; font-family: ui-monospace, Menlo, monospace; font-size: 12px; background: var(--bg); color: var(--ink); border: 1px solid var(--line); border-radius: 8px; padding: 8px; }
   .muted { color: var(--muted); }
+  details summary { cursor: pointer; color: var(--muted); font-size: 13px; }
 </style>
+<script type="importmap">
+{ "imports": {
+    "three": "https://cdn.jsdelivr.net/npm/three@0.170.0/build/three.module.js",
+    "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.170.0/examples/jsm/"
+} }
+</script>
 </head>
 <body>
 <header>
@@ -46,38 +76,51 @@
   <span class="pill" id="conn">offline</span>
 </header>
 <main>
-  <div style="display:grid; gap:16px; min-width:0">
+  <div class="col">
+    <section class="stage">
+      <canvas id="viewer" aria-label="3D view of the scanned Rubik's cube"></canvas>
+      <div class="hud">
+        <span class="badge" id="status-badge">Waiting for the camera…</span>
+        <span class="badge" id="face-badge" hidden></span>
+      </div>
+      <div class="progress">
+        <div class="label"><span id="count-label">0 / 54 stickers</span><span class="muted">drag to rotate</span></div>
+        <div class="bar"><div id="bar"></div></div>
+      </div>
+      <div class="fallback" id="fallback">3D view needs WebGL and an internet connection (three.js loads from a CDN).</div>
+    </section>
     <section>
       <h2>Glasses would say</h2>
-      <div id="say" class="muted">—</div>
+      <div class="say" id="say">—</div>
     </section>
+  </div>
+
+  <div class="col">
     <section>
-      <h2>Cube</h2>
-      <div class="net" id="net"></div>
-      <p class="muted" id="seen"></p>
-    </section>
-    <section>
-      <h2>Simulator (no glasses / vision needed)</h2>
+      <h2>Simulator (no glasses or vision model needed)</h2>
       <div class="row">
-        <button class="primary" onclick="sim('scramble')">Scramble &amp; scan</button>
-        <button onclick="sim('next_move')">Do next move</button>
-        <button onclick="runAll()">Do all moves</button>
-        <button onclick="sim('wrong_move')">Do a wrong move</button>
+        <button class="primary" onclick="sim('live_scan')">Live scan</button>
+        <button onclick="sim('scramble')">Instant scan</button>
         <button onclick="send({type:'reset'})">Reset</button>
       </div>
       <div class="row">
-        <label>Level <select id="level" onchange="send({type:'config', level:this.value})">
-          <option value="full">Full CFOP</option><option value="2look">2-look (beginner)</option></select></label>
+        <button onclick="sim('next_move')">Do next move</button>
+        <button onclick="runAll()">Do all moves</button>
+        <button onclick="sim('wrong_move')">Do a wrong move</button>
+        <label class="muted">Level
+          <select id="level" onchange="send({type:'config', level:this.value})">
+            <option value="full">Full CFOP</option><option value="2look">2-look</option>
+          </select></label>
       </div>
-      <h2 style="margin-top:14px">Pipe in face observations (vision-model format)</h2>
-      <textarea id="obs">[{"grid": [["W","W","W"],["W","W","W"],["W","W","W"]]}]</textarea>
-      <div class="row"><button onclick="sendObs()">Send observations</button></div>
+      <details>
+        <summary>Pipe in face observations (vision-model format)</summary>
+        <textarea id="obs">[{"grid": [["W","W","W"],["W","W","W"],["W","W","W"]], "up": "B"}]</textarea>
+        <div class="row"><button onclick="sendObs()">Send observations</button></div>
+      </details>
     </section>
-  </div>
-  <div style="display:grid; gap:16px; min-width:0; align-content:start">
     <section>
       <h2>Solution</h2>
-      <div id="orient" class="muted"></div>
+      <div id="orient" class="muted">Scan the cube to get a solution.</div>
       <div id="steps"></div>
     </section>
     <section>
@@ -86,19 +129,25 @@
     </section>
   </div>
 </main>
+
 <script>
+// ------------------------------------------------------------------ server link
 const session = new URLSearchParams(location.search).get('session') || 'default';
 let ws;
 const $ = id => document.getElementById(id);
+window.onSnapshot = () => {};   // replaced by the 3D module once it loads
+let lastSnapshot = null;
 
 function connect() {
   ws = new WebSocket(`${location.protocol === 'https:' ? 'wss' : 'ws'}://${location.host}/ws/viewer?session=${session}`);
-  ws.onopen = () => { $('conn').textContent = 'live'; };
-  ws.onclose = () => { $('conn').textContent = 'offline'; setTimeout(connect, 1500); };
+  ws.onopen = () => { $('conn').textContent = 'live'; $('conn').classList.add('live'); };
+  ws.onclose = () => { $('conn').textContent = 'offline'; $('conn').classList.remove('live'); setTimeout(connect, 1500); };
   ws.onmessage = e => {
     const msg = JSON.parse(e.data);
     for (const ev of msg.events) log(ev);
+    lastSnapshot = msg.snapshot;
     render(msg.snapshot);
+    window.onSnapshot(msg.snapshot);
   };
 }
 function send(m) { ws && ws.readyState === 1 && ws.send(JSON.stringify(m)); }
@@ -114,7 +163,7 @@ async function runAll() {
   for (let i = 0; i < 200; i++) {
     const r = await sim('next_move');
     if (r.snapshot.phase !== 'solving') break;
-    await new Promise(res => setTimeout(res, 120));
+    await new Promise(res => setTimeout(res, 380));
   }
 }
 function log(ev) {
@@ -123,32 +172,19 @@ function log(ev) {
   const line = document.createElement('div');
   line.textContent = JSON.stringify(short);
   $('log').prepend(line);
+  while ($('log').childElementCount > 200) $('log').lastChild.remove();
 }
-// net layout: 12 cols x 9 rows, faces placed like the standard net
-const NET = {U: [0, 3], L: [3, 0], F: [3, 3], R: [3, 6], B: [3, 9], D: [6, 3]};
 function render(s) {
   $('phase').textContent = s.phase;
-  $('seen').textContent = s.phase === 'scanning' ? `Seen: ${s.faces_seen.join(' ') || 'none'} · missing: ${s.missing.join(' ')}` : '';
-  const grid = Array.from({length: 9}, () => Array(12).fill(null));
-  if (s.state) {
-    'URFDLB'.split('').forEach((f, fi) => {
-      const [r0, c0] = NET[f];
-      for (let k = 0; k < 9; k++) grid[r0 + Math.floor(k / 3)][c0 + k % 3] = s.state[fi * 9 + k];
-    });
-  }
-  $('net').innerHTML = grid.flat().map(c => c === null
-    ? (s.state ? '<div class="gap"></div>' : '<div class="gap"></div>')
-    : `<div style="background:var(--${'WYROGB'.includes(c) ? c : 'unk'})"></div>`).join('');
-  if (!s.state) $('net').innerHTML = Object.entries(NET).map(() => '').join('') + '<p class="muted" style="grid-column:1/-1">Waiting for a full scan…</p>';
   const sol = s.solution;
-  if (!sol) { $('steps').innerHTML = ''; $('orient').textContent = ''; return; }
+  if (!sol) { $('steps').innerHTML = ''; $('orient').textContent = 'Scan the cube to get a solution.'; return; }
   $('orient').textContent = `${sol.orientation.say} ${sol.total_moves} moves.`;
   let moveCount = 0;
   $('steps').innerHTML = sol.steps.map((st, i) => {
     const start = moveCount; moveCount += st.moves.length;
     const cls = i < s.step_index ? 'done' : i === s.step_index ? 'cur' : '';
-    const pureFaceTurns = st.alg.split(' ').filter(Boolean).join(' ') === st.moves.join(' ');
-    const alg = pureFaceTurns
+    const pure = st.alg.split(' ').filter(Boolean).join(' ') === st.moves.join(' ');
+    const alg = pure
       ? st.moves.map((m, k) => `<span class="m ${start + k === s.move_index ? 'now' : ''}">${m}</span>`).join(' ')
       : esc(st.alg);
     return `<div class="step ${cls}"><b>${esc(st.title)}</b><div class="alg">${alg || '—'}</div>
@@ -157,6 +193,399 @@ function render(s) {
 }
 function esc(t) { return String(t).replace(/[&<>"]/g, c => ({'&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;'}[c])); }
 connect();
+</script>
+
+<script type="module">
+import * as THREE from 'three';
+import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
+import { RoundedBoxGeometry } from 'three/addons/geometries/RoundedBoxGeometry.js';
+import { RoomEnvironment } from 'three/addons/environments/RoomEnvironment.js';
+
+const $ = id => document.getElementById(id);
+const canvas = $('viewer');
+
+// ---------------------------------------------------------------- facelet geometry
+// Same convention as backend/cubevision/cube.py: +x = R, +y = U, +z = F; facelet string
+// is URFDLB, each face row-major as seen in the standard net.
+const FACES = 'URFDLB';
+const NORMALS = { U: [0, 1, 0], R: [1, 0, 0], F: [0, 0, 1], D: [0, -1, 0], L: [-1, 0, 0], B: [0, 0, -1] };
+const UP_NEIGHBOUR = { U: 'B', D: 'F', F: 'U', R: 'U', B: 'U', L: 'U' };  // face above it in the net
+function rowCol(face, [x, y, z]) {
+  switch (face) {
+    case 'U': return [z + 1, x + 1];
+    case 'D': return [1 - z, x + 1];
+    case 'F': return [1 - y, x + 1];
+    case 'B': return [1 - y, 1 - x];
+    case 'R': return [1 - y, 1 - z];
+    case 'L': return [1 - y, z + 1];
+  }
+}
+const STICKERS = [];   // index -> {face, pos, normal}
+for (const [fi, face] of [...FACES].entries()) {
+  const n = NORMALS[face];
+  for (const a of [-1, 0, 1]) for (const b of [-1, 0, 1]) {
+    const p = n[0] ? [n[0], a, b] : n[1] ? [a, n[1], b] : [a, b, n[2]];
+    const [r, c] = rowCol(face, p);
+    STICKERS[fi * 9 + r * 3 + c] = { face, pos: p, normal: n };
+  }
+}
+
+const COLORS = { W: 0xf5f5f0, Y: 0xffd500, R: 0xc8102e, O: 0xff6a13, G: 0x009b48, B: 0x0046ad };
+const UNKNOWN = new THREE.Color(0x30333b);
+
+// ---------------------------------------------------------------- scene
+let renderer;
+try {
+  renderer = new THREE.WebGLRenderer({ canvas, antialias: true, alpha: true });
+} catch (e) {
+  $('fallback').style.display = 'flex';
+  throw e;
+}
+renderer.setPixelRatio(Math.min(devicePixelRatio, 2));
+// Neutral tone mapping keeps the sticker colours true (ACES washes them out).
+renderer.toneMapping = THREE.NeutralToneMapping;
+renderer.toneMappingExposure = 1.0;
+
+const scene = new THREE.Scene();
+scene.environment = new THREE.PMREMGenerator(renderer).fromScene(new RoomEnvironment(), 0.04).texture;
+scene.environmentIntensity = 0.45;
+scene.add(new THREE.HemisphereLight(0xffffff, 0x334455, 0.6));
+const key = new THREE.DirectionalLight(0xffffff, 1.4);
+key.position.set(4, 7, 5);
+scene.add(key);
+
+const camera = new THREE.PerspectiveCamera(32, 1, 0.1, 100);
+camera.position.set(5.6, 4.5, 7.2);
+const controls = new OrbitControls(camera, canvas);
+controls.enableDamping = true;
+controls.enablePan = false;
+controls.minDistance = 6;
+controls.maxDistance = 16;
+
+const cube = new THREE.Group();
+scene.add(cube);
+
+// soft contact shadow under the cube
+const shadow = new THREE.Mesh(
+  new THREE.CircleGeometry(2.6, 48),
+  new THREE.MeshBasicMaterial({ color: 0x000000, transparent: true, opacity: 0.18, depthWrite: false }));
+shadow.rotation.x = -Math.PI / 2;
+shadow.position.y = -2.25;
+scene.add(shadow);
+
+const bodyMat = new THREE.MeshStandardMaterial({ color: 0x101114, roughness: 0.55, metalness: 0.1 });
+const bodyGeo = new RoundedBoxGeometry(0.97, 0.97, 0.97, 4, 0.09);
+// Every mesh that belongs to a cubie, with its grid coordinate, for layer turns.
+const pieces = [];
+for (const x of [-1, 0, 1]) for (const y of [-1, 0, 1]) for (const z of [-1, 0, 1]) {
+  if (!x && !y && !z) continue;
+  const m = new THREE.Mesh(bodyGeo, bodyMat);
+  m.position.set(x, y, z);
+  cube.add(m);
+  pieces.push({ mesh: m, coord: [x, y, z] });
+}
+
+function roundedSquare(size, radius) {
+  const s = size / 2, r = radius, shape = new THREE.Shape();
+  shape.moveTo(-s + r, -s);
+  shape.lineTo(s - r, -s); shape.quadraticCurveTo(s, -s, s, -s + r);
+  shape.lineTo(s, s - r); shape.quadraticCurveTo(s, s, s - r, s);
+  shape.lineTo(-s + r, s); shape.quadraticCurveTo(-s, s, -s, s - r);
+  shape.lineTo(-s, -s + r); shape.quadraticCurveTo(-s, -s, -s + r, -s);
+  return new THREE.ShapeGeometry(shape, 6);
+}
+const stickerGeo = roundedSquare(0.8, 0.12);
+const Z = new THREE.Vector3(0, 0, 1);
+const stickerMeshes = STICKERS.map(({ pos, normal }) => {
+  const mat = new THREE.MeshStandardMaterial({ color: UNKNOWN.clone(), roughness: 0.32, metalness: 0.0,
+                                               emissive: new THREE.Color(0x000000), polygonOffset: true, polygonOffsetFactor: -1 });
+  const mesh = new THREE.Mesh(stickerGeo, mat);
+  const n = new THREE.Vector3(...normal);
+  mesh.position.set(...pos).addScaledVector(n, 0.488);
+  mesh.quaternion.setFromUnitVectors(Z, n);
+  mesh.scale.setScalar(0.92);
+  cube.add(mesh);
+  pieces.push({ mesh, coord: pos });
+  return mesh;
+});
+for (const p of pieces) { p.homePos = p.mesh.position.clone(); p.homeQuat = p.mesh.quaternion.clone(); }
+
+// ---------------------------------------------------------------- animation helpers
+const tweens = [];
+const ease = {
+  outBack: t => { const c = 1.9; return 1 + (c + 1) * Math.pow(t - 1, 3) + c * Math.pow(t - 1, 2); },
+  outCubic: t => 1 - Math.pow(1 - t, 3),
+  inOut: t => t < .5 ? 4 * t * t * t : 1 - Math.pow(-2 * t + 2, 3) / 2,
+};
+function tween(duration, onUpdate, delay = 0, onDone) {
+  tweens.push({ start: performance.now() + delay, duration, onUpdate, onDone });
+}
+
+function revealSticker(i, colorHex, delay) {
+  const mesh = stickerMeshes[i];
+  const target = new THREE.Color(colorHex);
+  tween(520, t => {
+    mesh.material.color.copy(target);
+    mesh.scale.setScalar(0.25 + 0.75 * ease.outBack(t));
+    const glow = (1 - t) * 0.55;
+    mesh.material.emissive.copy(target).multiplyScalar(glow);
+  }, delay);
+}
+function recolorSticker(i, colorHex, delay) {
+  const mesh = stickerMeshes[i];
+  const from = mesh.material.color.clone(), to = new THREE.Color(colorHex);
+  tween(320, t => { mesh.material.color.lerpColors(from, to, ease.outCubic(t)); }, delay);
+}
+function hideSticker(i) {
+  const mesh = stickerMeshes[i];
+  mesh.material.color.copy(UNKNOWN);
+  mesh.material.emissive.setRGB(0, 0, 0);
+  mesh.scale.setScalar(0.92);
+}
+
+// ---------------------------------------------------------------- layer turns
+// A move is animated by rotating the 9 cubies of that layer, then snapping them back to
+// their home transforms and recolouring every sticker from the new state. Directions follow
+// backend/cubevision/cube.py: "R" is clockwise looking at the R face (-90 deg about its normal).
+const turnQueue = [];     // [{face, angle}] then a {state} marker to paint when they finish
+let activeTurn = null;
+const pivot = new THREE.Group();
+cube.add(pivot);
+
+function paintState(state) {
+  for (let i = 0; i < 54; i++) {
+    const c = state[i];
+    const mesh = stickerMeshes[i];
+    if (c === '?') { hideSticker(i); continue; }
+    mesh.material.color.set(COLORS[c] ?? 0x888888);
+    mesh.material.emissive.setRGB(0, 0, 0);
+    mesh.scale.setScalar(1);
+  }
+}
+
+function startTurn(turn, speedup) {
+  const n = NORMALS[turn.face];
+  const axis = new THREE.Vector3(...n);
+  const k = n.findIndex(v => v !== 0);
+  const layer = pieces.filter(p => p.coord[k] === n[k]);
+  pivot.quaternion.identity();
+  for (const p of layer) pivot.attach(p.mesh);
+  const quarter = Math.abs(turn.angle) < Math.PI * 0.75;
+  activeTurn = { ...turn, axis, layer, start: performance.now(),
+                 duration: (quarter ? 300 : 440) / speedup };
+}
+
+function finishTurn() {
+  for (const p of activeTurn.layer) {
+    cube.attach(p.mesh);
+    p.mesh.position.copy(p.homePos);
+    p.mesh.quaternion.copy(p.homeQuat);
+  }
+  pivot.quaternion.identity();
+  activeTurn = null;
+}
+
+function stepTurns(now) {
+  if (activeTurn) {
+    const t = Math.min(1, (now - activeTurn.start) / activeTurn.duration);
+    pivot.quaternion.setFromAxisAngle(activeTurn.axis, activeTurn.angle * ease.inOut(t));
+    if (t < 1) return;
+    finishTurn();
+  }
+  while (turnQueue.length && !activeTurn) {
+    const next = turnQueue.shift();
+    if (next.state) { paintState(next.state); shown = next.state; continue; }
+    const pendingTurns = turnQueue.filter(q => q.face).length;
+    startTurn(next, 1 + pendingTurns * 0.35);
+  }
+}
+
+/** Queue the moves the coach just counted as done, translated into the display orientation. */
+function queueMoves(moves, solution, displayState, finalState) {
+  // Moves are given in the coach's solving orientation; find each face by its centre colour.
+  const startCentre = f => solution.start_state[FACES.indexOf(f) * 9 + 4];
+  const displayFaceOf = colour => FACES[[...FACES].findIndex((_, fi) => displayState[fi * 9 + 4] === colour)];
+  for (const m of moves) {
+    const face = displayFaceOf(startCentre(m[0]));
+    if (!face) continue;
+    const angle = m.endsWith('2') ? -Math.PI : m.endsWith("'") ? Math.PI / 2 : -Math.PI / 2;
+    turnQueue.push({ face, angle });
+  }
+  turnQueue.push({ state: finalState });
+}
+
+// particle burst for "cube complete"
+function burst() {
+  const N = 220, pos = new Float32Array(N * 3), vel = [], cols = new Float32Array(N * 3);
+  const palette = Object.values(COLORS).map(c => new THREE.Color(c));
+  for (let i = 0; i < N; i++) {
+    const v = new THREE.Vector3().randomDirection().multiplyScalar(2.5 + Math.random() * 3.5);
+    vel.push(v);
+    const c = palette[i % palette.length];
+    cols.set([c.r, c.g, c.b], i * 3);
+  }
+  const geo = new THREE.BufferGeometry();
+  geo.setAttribute('position', new THREE.BufferAttribute(pos, 3));
+  geo.setAttribute('color', new THREE.BufferAttribute(cols, 3));
+  const mat = new THREE.PointsMaterial({ size: 0.09, vertexColors: true, transparent: true, depthWrite: false });
+  const pts = new THREE.Points(geo, mat);
+  scene.add(pts);
+  tween(1600, t => {
+    const d = ease.outCubic(t) * 1.0;
+    for (let i = 0; i < N; i++) {
+      pos[i * 3] = vel[i].x * d; pos[i * 3 + 1] = vel[i].y * d - t * t * 1.2; pos[i * 3 + 2] = vel[i].z * d;
+    }
+    geo.attributes.position.needsUpdate = true;
+    mat.opacity = 1 - t;
+  }, 150, () => { scene.remove(pts); geo.dispose(); mat.dispose(); });
+}
+
+// ---------------------------------------------------------------- cube motion
+// modes: idle (slow auto-rotate) | focus (turn the face being scanned toward you) | celebrate
+let mode = 'idle', focusQ = new THREE.Quaternion(), lastFocusAt = 0, celebrate = null;
+const WORLD_Y = new THREE.Vector3(0, 1, 0);
+
+function faceTowardCamera(face) {
+  const n = new THREE.Vector3(...NORMALS[face]);
+  const u = new THREE.Vector3(...NORMALS[UP_NEIGHBOUR[face]]);
+  const local = new THREE.Matrix4().makeBasis(new THREE.Vector3().crossVectors(u, n), u, n);
+  const view = camera.position.clone().normalize();
+  const up = camera.up.clone().projectOnPlane(view).normalize();
+  // show the face at an angle (from a bit above and to the side) so it still reads as 3D
+  const right = new THREE.Vector3().crossVectors(up, view).normalize();
+  view.applyAxisAngle(up, 0.55).applyAxisAngle(right, 0.4).normalize();
+  const world = new THREE.Matrix4().makeBasis(new THREE.Vector3().crossVectors(up, view), up, view);
+  const m = world.multiply(local.transpose());
+  return new THREE.Quaternion().setFromRotationMatrix(m);
+}
+
+function startCelebration() {
+  const base = cube.quaternion.clone();
+  celebrate = { start: performance.now(), base };
+  mode = 'celebrate';
+  burst();
+  $('status-badge').textContent = 'Cube complete ✓';
+  $('status-badge').classList.add('done');
+}
+
+// ---------------------------------------------------------------- state from the server
+let shown = '?'.repeat(54), wasScanning = false, firstSnapshot = true, lastMoveIndex = null, lastSolutionKey = null;
+
+window.onSnapshot = s => {
+  const state = s.display_state || '?'.repeat(54);
+
+  // Solving: if the coach advanced along the plan, physically turn the layers.
+  const solKey = s.solution ? s.solution.start_state : null;
+  if (s.phase !== 'scanning' && s.solution && solKey === lastSolutionKey && lastMoveIndex !== null
+      && s.move_index > lastMoveIndex && !firstSnapshot) {
+    const flat = s.solution.steps.flatMap(st => st.moves);
+    queueMoves(flat.slice(lastMoveIndex, s.move_index), s.solution, state, state);
+    lastMoveIndex = s.move_index;
+    $('count-label').textContent = s.phase === 'solved' ? 'Solved · 54 / 54' : `Move ${s.move_index} / ${flat.length}`;
+    if (s.phase === 'solved') { $('status-badge').textContent = 'Solved ✓'; $('status-badge').classList.add('done'); }
+    wasScanning = false;
+    return;
+  }
+  lastSolutionKey = solKey;
+  lastMoveIndex = s.solution ? s.move_index : null;
+  if (turnQueue.length || activeTurn) {   // state jumped (re-plan / reset): drop pending animation
+    turnQueue.length = 0;
+    if (activeTurn) finishTurn();
+  }
+  const known = [...state].filter(c => c !== '?').length;
+  $('count-label').textContent = s.phase === 'scanning' ? `${known} / 54 stickers read` : `${s.phase === 'solved' ? 'Solved' : 'Scanned'} · 54 / 54`;
+  $('bar').style.width = `${(known / 54) * 100}%`;
+  $('bar').style.background = known === 54 ? 'var(--ok)' : '';
+
+  // reveal / recolor stickers with a small stagger so they arrive "bit by bit"
+  let delay = 0;
+  const changedFaces = new Map();
+  for (let i = 0; i < 54; i++) {
+    const was = shown[i], now = state[i];
+    if (was === now) continue;
+    if (now === '?') hideSticker(i);
+    else if (was === '?' && !firstSnapshot) { revealSticker(i, COLORS[now] ?? 0x888888, delay); delay += 45; }
+    else if (firstSnapshot) { stickerMeshes[i].material.color.set(COLORS[now] ?? 0x888888); stickerMeshes[i].scale.setScalar(1); }
+    else recolorSticker(i, COLORS[now] ?? 0x888888, 0);
+    const f = STICKERS[i].face;
+    changedFaces.set(f, (changedFaces.get(f) || 0) + 1);
+  }
+  shown = state;
+
+  const scanning = s.phase === 'scanning';
+  if (scanning) {
+    $('status-badge').classList.remove('done');
+    $('status-badge').textContent = known ? 'Reading stickers from the camera…' : 'Waiting for the camera…';
+    if (changedFaces.size && known < 54 && !firstSnapshot) {
+      const busiest = [...changedFaces.entries()].sort((a, b) => b[1] - a[1])[0][0];
+      const centre = state[FACES.indexOf(busiest) * 9 + 4];
+      $('face-badge').hidden = false;
+      $('face-badge').textContent = `Scanning ${({W:'white',Y:'yellow',R:'red',O:'orange',G:'green',B:'blue'})[centre] || ''} face`;
+      focusQ = faceTowardCamera(busiest);
+      mode = 'focus';
+      lastFocusAt = performance.now();
+    }
+  } else {
+    $('face-badge').hidden = true;
+    if (wasScanning && !firstSnapshot) setTimeout(startCelebration, delay + 250);
+    else if (!celebrate) {
+      $('status-badge').textContent = s.phase === 'solved' ? 'Solved ✓' : 'Cube complete ✓';
+      $('status-badge').classList.add('done');
+    }
+  }
+  wasScanning = scanning;
+  firstSnapshot = false;
+};
+if (lastSnapshot) window.onSnapshot(lastSnapshot);
+
+// ---------------------------------------------------------------- render loop
+function resize() {
+  const w = canvas.clientWidth, h = canvas.clientHeight;
+  if (canvas.width !== Math.floor(w * renderer.getPixelRatio()) || canvas.height !== Math.floor(h * renderer.getPixelRatio())) {
+    renderer.setSize(w, h, false);
+    camera.aspect = w / h;
+    camera.updateProjectionMatrix();
+  }
+}
+let last = performance.now();
+const reduceMotion = matchMedia('(prefers-reduced-motion: reduce)').matches;
+function frame(now) {
+  const dt = Math.min(0.05, (now - last) / 1000);
+  last = now;
+  resize();
+
+  for (let i = tweens.length - 1; i >= 0; i--) {
+    const tw = tweens[i];
+    if (now < tw.start) continue;
+    const t = Math.min(1, (now - tw.start) / tw.duration);
+    tw.onUpdate(t);
+    if (t >= 1) { tweens.splice(i, 1); tw.onDone && tw.onDone(); }
+  }
+
+  stepTurns(now);
+
+  if (mode === 'celebrate') {
+    const T = 2600, t = Math.min(1, (now - celebrate.start) / T);
+    const angle = ease.outCubic(t) * Math.PI * 4;            // two full turns, easing out
+    const tilt = Math.sin(t * Math.PI) * 0.35;                // a little lean while spinning
+    const q = new THREE.Quaternion().setFromAxisAngle(WORLD_Y, angle)
+      .multiply(new THREE.Quaternion().setFromAxisAngle(new THREE.Vector3(1, 0, 0), tilt));
+    cube.quaternion.copy(q.multiply(celebrate.base));
+    cube.scale.setScalar(1 + Math.sin(t * Math.PI) * 0.12);
+    cube.position.y = Math.sin(t * Math.PI) * 0.25;
+    if (t >= 1) { mode = 'idle'; cube.scale.setScalar(1); cube.position.y = 0; }
+  } else if (mode === 'focus') {
+    cube.quaternion.slerp(focusQ, 1 - Math.exp(-dt * 5));
+    if (now - lastFocusAt > 1800) mode = 'idle';
+  } else if (!reduceMotion) {
+    cube.rotateOnWorldAxis(WORLD_Y, dt * (wasScanning ? 0.18 : 0.35));
+  }
+
+  controls.update();
+  renderer.render(scene, camera);
+  requestAnimationFrame(frame);
+}
+requestAnimationFrame(frame);
 </script>
 </body>
 </html>

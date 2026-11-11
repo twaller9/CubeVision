@@ -116,6 +116,7 @@ class AssemblyResult:
     state: str | None = None          # colour facelets in the scheme's reference orientation
     errors: list[str] = field(default_factory=list)
     missing_faces: list[str] = field(default_factory=list)  # centre colours not yet seen
+    incomplete: bool = False          # every face seen, but some stickers not read yet
     ambiguous: bool = False
 
 
@@ -159,6 +160,24 @@ class ScanBuffer:
                 k_abs = NEIGHBOURS[face].index(up_face)        # rotation of the raw obs into the net
                 fv.abs_rot_votes[(k_abs - k_align) % 4] += 1
 
+    def partial_state(self) -> str:
+        """Best current guess of every sticker, '?' where nothing has been seen yet.
+
+        Faces are placed by centre colour. A face whose rotation isn't known yet is shown
+        as first seen; once the cube is assembled the real state replaces this.
+        """
+        out = []
+        for f in FACES:
+            fv = self.faces.get(self.scheme[f])
+            if not fv or not fv.n:
+                out.append(UNKNOWN * 9)
+                continue
+            g = fv.consensus()
+            if fv.abs_rot_votes:
+                g = rotate(g, fv.abs_rot_votes.most_common(1)[0][0])
+            out.append("".join(ch for row in g for ch in row))
+        return "".join(out)
+
     def assemble(self) -> AssemblyResult:
         missing = self.missing()
         if missing:
@@ -174,7 +193,8 @@ class ScanBuffer:
                 options[f] = [0, 1, 2, 3]
             unknown = sum(ch == UNKNOWN for row in grids[f] for ch in row)
             if unknown:
-                return AssemblyResult(ok=False, errors=[f"{unknown} sticker(s) on the {self.scheme[f]} face unreadable."])
+                return AssemblyResult(ok=False, incomplete=True,
+                                      errors=[f"{unknown} sticker(s) on the {self.scheme[f]} face not read yet."])
 
         solutions = _search_rotations(grids, options, self.face_of_colour)
         if not solutions:

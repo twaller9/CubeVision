@@ -22,7 +22,7 @@ Look at a Rubik's cube through Meta Ray-Ban glasses and get CFOP coaching in you
 | `backend/cubevision/tracker.py` | Live session: scanning → solving → solved. Follows the user's turns from what the camera sees. If the user makes a wrong move, it re-plans. |
 | `backend/cubevision/plugins.py` | **Plug-in points for the vision model and speech-to-speech.** |
 | `backend/cubevision/server.py` | FastAPI app: device WebSocket, REST test API, simulator, dashboard at `/`. |
-| `mobile/` | Expo (React Native) Android relay app. The Meta Wearables Device Access Toolkit 1.0.1 is wrapped in a local Kotlin module in `mobile/modules/cube-glasses`. |
+| `mobile/` | Expo (React Native) relay app for Android and iPhone. The Meta Wearables Device Access Toolkit 1.0.1 is wrapped in a local Expo module, `mobile/modules/cube-glasses`: Kotlin for Android, Swift for iOS. |
 
 ## Run the web app
 
@@ -74,7 +74,7 @@ Run the server with `CUBEVISION_SPEECH=pkg.module:Class`. Every method is option
 - **Phone → server, JSON:** `hello`, `reset`, `config {level: full|2look, cross_color}`, `observations {faces}`, `load_state {state}`.
 - **Server → phone:** JSON events `welcome`, `scan_progress`, `scan_error`, `solution`, `step`, `progress`, `step_done`, `off_track`, `lost`, `solved`. Any event with `say` gets spoken. If it also has `audio_b64`, the phone plays that audio instead of using TTS.
 
-## Android relay app (Expo)
+## Phone relay app (Expo, Android + iPhone)
 
 The phone does no cube logic. A local Kotlin Expo module, `mobile/modules/cube-glasses`, handles:
 - Talking to the glasses through Meta's SDK.
@@ -105,6 +105,18 @@ cd android && ANDROID_HOME=<android-sdk> ./gradlew assembleRelease
 ```
 This needs JDK 17–24 and about 8 GB of free disk; the first build downloads the NDK. The release build is signed with the debug key, which is fine for sideloading. Set up a real keystore before distributing it.
 
-To use your own Meta app ID for release channels instead of Developer Mode, change the two `meta-data` values in `mobile/modules/cube-glasses/android/src/main/AndroidManifest.xml`.
+**iPhone (via EAS cloud build):**
+
+You need a free Expo account, logged in with `npx eas-cli@latest login`, and an Apple Developer account ($99/year). The iPhone needs iOS 17.2 or later.
+
+```bash
+cd mobile
+npx eas-cli@latest device:create                          # register your iPhone (open the link on the phone)
+npx eas-cli@latest build -p ios --profile preview         # sign in with your Apple ID when asked
+```
+
+When the build finishes, EAS shows a QR code and link. Open it on the iPhone to install the app. Then on the iPhone, turn on Settings → Privacy & Security → **Developer Mode** and restart when asked. Meta's iOS SDK frameworks are downloaded on `npm install` by `modules/cube-glasses/scripts/fetch-ios-sdk.js`, so EAS fetches them automatically.
+
+To use your own Meta app ID for release channels instead of Developer Mode, change the two `meta-data` values in `mobile/modules/cube-glasses/android/src/main/AndroidManifest.xml` (Android) and `ios.infoPlist.MWDAT` in `mobile/app.json` (iOS).
 
 Note: the DAT SDK is in developer preview. Store publishing isn't supported yet; to share the app beyond Developer Mode, use Meta's release channels.

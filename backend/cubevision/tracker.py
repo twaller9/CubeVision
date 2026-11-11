@@ -9,7 +9,7 @@ from __future__ import annotations
 from dataclasses import dataclass, field
 
 from .assemble import FaceObservation, ScanBuffer, rotate
-from .cube import FACES, FACE_TURNS, apply
+from .cube import FACES, FACE_TURNS, apply, invert
 from .solver.cfop import COLOR_NAMES, DEFAULT_SCHEME, Solution, solve, speak_move
 
 MATCH_TOLERANCE = 1      # stickers allowed to disagree (vision noise)
@@ -76,6 +76,12 @@ class Session:
         if self.solution:
             d.update(solution=self.solution.to_dict(), move_index=self.pos,
                      step_index=self._step_index(), state=self.states[self.pos])
+            # Same orientation the cube was scanned in, so the 3D view doesn't jump when the
+            # coach switches to the solving orientation (cross on the bottom).
+            rot = self.solution.orientation.get("rotation_from_scan", "")
+            d["display_state"] = apply(self.states[self.pos], invert(rot)) if rot else self.states[self.pos]
+        else:
+            d["display_state"] = self.scan.partial_state()
         return d
 
     # ------------------------------------------------------------ scanning
@@ -89,9 +95,12 @@ class Session:
         res = self.scan.assemble()
         if res.ok:
             return events + self._start_solution(res.state)
-        if res.missing_faces:
-            nxt = res.missing_faces[0]
-            say = f"Got it. Now show me the {COLOR_NAMES.get(nxt, nxt)} side."
+        if res.missing_faces or res.incomplete:
+            if res.missing_faces:
+                nxt = res.missing_faces[0]
+                say = f"Got it. Now show me the {COLOR_NAMES.get(nxt, nxt)} side."
+            else:
+                say = "Almost there, hold it steady."
             ev = {"type": "scan_progress", "faces_seen": self.scan.seen(), "missing": res.missing_faces}
             if say != self._last_scan_say:
                 ev["say"] = say

@@ -116,3 +116,37 @@ def test_server_rest_and_ws():
         if r["snapshot"]["phase"] == "solved":
             break
     assert r["snapshot"]["phase"] == "solved"
+
+
+def test_partial_scan_state_and_live_progress():
+    """Stickers arriving a few at a time are progress (not errors) and show up in display_state."""
+    rng = random.Random(11)
+    st = coloured([rng.choice(FACE_TURNS) for _ in range(20)])
+    sess = Session()
+    assert sess.snapshot()["display_state"] == "?" * 54
+    types = []
+    for face in FACES:
+        k = rng.randrange(4)
+        view = observation_of(st, face, k, with_up=True)
+        cells = [(r, c) for r in range(3) for c in range(3) if (r, c) != (1, 1)]
+        rng.shuffle(cells)
+        seen = {(1, 1)}
+        for i in range(0, 8, 2):
+            seen.update(cells[i:i + 2])
+            grid = [[view["grid"][r][c] if (r, c) in seen else None for c in range(3)] for r in range(3)]
+            types += [e["type"] for e in sess.on_frame([FaceObservation.from_dict({"grid": grid, "up": view["up"]})])]
+            if sess.phase == "scanning":
+                disp = sess.snapshot()["display_state"]
+                # every known sticker shown so far must be correct
+                assert all(a == "?" or a == b for a, b in zip(disp, st))
+    assert "scan_error" not in types
+    assert sess.phase == "solving"
+    # after solving starts, the 3D view shows the scanned cube in the same orientation
+    assert sess.snapshot()["display_state"] == st
+
+
+def test_live_scan_endpoint():
+    import time
+    c = TestClient(app)
+    r = c.post("/api/live1/simulate", json={"action": "live_scan"}).json()
+    assert r["events"][0]["live"]

@@ -1,0 +1,10 @@
+{
+  "name": "cube-glasses",
+  "version": "0.1.0",
+  "description": "CubeVision relay: Meta glasses camera to the CubeVision web app, coaching audio back to the glasses",
+  "license": "MIT",
+  "author": "CubeVision",
+  "homepage": "https://github.com/facebook/meta-wearables-dat-ios",
+  "main": "index.ts",
+  "private": true
+}

@@ -242,7 +242,7 @@ SIM: dict[str, str] = {}
 
 
 class SimIn(BaseModel):
-    action: str                 # scramble | next_move | wrong_move | show_all
+    action: str                 # live_scan | scramble | next_move | wrong_move | show_all
     moves: str | None = None
 
 
@@ -260,10 +260,46 @@ def _sim_views(sid: str, faces=None) -> list[dict]:
     return [observation_of(st, f, random.randrange(4)) for f in (faces or FACES)]
 
 
+LIVE_SCANS: dict[str, asyncio.Task] = {}
+
+
+async def _live_scan(session: str, scramble: str, delay: float):
+    """Feed the scan the way a vision model would: a few stickers per frame,
+    face by face, with a short pause between frames."""
+    sess = hub.session(session)
+    SIM[session] = "".join(DEFAULT_SCHEME[c] for c in apply(SOLVED, scramble))
+    await hub.emit(session, [{"type": "sim", "scramble": scramble}] + sess.reset())
+    rng = random.Random()
+    for face in rng.sample(FACES, 6):
+        k = rng.randrange(4)  # the camera sees each face at some random rotation
+        view = observation_of(SIM[session], face, k, with_up=True)
+        cells = [(r, c) for r in range(3) for c in range(3) if (r, c) != (1, 1)]
+        rng.shuffle(cells)
+        seen = {(1, 1)}
+        for i in range(0, len(cells), 2):
+            seen.update(cells[i:i + 2])
+            grid = [[view["grid"][r][c] if (r, c) in seen else None for c in range(3)] for r in range(3)]
+            events = sess.on_frame(_parse_faces([{"grid": grid, "up": view["up"]}]))
+            if events:
+                await hub.emit(session, events)
+            else:
+                await hub.update_viewers(session, [])
+            if sess.phase != "scanning":
+                return
+            await asyncio.sleep(delay)
+
+
 @app.post("/api/{session}/simulate")
 async def simulate(session: str, body: SimIn):
     sess = hub.session(session)
     events: list[dict] = []
+    if body.action == "live_scan":
+        old = LIVE_SCANS.pop(session, None)
+        if old and not old.done():
+            old.cancel()
+        scr = body.moves or " ".join(random.choice(FACE_TURNS) for _ in range(20))
+        LIVE_SCANS[session] = asyncio.create_task(_live_scan(session, scr, delay=0.3))
+        return {"events": [{"type": "sim", "scramble": scr, "live": True}], "snapshot": sess.snapshot()}
     if body.action == "scramble":
         scr = body.moves or " ".join(random.choice(FACE_TURNS) for _ in range(20))
         SIM[session] = "".join(DEFAULT_SCHEME[c] for c in apply(SOLVED, scr))

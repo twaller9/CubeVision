@@ -40,7 +40,58 @@
     ],
     "scheme": "cubevision",
     "platforms": [
+      "ios",
       "android"
-    ]
+    ],
+    "ios": {
+      "bundleIdentifier": "com.cubevision.relay",
+      "deploymentTarget": "17.2",
+      "supportsTablet": false,
+      "infoPlist": {
+        "MWDAT": {
+          "AppLinkURLScheme": "cubevision://",
+          "MetaAppID": "0",
+          "ClientToken": "0",
+          "TeamID": "$(DEVELOPMENT_TEAM)",
+          "Analytics": {
+            "OptOut": true
+          }
+        },
+        "UIBackgroundModes": [
+          "bluetooth-central",
+          "bluetooth-peripheral",
+          "external-accessory",
+          "audio"
+        ],
+        "NSBluetoothAlwaysUsageDescription": "CubeVision connects to your Meta glasses over Bluetooth.",
+        "NSLocalNetworkUsageDescription": "CubeVision streams from your glasses over Wi-Fi and sends frames to your CubeVision server.",
+        "NSBonjourServices": [
+          "_bonjour._tcp"
+        ],
+        "NSMicrophoneUsageDescription": "Lets you talk to your cube coach through the glasses.",
+        "NSCameraUsageDescription": "Mock-glasses mode uses the phone camera in place of the glasses camera.",
+        "NSSpeechRecognitionUsageDescription": "Required by the Meta glasses SDK.",
+        "NSAppTransportSecurity": {
+          "NSAllowsArbitraryLoads": true,
+          "NSAllowsLocalNetworking": true
+        },
+        "ITSAppUsesNonExemptEncryption": false,
+        "UISupportedExternalAccessoryProtocols": [
+          "com.meta.ar.wearable"
+        ],
+        "LSApplicationQueriesSchemes": [
+          "fb-viewapp"
+        ]
+      },
+      "entitlements": {
+        "com.apple.developer.networking.HotspotConfiguration": true
+      }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "30016202-29f7-4f96-a0b5-0b66b4ead25d"
+      }
+    },
+    "owner": "twaller9"
   }
 }

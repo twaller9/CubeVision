@@ -1,5 +1,9 @@
 {
-  "platforms": ["android"],
+  "platforms": ["apple", "android"],
+  "apple": {
+    "modules": ["CubeGlassesModule"],
+    "appDelegateSubscribers": ["CubeGlassesAppDelegateSubscriber"]
+  },
   "android": {
     "modules": ["expo.modules.cubeglasses.CubeGlassesModule"]
   }
