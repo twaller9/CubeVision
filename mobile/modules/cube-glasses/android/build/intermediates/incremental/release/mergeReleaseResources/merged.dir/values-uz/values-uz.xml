@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string msgid="881409763997275156" name="call_notification_answer_action">"Javob berish"</string>
+    <string msgid="8793775615905189152" name="call_notification_answer_video_action">"Video"</string>
+    <string msgid="3229508546291798546" name="call_notification_decline_action">"Rad etish"</string>
+    <string msgid="2659457946726154263" name="call_notification_hang_up_action">"Tugatish"</string>
+    <string msgid="6107532579223922871" name="call_notification_incoming_text">"Kiruvchi chaqiruv"</string>
+    <string msgid="8623827134497363134" name="call_notification_ongoing_text">"Joriy chaqiruv"</string>
+    <string msgid="59049573811482460" name="call_notification_screening_text">"Kiruvchi chaqiruvni filtrlash"</string>
+    <string gender="unknown" name="dat_error_permission_connection_error">Qurilma bilan muloqot qilishda ulanish xatoligi yuz berdi</string>
+    <string gender="unknown" name="dat_error_permission_internal_error">Kutilmagan ichki xatolik yuzaga keldi</string>
+    <string gender="unknown" name="dat_error_permission_meta_ai_not_installed">Meta AI hamroh ilovasi qurilmada oʻrnatilmagan</string>
+    <string gender="unknown" name="dat_error_permission_no_device">Hech qanday taqiladigan qurilma aniqlanmadi yoki roʻyxatdan oʻtkazilmadi</string>
+    <string gender="unknown" name="dat_error_permission_no_device_with_connection">Barcha aniqlangan qurilmalar oʻchiq yoki uzilgan</string>
+    <string gender="unknown" name="dat_error_permission_request_in_progress">Ruxsat soʻrovi allaqachon davom etmoqda</string>
+    <string gender="unknown" name="dat_error_permission_request_timeout">Ruxsat soʻrovi ruxsat etilgan vaqt limitidan oshib ketdi</string>
+    <string gender="unknown" name="dat_error_registration_already_registered">Foydalanuvchi qayta roʻyxatdan oʻtishga uringanda allaqachon roʻyxatdan oʻtgan</string>
+    <string gender="unknown" name="dat_error_registration_configuration_invalid">Taqiladigan qurilmaga kirish vositalari majmuasi konfiguratsiyasi yaroqsiz yoki toʻliq emas</string>
+    <string gender="unknown" name="dat_error_registration_meta_ai_not_installed">Roʻyxatdan oʻtish uchun talab qilingan Meta AI ilovasi qurilmada oʻrnatilmagan</string>
+    <string gender="unknown" name="dat_error_registration_network_unavailable">Internetga ulanmagansiz. Internet aloqangizni tekshiring va qayta urining</string>
+    <string gender="unknown" name="dat_error_registration_unknown">Roʻyxatdan oʻtish jarayonida noaniq xatolik yuz berdi</string>
+    <string gender="unknown" name="dat_error_session_already_exists">Bu qurilma uchun seans allaqachon mavjud</string>
+    <string gender="unknown" name="dat_error_session_already_stopped">Seans allaqachon toʻxtatilgan</string>
+    <string gender="unknown" name="dat_error_session_battery_critical">Qurilma batareyasi kritik darajada past</string>
+    <string gender="unknown" name="dat_error_session_capability_already_active">Bu turdagi imkoniyat seansda allaqachon faol</string>
+    <string gender="unknown" name="dat_error_session_capability_not_found">Bu turdagi imkoniyat seansga biriktirilmagan</string>
+    <string gender="unknown" name="dat_error_session_idle">Seans faol emas. Imkoniyatlarni qoʻshishdan oldin seansni boshlang</string>
+    <string gender="unknown" name="dat_error_session_no_eligible_device">Muvofiq qurilma mavjud emas</string>
+    <string gender="unknown" name="dat_error_session_peak_power_shutdown">Qurilma quvvatining maksimal darajada faolsizlantirilishi</string>
+    <string gender="unknown" name="dat_error_session_thermal_critical">Qurilmaning termik holati kritik omilga yetgan</string>
+    <string gender="unknown" name="dat_error_session_thermal_emergency">Qurilma termik holati favqulodda – oʻchirilmoqda</string>
+    <string gender="unknown" name="dat_error_stream_battery_low">Qurilma batareyasi striming uchun juda past</string>
+    <string gender="unknown" name="dat_error_stream_critical_error">Jiddiy xatolik, strim tugashi kerak</string>
+    <string gender="unknown" name="dat_error_stream_error">Noaniq xatolik, strim davom etishi mumkin</string>
+    <string gender="unknown" name="dat_error_stream_hinge_closed">Koʻzoynakdagi sharnalar yopildi</string>
+    <string gender="unknown" name="dat_error_stream_peak_power_limit">Qurilmaning maksimal quvvat limitiga erishildi</string>
+    <string gender="unknown" name="dat_error_stream_permissions_denied">Ruxsatlar rad etildi</string>
+    <string gender="unknown" name="dat_error_stream_thermal_hot">Qurilmaning termik darajasi striming uchun juda baland</string>
+    <string gender="unknown" name="dat_error_stream_timeout">Amaliyot vaqti tugadi</string>
+    <string gender="unknown" name="dat_error_unregistration_already_unregistered">Foydalanuvchi qayta roʻyxatdan oʻtishga uringanda allaqachon roʻyxatdan oʻtgan</string>
+    <string gender="unknown" name="dat_error_unregistration_configuration_invalid">Taqiladigan qurilmaga kirish vositalari majmuasi konfiguratsiyasi yaroqsiz yoki toʻliq emas</string>
+    <string gender="unknown" name="dat_error_unregistration_meta_ai_not_installed">Roʻyxatdan oʻtishni bekor qilish uchun talab qilinadigan Meta AI ilovasi qurilmada oʻrnatilmagan</string>
+    <string gender="unknown" name="dat_error_unregistration_unknown">Roʻyxatdan oʻtishni bekor qilish jarayonida noaniq xatolik yuz berdi</string>
+    <string gender="unknown" name="dat_error_voice_action_failed">Harakat amalga oshmadi</string>
+    <string gender="unknown" name="dat_error_voice_channel_setup_failed">AI Harakatlari kanali sozlanmadi</string>
+    <string gender="unknown" name="dat_error_voice_connection_not_available">Qurilma ulanishi mavjud emas</string>
+    <string gender="unknown" name="dat_error_voice_device_not_found">Qurilma topilmadi</string>
+    <string gender="unknown" name="dat_error_voice_init_request_error">Soʻrovni boshlab boʻlmadi</string>
+    <string gender="unknown" name="dat_error_voice_invalid_message_proto">Yaroqsiz xabar protosi</string>
+    <string gender="unknown" name="dat_error_voice_invalid_wearables_interface">Yaroqsiz WearablesInterface taqdim etilgan</string>
+    <string gender="unknown" name="dat_error_voice_send_message_error">Xabar yuborilmadi</string>
+    <string gender="unknown" name="dat_error_wearables_already_configured">Allaqachon sozlangan</string>
+    <string gender="unknown" name="dat_error_wearables_configuration_error">Konfiguratsiya xatoligi</string>
+    <string gender="unknown" name="dat_error_wearables_internal_error">Ichki xatolik</string>
+    <string gender="unknown" name="dat_error_wearables_url_registration_error">Roʻyxatdan oʻtish xatosi</string>
+    <string gender="unknown" name="dat_error_wearables_url_unregistration_error">Roʻyxatdan oʻtishni bekor qilishda xatolik</string>
+    <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
+</resources>

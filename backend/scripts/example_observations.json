@@ -1,0 +1,11 @@
+[
+  {"grid": [["W","W","W"],["W","W","W"],["W","W","W"]], "up": "B"},
+  {"grid": [["G","G","G"],["G","G","G"],["G","G","G"]], "up": "W"},
+  {"grid": [["R","R","R"],["R","R","R"],["R","R","R"]]},
+  {"center": "Y", "stickers": [
+    {"row":0,"col":0,"color":"Y","conf":0.97},{"row":0,"col":1,"color":"Y"},{"row":0,"col":2,"color":"Y"},
+    {"row":1,"col":0,"color":"Y"},{"row":1,"col":2,"color":"Y"},
+    {"row":2,"col":0,"color":"Y"},{"row":2,"col":1,"color":"Y"},{"row":2,"col":2,"color":"Y"}]},
+  {"grid": [["O","O","O"],["O","O","O"],["O","O","O"]]},
+  {"grid": [["B","B","B"],["B","B","B"],["B","B","B"]]}
+]

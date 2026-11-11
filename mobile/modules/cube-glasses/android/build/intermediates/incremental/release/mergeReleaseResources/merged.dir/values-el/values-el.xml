@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string msgid="881409763997275156" name="call_notification_answer_action">"Απάντηση"</string>
+    <string msgid="8793775615905189152" name="call_notification_answer_video_action">"Βίντεο"</string>
+    <string msgid="3229508546291798546" name="call_notification_decline_action">"Απόρριψη"</string>
+    <string msgid="2659457946726154263" name="call_notification_hang_up_action">"Τερματισμός"</string>
+    <string msgid="6107532579223922871" name="call_notification_incoming_text">"Εισερχόμενη κλήση"</string>
+    <string msgid="8623827134497363134" name="call_notification_ongoing_text">"Κλήση σε εξέλιξη"</string>
+    <string msgid="59049573811482460" name="call_notification_screening_text">"Διαλογή εισερχόμενης κλήσης"</string>
+    <string gender="unknown" name="dat_error_capture_busy">Η λήψη είναι απασχολημένη</string>
+    <string gender="unknown" name="dat_error_capture_device_disconnected">Η συσκευή αποσυνδέθηκε</string>
+    <string gender="unknown" name="dat_error_capture_device_health_critical">Κρίσιμη κατάσταση συσκευής</string>
+    <string gender="unknown" name="dat_error_capture_failure">Η λήψη απέτυχε</string>
+    <string gender="unknown" name="dat_error_capture_not_ready">Η λήψη δεν είναι έτοιμη</string>
+    <string gender="unknown" name="dat_error_capture_permission_denied">Το αίτημα δικαιώματος λήψης απορρίφθηκε</string>
+    <string gender="unknown" name="dat_error_capture_service_unavailable">Η υπηρεσία λήψης δεν είναι διαθέσιμη</string>
+    <string gender="unknown" name="dat_error_capture_setup_failed">Η διαμόρφωση της λήψης απέτυχε</string>
+    <string gender="unknown" name="dat_error_capture_timed_out">Έληξε το χρονικό όριο λήψης</string>
+    <string gender="unknown" name="dat_error_capture_unknown">Άγνωστο σφάλμα λήψης</string>
+    <string gender="unknown" name="dat_error_mock_app_management_unsupported_app_id">Μη υποστηριζόμενο αναγνωριστικό εφαρμογής διαχείρισης εφαρμογών</string>
+    <string gender="unknown" name="dat_error_mock_app_management_unsupported_message_type">Μη υποστηριζόμενος τύπος μηνύματος διαχείρισης εφαρμογής</string>
+    <string gender="unknown" name="dat_error_mock_failed_sending_video_frames">Η αποστολή καρέ βίντεο απέτυχε</string>
+    <string gender="unknown" name="dat_error_mock_peer_building_info_unsupported_message_type">Πληροφορίες συσκευής, μη υποστηριζόμενος τύπος μηνύματος</string>
+    <string gender="unknown" name="dat_error_mock_permissions_unsupported_message_type">Δικαιώματα, μη υποστηριζόμενος τύπος μηνύματος</string>
+    <string gender="unknown" name="dat_error_mock_photo_capture">Εξαίρεση κατά τη λήψη φωτογραφίας</string>
+    <string gender="unknown" name="dat_error_mock_remote_session_device_not_ready">Απομακρυσμένη περίοδος σύνδεσης, η συσκευή δεν είναι έτοιμη</string>
+    <string gender="unknown" name="dat_error_mock_remote_session_id_mismatch">Απομακρυσμένη περίοδος σύνδεσης, αναντιστοιχία αναγνωριστικού περιόδου σύνδεσης</string>
+    <string gender="unknown" name="dat_error_mock_remote_session_unsupported_message_type">Απομακρυσμένη περίοδος χρήσης, μη υποστηριζόμενος τύπος μηνύματος</string>
+    <string gender="unknown" name="dat_error_mock_stream_internal_error">Προέκυψε εσωτερικό σφάλμα</string>
+    <string gender="unknown" name="dat_error_mock_stream_no_camera_feed">Δεν έχει διαμορφωθεί πηγή κάμερας</string>
+    <string gender="unknown" name="dat_error_mock_stream_start_failure">Αποτυχία έναρξης ροής</string>
+    <string gender="unknown" name="dat_error_mock_streaming_error">Παρουσιάστηκε εξαίρεση κατά τη μετάδοση</string>
+    <string gender="unknown" name="dat_error_mock_streaming_unhandled_user_action">Μη διαχειριζόμενη ενέργεια χρήστη</string>
+    <string gender="unknown" name="dat_error_mock_voice_invocation_failed_to_parse_action_response">Φωνητική ενεργοποίηση, αποτυχία ανάλυσης της απάντησης ενέργειας</string>
+    <string gender="unknown" name="dat_error_mock_voice_invocation_failed_to_parse_init_request">Φωνητική ενεργοποίηση, αποτυχία ανάλυσης του αιτήματος εκκίνησης</string>
+    <string gender="unknown" name="dat_error_mock_voice_invocation_unknown_message_type">Φωνητική ενεργοποίηση, άγνωστος τύπος μηνύματος</string>
+    <string gender="unknown" name="dat_error_navigation_meta_ai_not_installed">Η εφαρμογή Meta AI δεν έχει εγκατασταθεί στη συσκευή</string>
+    <string gender="unknown" name="dat_error_navigation_not_registered">Η εφαρμογή δεν είναι εγγεγραμμένη στα AI Glasses</string>
+    <string gender="unknown" name="dat_error_permission_connection_error">Παρουσιάστηκε σφάλμα σύνδεσης κατά την επικοινωνία με τη συσκευή</string>
+    <string gender="unknown" name="dat_error_permission_internal_error">Παρουσιάστηκε μη αναμενόμενο εσωτερικό σφάλμα</string>
+    <string gender="unknown" name="dat_error_permission_meta_ai_not_installed">Η συνοδευτική εφαρμογή Meta AI δεν έχει εγκατασταθεί στη συσκευή</string>
+    <string gender="unknown" name="dat_error_permission_no_device">Δεν έχουν εντοπιστεί ή καταχωρηθεί φορετές συσκευές</string>
+    <string gender="unknown" name="dat_error_permission_no_device_with_connection">Όλες οι ανακαλυφθείσες συσκευές έχουν απενεργοποιηθεί ή αποσυνδεθεί</string>
+    <string gender="unknown" name="dat_error_permission_request_in_progress">Εκκρεμεί ήδη ένα αίτημα δικαιωμάτων</string>
+    <string gender="unknown" name="dat_error_permission_request_timeout">Το αίτημα εκχώρησης δικαιώματος έληξε επειδή έγινε υπέρβαση του επιτρεπόμενου χρονικού ορίου</string>
+    <string gender="unknown" name="dat_error_photo_capture_failed">Η λήψη της φωτογραφίας απέτυχε</string>
+    <string gender="unknown" name="dat_error_registration_already_registered">Ο χρήστης είναι ήδη εγγεγραμμένος όταν προσπαθεί να γραφτεί ξανά</string>
+    <string gender="unknown" name="dat_error_registration_configuration_invalid">Η διαμόρφωση του Wearables Device Access Toolkit είναι μη έγκυρη ή ελλιπής</string>
+    <string gender="unknown" name="dat_error_registration_failed_to_register">Η διαδικασία εγγραφής απέτυχε για άγνωστο λόγο</string>
+    <string gender="unknown" name="dat_error_registration_failed_to_unregister">Η διαδικασία κατάργησης εγγραφής απέτυχε για άγνωστο λόγο</string>
+    <string gender="unknown" name="dat_error_registration_meta_ai_not_installed">Η εφαρμογή Meta AI δεν έχει εγκατασταθεί στη συσκευή, η οποία είναι απαραίτητη για την εγγραφή</string>
+    <string gender="unknown" name="dat_error_registration_network_unavailable">Δεν υπάρχει διαθέσιμη σύνδεση στο Internet. Ελέγξτε τη σύνδεσή σας και δοκιμάστε ξανά</string>
+    <string gender="unknown" name="dat_error_registration_unknown">Παρουσιάστηκε άγνωστο σφάλμα κατά τη διαδικασία εγγραφής</string>
+    <string gender="unknown" name="dat_error_session_already_exists">Υπάρχει ήδη μια περίοδος χρήσης για αυτή τη συσκευή</string>
+    <string gender="unknown" name="dat_error_session_already_stopped">Η περίοδος χρήσης έχει διακοπεί ήδη</string>
+    <string gender="unknown" name="dat_error_session_battery_critical">Εξαιρετικά χαμηλό επίπεδο μπαταρίας συσκευής</string>
+    <string gender="unknown" name="dat_error_session_capability_already_active">Μια δυνατότητα αυτού του τύπου είναι ήδη ενεργή στην περίοδο σύνδεσης</string>
+    <string gender="unknown" name="dat_error_session_capability_denied">Η δυνατότητα απορρίφθηκε από τη συσκευή</string>
+    <string gender="unknown" name="dat_error_session_capability_not_found">Δεν έχει συνδεθεί καμία δυνατότητα αυτού του τύπου στην περίοδο χρήσης</string>
+    <string gender="unknown" name="dat_error_session_dat_app_on_the_glasses_update_required">Τα γυαλιά σας χρειάζονται ενημέρωση. Μεταβείτε στη σελίδα \"Συνδέσεις εφαρμογών\" στο Meta AI για να κάνετε ενημέρωση</string>
+    <string gender="unknown" name="dat_error_session_dat_app_update_required">Η εφαρμογή στα γυαλιά σας χρειάζεται ενημέρωση για να ξεκινήσει αυτή η περίοδος χρήσης. Μεταβείτε στη σελίδα \"Συνδέσεις εφαρμογών\" στο Meta AI για να κάνετε ενημέρωση.</string>
+    <string gender="unknown" name="dat_error_session_device_disconnected">Η συσκευή αποσυνδέθηκε</string>
+    <string gender="unknown" name="dat_error_session_dwa_out_of_stu_range">Αυτή η έκδοση εφαρμογής ενδέχεται να μη λειτουργεί όπως αναμένεται με τα συνδεδεμένα γυαλιά. Η περίοδος σύνδεσης μπορεί να συνεχιστεί. Η εφαρμογή ενδέχεται να προτείνει κάποια ενημέρωση κατά διαστήματα.</string>
+    <string gender="unknown" name="dat_error_session_dwa_unavailable">Δεν είναι δυνατή η επικοινωνία με την εφαρμογή DAT Wearables στα γυαλιά</string>
+    <string gender="unknown" name="dat_error_session_ended_by_device">Η περίοδος χρήσης έληξε από τη συσκευή</string>
+    <string gender="unknown" name="dat_error_session_idle">Η περίοδος χρήσης είναι αδρανής. Ξεκινήστε την περίοδο χρήσης πριν προσθέσετε δυνατότητες</string>
+    <string gender="unknown" name="dat_error_session_insufficient_sdk_version">Αυτή η εφαρμογή δημιουργήθηκε με έκδοση SDK που δεν υποστηρίζεται πλέον από τα γυαλιά σας. Διαθέστε μια νεότερη έκδοση της εφαρμογής που έχει δημιουργηθεί με το τρέχον SDK.</string>
+    <string gender="unknown" name="dat_error_session_no_eligible_device">Δεν υπάρχει κατάλληλη συσκευή διαθέσιμη</string>
+    <string gender="unknown" name="dat_error_session_peak_power_shutdown">Απενεργοποίηση συσκευής λόγω υψηλής κατανάλωσης ενέργειας</string>
+    <string gender="unknown" name="dat_error_session_thermal_critical">Η θερμική κατάσταση της συσκευής είναι κρίσιμη</string>
+    <string gender="unknown" name="dat_error_session_thermal_emergency">Η θερμική κατάσταση της συσκευής είναι κρίσιμη — γίνεται απενεργοποίηση</string>
+    <string gender="unknown" name="dat_error_session_unexpected_error">Παρουσιάστηκε μη αναμενόμενο σφάλμα</string>
+    <string gender="unknown" name="dat_error_stream_battery_low">Η φόρτιση της μπαταρίας της συσκευής είναι πολύ χαμηλή για μετάδοση</string>
+    <string gender="unknown" name="dat_error_stream_critical_error">Κρίσιμο σφάλμα, η μετάδοση πρέπει να τερματιστεί</string>
+    <string gender="unknown" name="dat_error_stream_device_not_connected">Η συσκευή δεν είναι συνδεδεμένη</string>
+    <string gender="unknown" name="dat_error_stream_device_not_found">Δεν βρέθηκε συσκευή</string>
+    <string gender="unknown" name="dat_error_stream_error">Μη καθορισμένο σφάλμα, η μετάδοση μπορεί να συνεχιστεί</string>
+    <string gender="unknown" name="dat_error_stream_hinge_closed">Οι βραχίονες των γυαλιών έκλεισαν</string>
+    <string gender="unknown" name="dat_error_stream_peak_power_limit">Συμπλήρωση ορίου μέγιστης ισχύος συσκευής</string>
+    <string gender="unknown" name="dat_error_stream_permissions_denied">Δεν δόθηκαν δικαιώματα</string>
+    <string gender="unknown" name="dat_error_stream_thermal_hot">Το θερμικό επίπεδο της συσκευής είναι υπερβολικά υψηλό για μετάδοση</string>
+    <string gender="unknown" name="dat_error_stream_timeout">Έληξε το χρονικό όριο της λειτουργίας</string>
+    <string gender="unknown" name="dat_error_unregistration_already_unregistered">Ο χρήστης έχει ήδη καταργήσει την εγγραφή του όταν προσπαθεί να καταργήσει ξανά την εγγραφή</string>
+    <string gender="unknown" name="dat_error_unregistration_configuration_invalid">Η διαμόρφωση του Wearables Device Access Toolkit είναι μη έγκυρη ή μη ολοκληρωμένη</string>
+    <string gender="unknown" name="dat_error_unregistration_meta_ai_not_installed">Η εφαρμογή Meta AI δεν έχει εγκατασταθεί στη συσκευή, η οποία είναι απαραίτητη για την κατάργηση της εγγραφής</string>
+    <string gender="unknown" name="dat_error_unregistration_unknown">Παρουσιάστηκε άγνωστο σφάλμα κατά τη διαδικασία κατάργησης της εγγραφής</string>
+    <string gender="unknown" name="dat_error_voice_action_failed">Η ενέργεια απέτυχε</string>
+    <string gender="unknown" name="dat_error_voice_channel_error">Προέκυψε σφάλμα καναλιού</string>
+    <string gender="unknown" name="dat_error_voice_channel_not_connected">Το κανάλι δεν είναι συνδεδεμένο</string>
+    <string gender="unknown" name="dat_error_voice_channel_setup_failed">Η διαμόρφωση του καναλιού ενεργειών τεχνητής νοημοσύνης απέτυχε</string>
+    <string gender="unknown" name="dat_error_voice_connection_not_available">Η σύνδεση της συσκευής δεν είναι διαθέσιμη</string>
+    <string gender="unknown" name="dat_error_voice_device_not_found">Δεν βρέθηκε συσκευή</string>
+    <string gender="unknown" name="dat_error_voice_fail_to_send_init_request">Αποτυχία αποστολής αιτήματος προετοιμασίας</string>
+    <string gender="unknown" name="dat_error_voice_init_request_error">Αποτυχία προετοιμασίας αιτήματος</string>
+    <string gender="unknown" name="dat_error_voice_init_request_returned_error">Το αίτημα εκκίνησης επέστρεψε σφάλμα</string>
+    <string gender="unknown" name="dat_error_voice_invalid_action_message_proto">Μη έγκυρο πρωτόκολλο μηνυμάτων ενεργειών</string>
+    <string gender="unknown" name="dat_error_voice_invalid_message_proto">Μη έγκυρο πρωτόκολλο μηνυμάτων</string>
+    <string gender="unknown" name="dat_error_voice_invalid_session_state">Μη έγκυρη κατάσταση περιόδου σύνδεσης για λειτουργία</string>
+    <string gender="unknown" name="dat_error_voice_invalid_wearables_interface">Μη έγκυρο WearablesInterface</string>
+    <string gender="unknown" name="dat_error_voice_send_message_error">Η αποστολή του μηνύματος απέτυχε</string>
+    <string gender="unknown" name="dat_error_voice_unknown_message_type">Λήφθηκε άγνωστος τύπος μηνύματος</string>
+    <string gender="unknown" name="dat_error_wearables_already_configured">Έχει ήδη διαμορφωθεί</string>
+    <string gender="unknown" name="dat_error_wearables_already_initialized">Έχει γίνει ήδη προετοιμασία των Wearables.</string>
+    <string gender="unknown" name="dat_error_wearables_configuration_error">Σφάλμα διαμόρφωσης</string>
+    <string gender="unknown" name="dat_error_wearables_internal_error">Εσωτερικό σφάλμα</string>
+    <string gender="unknown" name="dat_error_wearables_not_initialized">Δεν έγινε ενεργοποίηση των wearable. Καλέστε πρώτα το Wearables.initialize(context).</string>
+    <string gender="unknown" name="dat_error_wearables_url_registration_error">Σφάλμα εγγραφής</string>
+    <string gender="unknown" name="dat_error_wearables_url_unregistration_error">Σφάλμα κατάργησης εγγραφής</string>
+    <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
+</resources>

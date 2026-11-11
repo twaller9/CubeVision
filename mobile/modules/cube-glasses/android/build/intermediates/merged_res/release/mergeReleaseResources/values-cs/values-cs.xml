@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string msgid="881409763997275156" name="call_notification_answer_action">"Přijmout"</string>
+    <string msgid="8793775615905189152" name="call_notification_answer_video_action">"Video"</string>
+    <string msgid="3229508546291798546" name="call_notification_decline_action">"Odmítnout"</string>
+    <string msgid="2659457946726154263" name="call_notification_hang_up_action">"Zavěsit"</string>
+    <string msgid="6107532579223922871" name="call_notification_incoming_text">"Příchozí hovor"</string>
+    <string msgid="8623827134497363134" name="call_notification_ongoing_text">"Probíhající hovor"</string>
+    <string msgid="59049573811482460" name="call_notification_screening_text">"Prověřování příchozího hovoru"</string>
+    <string gender="unknown" name="dat_error_capture_busy">Fotoaparát je zaneprázdněný</string>
+    <string gender="unknown" name="dat_error_capture_device_disconnected">Zařízení je odpojené</string>
+    <string gender="unknown" name="dat_error_capture_device_health_critical">Stav zařízení je kritický</string>
+    <string gender="unknown" name="dat_error_capture_failure">Záznam selhal</string>
+    <string gender="unknown" name="dat_error_capture_not_ready">Snímání není připravené</string>
+    <string gender="unknown" name="dat_error_capture_permission_denied">Oprávnění k pořizování médií je zamítnuté</string>
+    <string gender="unknown" name="dat_error_capture_service_unavailable">Služba zachycení není dostupná</string>
+    <string gender="unknown" name="dat_error_capture_setup_failed">Nastavení záznamu se nezdařilo</string>
+    <string gender="unknown" name="dat_error_capture_timed_out">Uplynul časový limit snímání</string>
+    <string gender="unknown" name="dat_error_capture_unknown">Neznámá chyba při snímání</string>
+    <string gender="unknown" name="dat_error_mock_app_management_unsupported_app_id">Nepodporované ID aplikace pro správu aplikace</string>
+    <string gender="unknown" name="dat_error_mock_app_management_unsupported_message_type">Nepodporovaný typ zprávy správy aplikace</string>
+    <string gender="unknown" name="dat_error_mock_failed_sending_video_frames">Nepodařilo se odeslat snímky videa</string>
+    <string gender="unknown" name="dat_error_mock_peer_building_info_unsupported_message_type">Informace o zařízení, nepodporovaný typ zprávy</string>
+    <string gender="unknown" name="dat_error_mock_permissions_unsupported_message_type">Oprávnění, nepodporovaný typ zprávy</string>
+    <string gender="unknown" name="dat_error_mock_photo_capture">Výjimka při pořizování fotky</string>
+    <string gender="unknown" name="dat_error_mock_remote_session_device_not_ready">Vzdálená relace, zařízení není připravené</string>
+    <string gender="unknown" name="dat_error_mock_remote_session_id_mismatch">Vzdálená relace, neshoda ID relace</string>
+    <string gender="unknown" name="dat_error_mock_remote_session_unsupported_message_type">Vzdálená relace, nepodporovaný typ zprávy</string>
+    <string gender="unknown" name="dat_error_mock_stream_internal_error">Došlo k interní chybě</string>
+    <string gender="unknown" name="dat_error_mock_stream_no_camera_feed">Není nakonfigurovaný žádný zdroj fotoaparátu</string>
+    <string gender="unknown" name="dat_error_mock_stream_start_failure">Chyba zahájení streamu</string>
+    <string gender="unknown" name="dat_error_mock_streaming_error">Při streamování došlo k výjimce</string>
+    <string gender="unknown" name="dat_error_mock_streaming_unhandled_user_action">Nevyřízená akce uživatele</string>
+    <string gender="unknown" name="dat_error_mock_voice_invocation_failed_to_parse_action_response">Hlasové vyvolání, nepodařilo se analyzovat reakci na akci</string>
+    <string gender="unknown" name="dat_error_mock_voice_invocation_failed_to_parse_init_request">Hlasové vyvolání, nepodařilo se analyzovat počáteční žádost</string>
+    <string gender="unknown" name="dat_error_mock_voice_invocation_unknown_message_type">Hlasové vyvolání, neznámý typ zprávy</string>
+    <string gender="unknown" name="dat_error_navigation_meta_ai_not_installed">V zařízení není nainstalovaná aplikace Meta AI</string>
+    <string gender="unknown" name="dat_error_navigation_not_registered">Aplikace není registrovaná v AI brýlích</string>
+    <string gender="unknown" name="dat_error_permission_connection_error">Při komunikaci se zařízením došlo k chybě připojení</string>
+    <string gender="unknown" name="dat_error_permission_internal_error">Došlo k neočekávané interní chybě</string>
+    <string gender="unknown" name="dat_error_permission_meta_ai_not_installed">V zařízení není nainstalovaná doplňková aplikace Meta AI</string>
+    <string gender="unknown" name="dat_error_permission_no_device">Nenašli jsme ani nezaregistrovali žádné nositelné zařízení</string>
+    <string gender="unknown" name="dat_error_permission_no_device_with_connection">Všechna nalezená zařízení jsou vypnutá nebo odpojená</string>
+    <string gender="unknown" name="dat_error_permission_request_in_progress">Žádost o oprávnění už se zpracovává</string>
+    <string gender="unknown" name="dat_error_permission_request_timeout">Žádost o oprávnění překročila povolený časový limit</string>
+    <string gender="unknown" name="dat_error_photo_capture_failed">Nepodařilo se pořídit fotku</string>
+    <string gender="unknown" name="dat_error_registration_already_registered">Uživatel už je zaregistrovaný, když se pokouší zaregistrovat znovu</string>
+    <string gender="unknown" name="dat_error_registration_configuration_invalid">Konfigurace Wearables Device Access Toolkit je neplatná nebo neúplná</string>
+    <string gender="unknown" name="dat_error_registration_failed_to_register">Proces registrace se z neznámého důvodu nezdařil</string>
+    <string gender="unknown" name="dat_error_registration_failed_to_unregister">Proces zrušení registrace se z neznámého důvodu nezdařil</string>
+    <string gender="unknown" name="dat_error_registration_meta_ai_not_installed">Aplikace Meta AI není v zařízení nainstalovaná, což je k registraci potřeba</string>
+    <string gender="unknown" name="dat_error_registration_network_unavailable">Nemáte připojení k internetu. Zkontrolujte ho a zkuste to znovu</string>
+    <string gender="unknown" name="dat_error_registration_unknown">Během registrace došlo k neznámé chybě</string>
+    <string gender="unknown" name="dat_error_session_already_exists">Relace pro dané zařízení už existuje</string>
+    <string gender="unknown" name="dat_error_session_already_stopped">Relace už je zastavená</string>
+    <string gender="unknown" name="dat_error_session_battery_critical">Baterie zařízení je skoro vybitá</string>
+    <string gender="unknown" name="dat_error_session_capability_already_active">Schopnost daného typu už je v relaci aktivní</string>
+    <string gender="unknown" name="dat_error_session_capability_denied">Schopnost zamítnutá zařízením</string>
+    <string gender="unknown" name="dat_error_session_capability_not_found">K relaci není připojená žádná schopnost daného typu</string>
+    <string gender="unknown" name="dat_error_session_dat_app_on_the_glasses_update_required">Brýle potřebují aktualizovat. Přejděte v Meta AI na stránku Připojení k aplikacím a aktualizujte je</string>
+    <string gender="unknown" name="dat_error_session_dat_app_update_required">Než se bude moct relace spustit, je potřeba aktualizovat aplikaci v brýlích. Přejděte v Meta AI na stránku Připojení k aplikacím a aktualizujte ji.</string>
+    <string gender="unknown" name="dat_error_session_device_disconnected">Zařízení je odpojené</string>
+    <string gender="unknown" name="dat_error_session_dwa_out_of_stu_range">Daná verze aplikace nemusí na připojených brýlích fungovat podle očekávání. Relace může pokračovat. Aplikace vám může občas navrhnout aktualizaci.</string>
+    <string gender="unknown" name="dat_error_session_dwa_unavailable">Aplikace Wearables DAT není na brýlích dostupná</string>
+    <string gender="unknown" name="dat_error_session_ended_by_device">Zařízení ukončilo relaci</string>
+    <string gender="unknown" name="dat_error_session_idle">Relace není aktivní. Před přidáním schopností relaci spusťte</string>
+    <string gender="unknown" name="dat_error_session_insufficient_sdk_version">Aplikaci vytvořila verze SDK, kterou už vaše brýle nepodporují. Vytvořte novější verzi aplikace s využitím současné verze SDK.</string>
+    <string gender="unknown" name="dat_error_session_no_eligible_device">Není k dispozici žádné vyhovující zařízení</string>
+    <string gender="unknown" name="dat_error_session_peak_power_shutdown">Vypnutí zařízení při maximálním výkonu</string>
+    <string gender="unknown" name="dat_error_session_thermal_critical">Teplotní stav zařízení je kritický</string>
+    <string gender="unknown" name="dat_error_session_thermal_emergency">Teplotní stav zařízení je nouzový — probíhá vypínání</string>
+    <string gender="unknown" name="dat_error_session_unexpected_error">Došlo k neočekávané chybě</string>
+    <string gender="unknown" name="dat_error_stream_battery_low">Baterie zařízení je na streamování příliš nízká</string>
+    <string gender="unknown" name="dat_error_stream_critical_error">Kritická chyba, stream by měl skončit</string>
+    <string gender="unknown" name="dat_error_stream_device_not_connected">Zařízení není připojené</string>
+    <string gender="unknown" name="dat_error_stream_device_not_found">Zařízení jsme nenašli</string>
+    <string gender="unknown" name="dat_error_stream_error">Nespecifikovaná chyba, stream může pokračovat</string>
+    <string gender="unknown" name="dat_error_stream_hinge_closed">Stranice brýlí jsou zavřené</string>
+    <string gender="unknown" name="dat_error_stream_peak_power_limit">Byl dosažen limit maximálního výkonu zařízení</string>
+    <string gender="unknown" name="dat_error_stream_permissions_denied">Oprávnění jsou zamítnutá</string>
+    <string gender="unknown" name="dat_error_stream_thermal_hot">Teplotní úroveň zařízení je pro streamování příliš vysoká</string>
+    <string gender="unknown" name="dat_error_stream_timeout">Platnost operace skončila</string>
+    <string gender="unknown" name="dat_error_unregistration_already_unregistered">Uživatel už je při pokusu o opětovnou registraci neregistrovaný</string>
+    <string gender="unknown" name="dat_error_unregistration_configuration_invalid">Konfigurace Wearables Device Access Toolkit je neplatná nebo neúplná</string>
+    <string gender="unknown" name="dat_error_unregistration_meta_ai_not_installed">Aplikace Meta AI není na zařízení nainstalovaná, což je ke zrušení registrace potřeba</string>
+    <string gender="unknown" name="dat_error_unregistration_unknown">Během zrušení registrace došlo k neznámé chybě</string>
+    <string gender="unknown" name="dat_error_voice_action_failed">Akce selhala</string>
+    <string gender="unknown" name="dat_error_voice_channel_error">Došlo k chybě kanálu</string>
+    <string gender="unknown" name="dat_error_voice_channel_not_connected">Kanál není připojený</string>
+    <string gender="unknown" name="dat_error_voice_channel_setup_failed">Nepodařilo se nastavit kanál AI akcí</string>
+    <string gender="unknown" name="dat_error_voice_connection_not_available">Připojení zařízení není dostupné</string>
+    <string gender="unknown" name="dat_error_voice_device_not_found">Zařízení jsme nenašli</string>
+    <string gender="unknown" name="dat_error_voice_fail_to_send_init_request">Nepodařilo se odeslat počáteční žádost</string>
+    <string gender="unknown" name="dat_error_voice_init_request_error">Nepodařilo se zahájit žádost</string>
+    <string gender="unknown" name="dat_error_voice_init_request_returned_error">Požadavek Init vrátil chybu</string>
+    <string gender="unknown" name="dat_error_voice_invalid_action_message_proto">Neplatný prototyp zprávy akce</string>
+    <string gender="unknown" name="dat_error_voice_invalid_message_proto">Neplatný prototyp zprávy</string>
+    <string gender="unknown" name="dat_error_voice_invalid_session_state">Neplatný stav relace pro operaci</string>
+    <string gender="unknown" name="dat_error_voice_invalid_wearables_interface">Neplatné rozhraní pro nositelné zařízení</string>
+    <string gender="unknown" name="dat_error_voice_send_message_error">Zprávu se nepodařilo odeslat</string>
+    <string gender="unknown" name="dat_error_voice_unknown_message_type">Přijali jsme neznámý typ zprávy</string>
+    <string gender="unknown" name="dat_error_wearables_already_configured">Už je nakonfigurováno</string>
+    <string gender="unknown" name="dat_error_wearables_already_initialized">Nositelná zařízení už jsou inicializovaná.</string>
+    <string gender="unknown" name="dat_error_wearables_configuration_error">Chyba konfigurace</string>
+    <string gender="unknown" name="dat_error_wearables_internal_error">Interní chyba</string>
+    <string gender="unknown" name="dat_error_wearables_not_initialized">Nositelná zařízení nejsou inicializovaná. Nejprve volejte Wearables.initialize(context).</string>
+    <string gender="unknown" name="dat_error_wearables_url_registration_error">Chyba při registraci</string>
+    <string gender="unknown" name="dat_error_wearables_url_unregistration_error">Chyba při zrušení registrace</string>
+    <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
+</resources>

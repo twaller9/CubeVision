@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <attr format="string" name="fontProviderSystemFontFamily"/>
+    <attr format="string" name="fontVariationSettings"/>
+    <attr format="reference" name="nestedScrollViewStyle"/>
+    <color name="androidx_core_ripple_material_light">#1f000000</color>
+    <color name="androidx_core_secondary_text_default_material_light">#8a000000</color>
+    <color name="call_notification_answer_color">#1d873b</color>
+    <color name="call_notification_decline_color">#d93025</color>
+    <color name="notification_action_color_filter">#ffffffff</color>
+    <color name="notification_icon_bg_color">#ff9e9e9e</color>
+    <dimen name="compat_button_inset_horizontal_material">4dp</dimen>
+    <dimen name="compat_button_inset_vertical_material">6dp</dimen>
+    <dimen name="compat_button_padding_horizontal_material">8dp</dimen>
+    <dimen name="compat_button_padding_vertical_material">4dp</dimen>
+    <dimen name="compat_control_corner_material">2dp</dimen>
+    <dimen name="compat_notification_large_icon_max_height">320dp</dimen>
+    <dimen name="compat_notification_large_icon_max_width">320dp</dimen>
+    <dimen name="notification_action_icon_size">32dp</dimen>
+    <dimen name="notification_action_text_size">13sp</dimen>
+    <dimen name="notification_big_circle_margin">12dp</dimen>
+    <dimen name="notification_content_margin_start">8dp</dimen>
+    <dimen name="notification_large_icon_height">64dp</dimen>
+    <dimen name="notification_large_icon_width">64dp</dimen>
+    <dimen name="notification_main_column_padding_top">10dp</dimen>
+    <dimen name="notification_media_narrow_margin">@dimen/notification_content_margin_start</dimen>
+    <dimen name="notification_right_icon_size">16dp</dimen>
+    <dimen name="notification_right_side_padding_top">4dp</dimen>
+    <dimen name="notification_small_icon_background_padding">3dp</dimen>
+    <dimen name="notification_small_icon_size_as_large">24dp</dimen>
+    <dimen name="notification_subtext_size">13sp</dimen>
+    <dimen name="notification_top_pad">10dp</dimen>
+    <dimen name="notification_top_pad_large_text">5dp</dimen>
+    <drawable name="notification_template_icon_bg">#3333B5E5</drawable>
+    <drawable name="notification_template_icon_low_bg">#0cffffff</drawable>
+    <item name="accessibility_action_clickable_span" type="id"/>
+    <item name="accessibility_custom_action_0" type="id"/>
+    <item name="accessibility_custom_action_1" type="id"/>
+    <item name="accessibility_custom_action_10" type="id"/>
+    <item name="accessibility_custom_action_11" type="id"/>
+    <item name="accessibility_custom_action_12" type="id"/>
+    <item name="accessibility_custom_action_13" type="id"/>
+    <item name="accessibility_custom_action_14" type="id"/>
+    <item name="accessibility_custom_action_15" type="id"/>
+    <item name="accessibility_custom_action_16" type="id"/>
+    <item name="accessibility_custom_action_17" type="id"/>
+    <item name="accessibility_custom_action_18" type="id"/>
+    <item name="accessibility_custom_action_19" type="id"/>
+    <item name="accessibility_custom_action_2" type="id"/>
+    <item name="accessibility_custom_action_20" type="id"/>
+    <item name="accessibility_custom_action_21" type="id"/>
+    <item name="accessibility_custom_action_22" type="id"/>
+    <item name="accessibility_custom_action_23" type="id"/>
+    <item name="accessibility_custom_action_24" type="id"/>
+    <item name="accessibility_custom_action_25" type="id"/>
+    <item name="accessibility_custom_action_26" type="id"/>
+    <item name="accessibility_custom_action_27" type="id"/>
+    <item name="accessibility_custom_action_28" type="id"/>
+    <item name="accessibility_custom_action_29" type="id"/>
+    <item name="accessibility_custom_action_3" type="id"/>
+    <item name="accessibility_custom_action_30" type="id"/>
+    <item name="accessibility_custom_action_31" type="id"/>
+    <item name="accessibility_custom_action_4" type="id"/>
+    <item name="accessibility_custom_action_5" type="id"/>
+    <item name="accessibility_custom_action_6" type="id"/>
+    <item name="accessibility_custom_action_7" type="id"/>
+    <item name="accessibility_custom_action_8" type="id"/>
+    <item name="accessibility_custom_action_9" type="id"/>
+    <item name="line1" type="id"/>
+    <item name="line3" type="id"/>
+    <item name="report_drawn" type="id"/>
+    <item name="tag_accessibility_actions" type="id"/>
+    <item name="tag_accessibility_clickable_spans" type="id"/>
+    <item name="tag_accessibility_heading" type="id"/>
+    <item name="tag_accessibility_pane_title" type="id"/>
+    <item name="tag_compat_insets_dispatch" type="id"/>
+    <item name="tag_on_apply_window_listener" type="id"/>
+    <item name="tag_on_receive_content_listener" type="id"/>
+    <item name="tag_on_receive_content_mime_types" type="id"/>
+    <item name="tag_screen_reader_focusable" type="id"/>
+    <item name="tag_state_description" type="id"/>
+    <item name="tag_system_bar_state_monitor" type="id"/>
+    <item name="tag_transition_group" type="id"/>
+    <item name="tag_unhandled_key_event_manager" type="id"/>
+    <item name="tag_unhandled_key_listeners" type="id"/>
+    <item name="tag_window_insets_animation_callback" type="id"/>
+    <item name="text" type="id"/>
+    <item name="text2" type="id"/>
+    <item name="title" type="id"/>
+    <id name="view_tree_disjoint_parent"/>
+    <id name="view_tree_lifecycle_owner"/>
+    <id name="view_tree_on_back_pressed_dispatcher_owner"/>
+    <id name="view_tree_saved_state_registry_owner"/>
+    <id name="view_tree_view_model_store_owner"/>
+    <integer name="status_bar_notification_info_maxnum">999</integer>
+    <string name="androidx_startup" translatable="false">androidx.startup</string>
+    <string name="call_notification_answer_action">Answer</string>
+    <string name="call_notification_answer_video_action">Video</string>
+    <string name="call_notification_decline_action">Decline</string>
+    <string name="call_notification_hang_up_action">Hang Up</string>
+    <string name="call_notification_incoming_text">Incoming call</string>
+    <string name="call_notification_ongoing_text">Ongoing call</string>
+    <string name="call_notification_screening_text">Screening an incoming call</string>
+    <string description="Error shown when the capture capability is already active on the device" name="dat_error_capture_busy">Capture is busy</string>
+    <string description="Error shown when the device disconnects during a capture operation" name="dat_error_capture_device_disconnected">Device disconnected</string>
+    <string description="Error shown when the device health is critical (thermal/power/battery) during capture" name="dat_error_capture_device_health_critical">Device health critical</string>
+    <string description="Error shown when a capture command fails on the glasses" name="dat_error_capture_failure">Capture failed</string>
+    <string description="Error shown when a capture operation is attempted while capture is not in STARTED state" name="dat_error_capture_not_ready">Capture is not ready</string>
+    <string description="Error shown when the device denies the capture permission" name="dat_error_capture_permission_denied">Capture permission denied</string>
+    <string description="Error shown when the capture service is unavailable on the device" name="dat_error_capture_service_unavailable">Capture service unavailable</string>
+    <string description="Error shown when the capture session fails to start" name="dat_error_capture_setup_failed">Capture setup failed</string>
+    <string description="Error shown when a capture operation does not complete within the allotted time" name="dat_error_capture_timed_out">Capture timed out</string>
+    <string description="Error shown when a capture operation fails with an unspecified or unrecognized error" name="dat_error_capture_unknown">Unknown capture error</string>
+    <string description="MockDevice error: unsupported app management app id" name="dat_error_mock_app_management_unsupported_app_id">App management unsupported app id</string>
+    <string description="MockDevice error: unsupported app management message type" name="dat_error_mock_app_management_unsupported_message_type">App management unsupported message type</string>
+    <string description="MockDevice error: failed to send video frames" name="dat_error_mock_failed_sending_video_frames">Failed sending video frames</string>
+    <string description="MockDevice error: unsupported peer building info message type" name="dat_error_mock_peer_building_info_unsupported_message_type">Device Info, unsupported message type</string>
+    <string description="MockDevice error: unsupported permissions message type" name="dat_error_mock_permissions_unsupported_message_type">Permissions, unsupported message type</string>
+    <string description="Error message shown by the MockDevice simulator in the Meta wearables DAT SDK when a Java/Kotlin runtime exception (programming error) is thrown while the simulated device is taking a photo. Here &apos;Exception&apos; means a software error, not an unusual event; translate it as the local technical word for a runtime error." name="dat_error_mock_photo_capture">Exception during photo capture</string>
+    <string description="MockDevice error: remote session device not ready" name="dat_error_mock_remote_session_device_not_ready">Remote session, device not ready</string>
+    <string description="MockDevice error: remote session ID mismatch" name="dat_error_mock_remote_session_id_mismatch">Remote session, Session ID mismatch</string>
+    <string description="MockDevice error: unsupported remote session message type" name="dat_error_mock_remote_session_unsupported_message_type">Remote session, unsupported message type</string>
+    <string description="MockDevice stream error shown when an internal streaming failure occurs" name="dat_error_mock_stream_internal_error">An internal error occurred</string>
+    <string description="MockDevice stream error shown when no camera source is configured for the mock device" name="dat_error_mock_stream_no_camera_feed">No camera source configured</string>
+    <string description="MockDevice error: stream failed to start" name="dat_error_mock_stream_start_failure">Stream start failure</string>
+    <string description="MockDevice error: generic streaming exception" name="dat_error_mock_streaming_error">Exception occurred while streaming</string>
+    <string description="MockDevice error: unhandled user action during streaming" name="dat_error_mock_streaming_unhandled_user_action">Unhandled user action</string>
+    <string description="MockDevice error: failed to parse voice invocation action response" name="dat_error_mock_voice_invocation_failed_to_parse_action_response">Voice Invocation, failed to parse action response</string>
+    <string description="MockDevice error: failed to parse voice invocation init request" name="dat_error_mock_voice_invocation_failed_to_parse_init_request">Voice Invocation, failed to parse init request</string>
+    <string description="MockDevice error: unknown voice invocation message type" name="dat_error_mock_voice_invocation_unknown_message_type">Voice Invocation, unknown message type</string>
+    <string description="Error shown when Meta AI app is not installed for navigation" name="dat_error_navigation_meta_ai_not_installed">The Meta AI app is not installed on the device</string>
+    <string description="Error shown when the DAT app is not registered with AI glasses" name="dat_error_navigation_not_registered">The app is not registered with AI glasses</string>
+    <string description="Error during device communication for permissions" name="dat_error_permission_connection_error">A connection error occurred while communicating with the device</string>
+    <string description="Unexpected internal error during permission operations" name="dat_error_permission_internal_error">An unexpected internal error occurred</string>
+    <string description="Error shown when Meta AI companion app is not installed" name="dat_error_permission_meta_ai_not_installed">The Meta AI companion app is not installed on the device</string>
+    <string description="Error shown when no wearable devices are discovered" name="dat_error_permission_no_device">No wearable devices have been discovered or registered</string>
+    <string description="Error shown when all devices are disconnected" name="dat_error_permission_no_device_with_connection">All discovered devices are powered off or disconnected</string>
+    <string description="Error shown when a permission request is already pending" name="dat_error_permission_request_in_progress">A permission request is already in progress</string>
+    <string description="Error shown when permission request times out" name="dat_error_permission_request_timeout">The permission request exceeded the allowed time limit</string>
+    <string description="Error shown when a photo capture operation fails" name="dat_error_photo_capture_failed">Photo capture failed</string>
+    <string description="Error shown when user attempts to register while already registered" name="dat_error_registration_already_registered">User is already registered when attempting to register again</string>
+    <string description="Error shown when DAT configuration is invalid during registration" name="dat_error_registration_configuration_invalid">The Wearables Device Access Toolkit configuration is invalid or incomplete</string>
+    <string description="Generic registration failure" name="dat_error_registration_failed_to_register">Registration process failed for an unspecified reason</string>
+    <string description="Generic unregistration failure" name="dat_error_registration_failed_to_unregister">Unregistration process failed for an unspecified reason</string>
+    <string description="Error shown when Meta AI app is not installed for registration" name="dat_error_registration_meta_ai_not_installed">The Meta AI app is not installed on the device, which is required for registration</string>
+    <string description="Error shown when network is unavailable during registration" name="dat_error_registration_network_unavailable">No internet connection available. Please check your connection and try again</string>
+    <string description="Error shown when an app tries to continue or cancel the same Meta AI registration request more than once" name="dat_error_registration_request_already_handled">The Meta AI registration request has already been handled.</string>
+    <string description="Error shown when a cancelled registration request cannot return control to the Meta AI app" name="dat_error_registration_request_cancellation_failed">The registration cancellation could not be returned to Meta AI.</string>
+    <string description="Error shown when a Meta AI-initiated registration request is malformed or unsupported" name="dat_error_registration_request_invalid">The Meta AI registration request is invalid or unsupported.</string>
+    <string description="Generic unknown error during registration" name="dat_error_registration_unknown">An unknown error occurred during the registration process</string>
+    <string description="Error shown when trying to create a session for a device that already has one" name="dat_error_session_already_exists">A session already exists for this device</string>
+    <string description="Error shown when an operation is attempted on an already-stopped session" name="dat_error_session_already_stopped">Session has already been stopped</string>
+    <string description="Error shown when device battery is critically low" name="dat_error_session_battery_critical">Device battery critically low</string>
+    <string description="Error shown when a duplicate capability type is added to a session" name="dat_error_session_capability_already_active">A capability of this type is already active on the session</string>
+    <string description="Error shown when the device denies a requested session capability" name="dat_error_session_capability_denied">Capability denied by device</string>
+    <string description="Error shown when trying to remove a capability that is not attached" name="dat_error_session_capability_not_found">No capability of this type is attached to the session</string>
+    <string description="Error shown when the DAT app on the glasses needs to be updated" name="dat_error_session_dat_app_on_the_glasses_update_required">Your glasses need an update. Go to App Connections page in Meta AI to update</string>
+    <string description="Error shown when the glasses app needs an update before starting a session" name="dat_error_session_dat_app_update_required">The app on your glasses needs an update before this session can start. Go to the App Connections page in Meta AI to update it.</string>
+    <string description="Error shown when the device disconnects during a session" name="dat_error_session_device_disconnected">Device disconnected</string>
+    <string description="Nonblocking developer warning when the app and glasses versions are outside the recommended compatibility range. Intentionally phrased without a second-person addressee (no &quot;you&quot;/&quot;your&quot;) so translations do not need per-addressee-gender variants." name="dat_error_session_dwa_out_of_stu_range">This app version may not work as expected with the connected glasses. The session can continue. The app may suggest an update occasionally.</string>
+    <string description="Error shown when the DAT Wearables App on glasses is not reachable" name="dat_error_session_dwa_unavailable">DAT Wearables App on the glasses is not reachable</string>
+    <string description="Error shown when the session is ended by the device" name="dat_error_session_ended_by_device">Session ended by device</string>
+    <string description="Error shown when a capability is added to a session that has not been started" name="dat_error_session_idle">Session is idle. Start the session before adding capabilities</string>
+    <string description="Terminal developer error requiring a newer app release built with the current SDK" name="dat_error_session_insufficient_sdk_version">This app was built with an SDK version that is no longer supported by your glasses. Release a newer version of the app built with the current SDK.</string>
+    <string description="Error shown when no eligible device is available for a session" name="dat_error_session_no_eligible_device">No eligible device available</string>
+    <string description="Error shown when device enters peak power shutdown" name="dat_error_session_peak_power_shutdown">Device peak power shutdown</string>
+    <string description="Error shown when device thermal state reaches critical level" name="dat_error_session_thermal_critical">Device thermal state is critical</string>
+    <string description="Error shown when device thermal state reaches emergency level and shuts down" name="dat_error_session_thermal_emergency">Device thermal state is emergency — shutting down</string>
+    <string description="Generic unexpected session error" name="dat_error_session_unexpected_error">An unexpected error occurred</string>
+    <string description="Error shown when device battery is too low to continue streaming" name="dat_error_stream_battery_low">Device battery is too low for streaming</string>
+    <string description="Critical streaming error that requires ending the stream session" name="dat_error_stream_critical_error">Critical error, the stream should end</string>
+    <string description="Error shown when the device is not connected for streaming" name="dat_error_stream_device_not_connected">Device is not connected</string>
+    <string description="Error shown when the target device is not found for streaming" name="dat_error_stream_device_not_found">Device not found</string>
+    <string description="Generic non-critical streaming error that does not require ending the stream" name="dat_error_stream_error">Unspecified error, the stream can continue regardless</string>
+    <string description="Error shown when user closes the hinges on the glasses during streaming" name="dat_error_stream_hinge_closed">The hinges on the glasses were closed</string>
+    <string description="Error shown when device reaches peak power limit during streaming" name="dat_error_stream_peak_power_limit">Device peak power limit reached</string>
+    <string description="Error shown when required permissions for camera streaming are denied" name="dat_error_stream_permissions_denied">Permissions denied</string>
+    <string description="Error shown when device temperature is too high to continue streaming" name="dat_error_stream_thermal_hot">Device thermal level is too high for streaming</string>
+    <string description="Error shown when a streaming operation times out" name="dat_error_stream_timeout">The operation timed out</string>
+    <string description="Error shown when user attempts to unregister while already unregistered" name="dat_error_unregistration_already_unregistered">User is already unregistered when attempting to unregister again</string>
+    <string description="Error shown when DAT configuration is invalid during unregistration" name="dat_error_unregistration_configuration_invalid">The Wearables Device Access Toolkit configuration is invalid or incomplete</string>
+    <string description="Error shown when Meta AI app is not installed for unregistration" name="dat_error_unregistration_meta_ai_not_installed">The Meta AI app is not installed on the device, which is required for unregistration</string>
+    <string description="Generic unknown error during unregistration" name="dat_error_unregistration_unknown">An unknown error occurred during the unregistration process</string>
+    <string description="Error shown when a voice invocation action fails" name="dat_error_voice_action_failed">Action failed</string>
+    <string description="Error shown when an unspecified voice invocation channel error occurs" name="dat_error_voice_channel_error">Channel error occurred</string>
+    <string description="Error shown when the voice invocation channel is not connected" name="dat_error_voice_channel_not_connected">Channel is not connected</string>
+    <string description="Error shown when AI Actions channel setup fails" name="dat_error_voice_channel_setup_failed">Failed to setup AI Actions channel</string>
+    <string description="Error shown when device connection is not available for voice invocation" name="dat_error_voice_connection_not_available">Device connection not available</string>
+    <string description="Error shown when the target device is not found for voice invocation" name="dat_error_voice_device_not_found">Device not found</string>
+    <string description="Error shown when sending the voice invocation init request fails" name="dat_error_voice_fail_to_send_init_request">Failed to send init request</string>
+    <string description="Error shown when voice invocation request initialization fails" name="dat_error_voice_init_request_error">Failed to initialize request</string>
+    <string description="Error shown when the voice invocation init request returns an error" name="dat_error_voice_init_request_returned_error">Init request returned an error</string>
+    <string description="Error shown when an action message proto is invalid" name="dat_error_voice_invalid_action_message_proto">Invalid action message proto</string>
+    <string description="Error shown when a message proto is invalid" name="dat_error_voice_invalid_message_proto">Invalid Message proto</string>
+    <string description="Error shown when a voice invocation operation is attempted in an invalid session state" name="dat_error_voice_invalid_session_state">Invalid session state for operation</string>
+    <string description="Error shown when an invalid WearablesInterface is provided" name="dat_error_voice_invalid_wearables_interface">Invalid WearablesInterface provided</string>
+    <string description="Error shown when sending a voice invocation message fails" name="dat_error_voice_send_message_error">Failed to send message</string>
+    <string description="Error shown when an unknown voice invocation message type is received" name="dat_error_voice_unknown_message_type">Unknown message type received</string>
+    <string description="Error shown when configure() is called more than once" name="dat_error_wearables_already_configured">Already configured</string>
+    <string description="Error shown when Wearables.initialize is called more than once" name="dat_error_wearables_already_initialized">Wearables has been already initialized.</string>
+    <string description="Error shown when the DAT configuration is invalid" name="dat_error_wearables_configuration_error">Configuration error</string>
+    <string description="Generic internal error during DAT configuration" name="dat_error_wearables_internal_error">Internal error</string>
+    <string description="Error shown when an operation is called before Wearables.initialize. The text &apos;Wearables.initialize(context)&apos; inside the &lt;xliff:g> tag is a code method call (Kotlin/Java API name) and must NOT be translated; keep it verbatim in English in all locales." name="dat_error_wearables_not_initialized">Wearables not initialized. Call <xliff:g example="Wearables.initialize(context)" id="method_call">Wearables.initialize(context)</xliff:g> first.</string>
+    <string description="Error during registration URL handling" name="dat_error_wearables_url_registration_error">Registration error</string>
+    <string description="Error during unregistration URL handling" name="dat_error_wearables_url_unregistration_error">Unregistration error</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <style name="TextAppearance.Compat.Notification" parent="@android:style/TextAppearance.StatusBar.EventContent"/>
+    <style name="TextAppearance.Compat.Notification.Info">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">?android:attr/textColorSecondary</item>
+    </style>
+    <style name="TextAppearance.Compat.Notification.Line2" parent="TextAppearance.Compat.Notification.Info"/>
+    <style name="TextAppearance.Compat.Notification.Time">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">?android:attr/textColorSecondary</item>
+    </style>
+    <style name="TextAppearance.Compat.Notification.Title" parent="@android:style/TextAppearance.StatusBar.EventContent.Title"/>
+    <style name="Widget.Compat.NotificationActionContainer" parent=""/>
+    <style name="Widget.Compat.NotificationActionText" parent=""/>
+    <declare-styleable name="Capability">
+        
+        <attr format="reference" name="queryPatterns"/>
+        
+        <attr format="boolean" name="shortcutMatchRequired"/>
+    </declare-styleable>
+    <declare-styleable name="ColorStateListItem">
+        
+        <attr name="android:color"/>
+        
+        <attr format="float" name="alpha"/>
+        <attr name="android:alpha"/>
+        
+        <attr format="float" name="lStar"/>
+        <attr name="android:lStar"/>
+    </declare-styleable>
+    <declare-styleable name="FontFamily">
+        
+        <attr format="string" name="fontProviderAuthority"/>
+        
+        <attr format="string" name="fontProviderPackage"/>
+        
+        <attr format="string" name="fontProviderQuery"/>
+        
+        <attr format="string" name="fontProviderFallbackQuery"/>
+        
+        <attr format="reference" name="fontProviderCerts"/>
+        
+        <attr name="fontProviderFetchStrategy">
+            <!-- The blocking font fetch works as follows.
+              First, check the local cache, then if the requested font is not cached, request the
+              font from the provider and wait until it is finished.  You can change the length of
+              the timeout by modifying fontProviderFetchTimeout.  If the timeout happens, the
+              default typeface will be used instead. -->
+            <enum name="blocking" value="0"/>
+            <!-- The async font fetch works as follows.
+              First, check the local cache, then if the requested font is not cached, trigger a
+              request the font and continue with layout inflation. Once the font fetch succeeds, the
+              target text view will be refreshed with the downloaded font data. The
+              fontProviderFetchTimeout will be ignored if async loading is specified. -->
+            <enum name="async" value="1"/>
+        </attr>
+        
+        <attr format="integer" name="fontProviderFetchTimeout">
+            <!-- A special value for the timeout. In this case, the blocking font fetching will not
+              timeout and wait until a reply is received from the font provider. -->
+            <enum name="forever" value="-1"/>
+        </attr>
+        
+        <attr name="fontProviderSystemFontFamily"/>
+    </declare-styleable>
+    <declare-styleable name="FontFamilyFont">
+        
+        <attr name="fontStyle">
+            <enum name="normal" value="0"/>
+            <enum name="italic" value="1"/>
+        </attr>
+        
+        <attr format="reference" name="font"/>
+        
+        <attr format="integer" name="fontWeight"/>
+        
+        <attr name="fontVariationSettings"/>
+        
+        <attr format="integer" name="ttcIndex"/>
+        
+        <attr name="android:fontStyle"/>
+        <attr name="android:font"/>
+        <attr name="android:fontWeight"/>
+        <attr name="android:fontVariationSettings"/>
+        <attr name="android:ttcIndex"/>
+    </declare-styleable>
+    <declare-styleable name="FontFamilyProviderFallback">
+        
+        <attr name="fontProviderQuery"/>
+        
+        <attr name="fontProviderSystemFontFamily"/>
+        
+        <attr name="fontVariationSettings"/>
+    </declare-styleable>
+    <declare-styleable name="GradientColor">
+        
+        <attr name="android:startColor"/>
+        
+        <attr name="android:centerColor"/>
+        
+        <attr name="android:endColor"/>
+        
+        <attr name="android:type"/>
+
+        
+        
+        <attr name="android:gradientRadius"/>
+
+        
+        
+        <attr name="android:centerX"/>
+        
+        <attr name="android:centerY"/>
+
+        
+        
+        <attr name="android:startX"/>
+        
+        <attr name="android:startY"/>
+        
+        <attr name="android:endX"/>
+        
+        <attr name="android:endY"/>
+
+        
+        <attr name="android:tileMode"/>
+    </declare-styleable>
+    <declare-styleable name="GradientColorItem">
+        
+        <attr name="android:offset"/>
+        
+        <attr name="android:color"/>
+    </declare-styleable>
+</resources>

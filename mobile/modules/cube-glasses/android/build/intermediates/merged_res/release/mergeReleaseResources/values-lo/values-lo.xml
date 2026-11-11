@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string msgid="881409763997275156" name="call_notification_answer_action">"ຮັບສາຍ"</string>
+    <string msgid="8793775615905189152" name="call_notification_answer_video_action">"ວິດີໂອ"</string>
+    <string msgid="3229508546291798546" name="call_notification_decline_action">"ປະຕິເສດ"</string>
+    <string msgid="2659457946726154263" name="call_notification_hang_up_action">"ວາງສາຍ"</string>
+    <string msgid="6107532579223922871" name="call_notification_incoming_text">"ສາຍໂທເຂົ້າ"</string>
+    <string msgid="8623827134497363134" name="call_notification_ongoing_text">"ສາຍໂທອອກ"</string>
+    <string msgid="59049573811482460" name="call_notification_screening_text">"ກຳລັງກວດສອບສາຍໂທເຂົ້າ"</string>
+    <string gender="unknown" name="dat_error_permission_connection_error">ເກີດຂໍ້ຜິດພາດໃນການເຊື່ອມຕໍ່ ໃນຂະນະທີ່ກໍາລັງຕິດຕໍ່ສື່ສານກັບອຸປະກອນ</string>
+    <string gender="unknown" name="dat_error_permission_internal_error">ເກີດຄວາມຜິດພາດພາຍໃນທີ່ບໍ່ຄາດຄິດ</string>
+    <string gender="unknown" name="dat_error_permission_meta_ai_not_installed">ບໍ່ມີການຕິດຕັ້ງແອັບ Meta AI companion ໃນອຸປະກອນ</string>
+    <string gender="unknown" name="dat_error_permission_no_device">ບໍ່ມີອຸປະກອນທີ່ສວມໃສ່ໄດ້ໃດໆທີ່ຖືກຄົ້ນພົບ ຫຼື ລົງທະບຽນ</string>
+    <string gender="unknown" name="dat_error_permission_no_device_with_connection">ອຸປະກອນທີ່ຄົ້ນພົບທັງໝົດແມ່ນປິດໄວ້ ຫຼື ຕັດການເຊື່ອມຕໍ່</string>
+    <string gender="unknown" name="dat_error_permission_request_in_progress">ຄຳຮ້ອງຂໍການອະນຸຍາດແມ່ນກຳລັງດຳເນີນຢູ່ແລ້ວ</string>
+    <string gender="unknown" name="dat_error_permission_request_timeout">ຄຳຮ້ອງຂໍການອະນຸຍາດເກີນກຳນົດເວລາທີ່ອະນຸຍາດ</string>
+    <string gender="unknown" name="dat_error_registration_already_registered">ຜູ້ໃຊ້ໄດ້ລົງທະບຽນຮຽບຮ້ອຍແລ້ວ ເມື່ອພະຍາຍາມລົງທະບຽນອີກຄັ້ງ</string>
+    <string gender="unknown" name="dat_error_registration_configuration_invalid">ການກໍານົດຄ່າຊຸດເຄື່ອງມືເຂົ້າເຖິງອຸປະກອນທີ່ສວມໃສ່ໄດ້ບໍ່ຖືກຕ້ອງ ຫຼື ບໍ່ຄົບຖ້ວນ</string>
+    <string gender="unknown" name="dat_error_registration_meta_ai_not_installed">ແອັບ Meta AI ບໍ່ໄດ້ຕິດຕັ້ງຢູ່ໃນອຸປະກອນ, ເຊິ່ງຈຳເປັນສຳລັບການລົງທະບຽນ</string>
+    <string gender="unknown" name="dat_error_registration_network_unavailable">ບໍ່ມີການເຊື່ອມຕໍ່ອິນເຕີເນັດ. ກະລຸນາກວດສອບການເຊື່ອມຕໍ່ຂອງທ່ານແລ້ວລອງໃໝ່ອີກຄັ້ງ.</string>
+    <string gender="unknown" name="dat_error_registration_unknown">ເກີດຂໍ້ຜິດພາດທີ່ບໍ່ຮູ້ຈັກໃນລະຫວ່າງຂະບວນການລົງທະບຽນ</string>
+    <string gender="unknown" name="dat_error_session_already_exists">ມີເຊສຊັ່ນຢູ່ແລ້ວສຳລັບອຸປະກອນນີ້</string>
+    <string gender="unknown" name="dat_error_session_already_stopped">ເຊສຊັນຖືກຢຸດແລ້ວ</string>
+    <string gender="unknown" name="dat_error_session_battery_critical">ແບັດເຕີຣີອຸປະກອນຕໍ່າຢ່າງວິກິດ</string>
+    <string gender="unknown" name="dat_error_session_capability_already_active">ຄວາມສາມາດແບບນີ້ແມ່ນເປີດໃຊ້ງານໃນເຊສຊັນນີ້</string>
+    <string gender="unknown" name="dat_error_session_capability_not_found">ບໍ່ມີຄວາມສາມາດແບບນີ້ໃນເຊສຊັນ</string>
+    <string gender="unknown" name="dat_error_session_idle">ເຊສຊັນບໍ່ເຮັດວຽກ. ເລີ່ມເຊສຊັນກ່ອນທີ່ຈະເພີ່ມຄວາມສາມາດ</string>
+    <string gender="unknown" name="dat_error_session_no_eligible_device">ບໍ່ມີອຸປະກອນທີ່ເຂົ້າເງື່ອນໄຂ</string>
+    <string gender="unknown" name="dat_error_session_peak_power_shutdown">ອຸປະກອນປິດໃນເວລາທີ່ຮັບເກີນພະລັງງານສູງສຸດ</string>
+    <string gender="unknown" name="dat_error_session_thermal_critical">ສະຖານະຄວາມຮ້ອນຂອງອຸປະກອນແມ່ນຮ້າຍແຮງ</string>
+    <string gender="unknown" name="dat_error_session_thermal_emergency">ສະຖານະຄວາມຮ້ອນຂອງອຸປະກອນແມ່ນສຸກເສີນ — ກຳລັງປິດ</string>
+    <string gender="unknown" name="dat_error_stream_battery_low">ແບັດເຕີຣີອຸປະກອນຕໍ່າເກີນໄປສໍາລັບການສະຕຣີມ</string>
+    <string gender="unknown" name="dat_error_stream_critical_error">ຂໍ້ຜິດພາດຮ້າຍແຮງ, ສະຕຣີມຄວນຈະສິ້ນສຸດລົງ.</string>
+    <string gender="unknown" name="dat_error_stream_error">ຂໍ້ຜິດພາດທີ່ບໍ່ລະບຸ, ສະຕຣີມສາມາດດຳເນີນການຕໍ່ໄປໄດ້</string>
+    <string gender="unknown" name="dat_error_stream_hinge_closed">ບານພັບຢູ່ແວ່ນຕາຖືກປິດແລ້ວ</string>
+    <string gender="unknown" name="dat_error_stream_peak_power_limit">ຮອດຂີດຈຳກັດພະລັງງານສູງສຸດຂອງອຸປະກອນແລ້ວ</string>
+    <string gender="unknown" name="dat_error_stream_permissions_denied">ການຂໍອະນຸຍາດຖືກປະຕິເສດ</string>
+    <string gender="unknown" name="dat_error_stream_thermal_hot">ລະດັບຄວາມຮ້ອນຂອງອຸປະກອນສູງເກີນໄປສຳລັບການສະຕຣີມ</string>
+    <string gender="unknown" name="dat_error_stream_timeout">ການປະຕິບັດງານໝົດເວລາ</string>
+    <string gender="unknown" name="dat_error_unregistration_already_unregistered">ຜູ້ໃຊ້ບໍ່ໄດ້ລົງທະບຽນແລ້ວ ເມື່ອພະຍາຍາມຍົກເລີກການລົງທະບຽນອີກຄັ້ງ</string>
+    <string gender="unknown" name="dat_error_unregistration_configuration_invalid">ການກຳນົດຄ່າຊຸດເຄື່ອງມືເຂົ້າເຖິງອຸປະກອນທີ່ສວມໃສ່ໄດ້ບໍ່ຖືກຕ້ອງ ຫຼື ບໍ່ຄົບຖ້ວນ.</string>
+    <string gender="unknown" name="dat_error_unregistration_meta_ai_not_installed">ແອັບ Meta AI ບໍ່ໄດ້ຕິດຕັ້ງຢູ່ໃນອຸປະກອນ, ເຊິ່ງຈຳເປັນຕ້ອງມີ ເພື່ອຍົກເລີກການລົງທະບຽນ</string>
+    <string gender="unknown" name="dat_error_unregistration_unknown">ເກີດຂໍ້ຜິດພາດທີ່ບໍ່ຮູ້ຈັກໃນລະຫວ່າງຂະບວນການຍົກເລີກການລົງທະບຽນ</string>
+    <string gender="unknown" name="dat_error_voice_action_failed">ການດຳເນີນການບໍ່ສຳເລັດ</string>
+    <string gender="unknown" name="dat_error_voice_channel_setup_failed">ລົ້ມເຫຼວໃນການຕັ້ງຊ່ອງການດຳເນີນການ AI</string>
+    <string gender="unknown" name="dat_error_voice_connection_not_available">ການເຊື່ອມຕໍ່ອຸປະກອນບໍ່ສາມາດໃຊ້ງານໄດ້</string>
+    <string gender="unknown" name="dat_error_voice_device_not_found">ບໍ່ພົບອຸປະກອນ</string>
+    <string gender="unknown" name="dat_error_voice_init_request_error">ບໍ່ສາມາດເລີ່ມຕົ້ນຄຳຮ້ອງຂໍ</string>
+    <string gender="unknown" name="dat_error_voice_invalid_message_proto">ຂໍ້ຄວາມ Proto ບໍ່ຖືກຕ້ອງ</string>
+    <string gender="unknown" name="dat_error_voice_invalid_wearables_interface">WearablesInterface ທີ່ສະໜອງໃຫ້ບໍ່ຖືກຕ້ອງ</string>
+    <string gender="unknown" name="dat_error_voice_send_message_error">ການສົ່ງຂໍ້ຄວາມລົ້ມເຫຼວ</string>
+    <string gender="unknown" name="dat_error_wearables_already_configured">ກຳນົດຄ່າແລ້ວ</string>
+    <string gender="unknown" name="dat_error_wearables_configuration_error">ການຕັ້ງຄ່າຜິດພາດ</string>
+    <string gender="unknown" name="dat_error_wearables_internal_error">ຂໍ້ຜິດພາດພາຍໃນ</string>
+    <string gender="unknown" name="dat_error_wearables_url_registration_error">ການລົງທະບຽນຜິດພາດ</string>
+    <string gender="unknown" name="dat_error_wearables_url_unregistration_error">ຂໍ້ຜິດພາດໃນການຍົກເລີກການລົງທະບຽນ</string>
+    <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
+</resources>

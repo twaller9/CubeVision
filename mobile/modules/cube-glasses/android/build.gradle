@@ -1,0 +1,35 @@
+plugins {
+  id 'com.android.library'
+  id 'expo-module-gradle-plugin'
+}
+
+group = 'expo.modules.cubeglasses'
+version = '0.1.0'
+
+android {
+  namespace "expo.modules.cubeglasses"
+  defaultConfig {
+    versionCode 1
+    versionName "0.1.0"
+  }
+}
+
+// The Meta DAT SDK pulls a newer fbcore than the rest of Fresco that React Native uses.
+// Keep every Fresco artifact on one version so they don't crash at runtime.
+rootProject.allprojects {
+  dependencies.components.all { details ->
+    if (details.id.group == 'com.facebook.fresco') {
+      details.belongsTo("com.facebook.fresco:cubeglasses-fresco-platform:${details.id.version}", true)
+    }
+  }
+}
+
+dependencies {
+  // Meta Wearables Device Access Toolkit (Maven Central)
+  implementation "com.meta.wearable:mwdat-core:1.0.1"
+  implementation "com.meta.wearable:mwdat-camera:1.0.1"
+  implementation "com.meta.wearable:mwdat-mockdevice:1.0.1"
+  implementation "com.squareup.okhttp3:okhttp:4.9.2"
+  implementation "androidx.activity:activity-ktx:1.10.1"
+  implementation "androidx.core:core-ktx:1.17.0"
+}

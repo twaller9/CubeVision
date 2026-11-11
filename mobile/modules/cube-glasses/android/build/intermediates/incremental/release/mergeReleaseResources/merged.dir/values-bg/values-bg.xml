@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string msgid="881409763997275156" name="call_notification_answer_action">"Отговор"</string>
+    <string msgid="8793775615905189152" name="call_notification_answer_video_action">"Видеообаждане"</string>
+    <string msgid="3229508546291798546" name="call_notification_decline_action">"Отхвърляне"</string>
+    <string msgid="2659457946726154263" name="call_notification_hang_up_action">"Затваряне"</string>
+    <string msgid="6107532579223922871" name="call_notification_incoming_text">"Входящо обаждане"</string>
+    <string msgid="8623827134497363134" name="call_notification_ongoing_text">"Текущо обаждане"</string>
+    <string msgid="59049573811482460" name="call_notification_screening_text">"Преглежда се входящо обаждане"</string>
+    <string gender="unknown" name="dat_error_capture_busy">Заснемането вече е активно</string>
+    <string gender="unknown" name="dat_error_capture_device_disconnected">Връзката с устройството е прекъсната</string>
+    <string gender="unknown" name="dat_error_capture_device_health_critical">Критично състояние на устройството</string>
+    <string gender="unknown" name="dat_error_capture_failure">Заснемането е неуспешно</string>
+    <string gender="unknown" name="dat_error_capture_not_ready">Заснемането не е готово</string>
+    <string gender="unknown" name="dat_error_capture_permission_denied">Разрешението за заснемане е отказано</string>
+    <string gender="unknown" name="dat_error_capture_service_unavailable">Услугата за заснемане е недостъпна</string>
+    <string gender="unknown" name="dat_error_capture_setup_failed">Настройването на заснемането е неуспешно</string>
+    <string gender="unknown" name="dat_error_capture_timed_out">Времето за заснемане изтече</string>
+    <string gender="unknown" name="dat_error_capture_unknown">Неизвестна грешка при заснемане</string>
+    <string gender="unknown" name="dat_error_mock_app_management_unsupported_app_id">Управлението на приложението не поддържа идентификатора на приложението</string>
+    <string gender="unknown" name="dat_error_mock_app_management_unsupported_message_type">Неподдържан тип съобщение за управление на приложения</string>
+    <string gender="unknown" name="dat_error_mock_failed_sending_video_frames">Неуспешно изпращане на видео кадри</string>
+    <string gender="unknown" name="dat_error_mock_peer_building_info_unsupported_message_type">Информация за устройството, неподдържан тип съобщение</string>
+    <string gender="unknown" name="dat_error_mock_permissions_unsupported_message_type">Разрешения, неподдържан тип съобщение</string>
+    <string gender="unknown" name="dat_error_mock_photo_capture">Изключение по време на заснемане на снимка</string>
+    <string gender="unknown" name="dat_error_mock_remote_session_device_not_ready">Дистанционна сесия, устройството не е готово</string>
+    <string gender="unknown" name="dat_error_mock_remote_session_id_mismatch">Отдалечена сесия, несъответствие на идентификатора на сесията</string>
+    <string gender="unknown" name="dat_error_mock_remote_session_unsupported_message_type">Отдалечена сесия, неподдържан тип съобщение</string>
+    <string gender="unknown" name="dat_error_mock_stream_internal_error">Възникна вътрешна грешка</string>
+    <string gender="unknown" name="dat_error_mock_stream_no_camera_feed">Няма конфигуриран източник на камерата</string>
+    <string gender="unknown" name="dat_error_mock_stream_start_failure">Неуспешно стартиране на потока</string>
+    <string gender="unknown" name="dat_error_mock_streaming_error">Възникна грешка по време на поточно предаване</string>
+    <string gender="unknown" name="dat_error_mock_streaming_unhandled_user_action">Необработено потребителско действие</string>
+    <string gender="unknown" name="dat_error_mock_voice_invocation_failed_to_parse_action_response">Гласово извикване, неуспешно анализиране на отговора на действието</string>
+    <string gender="unknown" name="dat_error_mock_voice_invocation_failed_to_parse_init_request">Гласово извикване, неуспешно анализиране на заявката за инициализация</string>
+    <string gender="unknown" name="dat_error_mock_voice_invocation_unknown_message_type">Гласово извикване, неизвестен тип съобщение</string>
+    <string gender="unknown" name="dat_error_navigation_meta_ai_not_installed">Приложението Meta AI не е инсталирано на устройството</string>
+    <string gender="unknown" name="dat_error_navigation_not_registered">Приложението не е регистрирано с AI очила</string>
+    <string gender="unknown" name="dat_error_permission_connection_error">Възникна грешка с връзката по време на комуникация с устройството</string>
+    <string gender="unknown" name="dat_error_permission_internal_error">Възникна неочаквана вътрешна грешка</string>
+    <string gender="unknown" name="dat_error_permission_meta_ai_not_installed">Придружаващото приложение Meta AI не е инсталирано на устройството</string>
+    <string gender="unknown" name="dat_error_permission_no_device">Няма открити или регистрирани носими устройства</string>
+    <string gender="unknown" name="dat_error_permission_no_device_with_connection">Всички открити устройства са изключени или изключени от захранването</string>
+    <string gender="unknown" name="dat_error_permission_request_in_progress">Вече има заявка за разрешение в процес на изпълнение</string>
+    <string gender="unknown" name="dat_error_permission_request_timeout">Заявката за разрешение превиши разрешения времеви лимит</string>
+    <string gender="unknown" name="dat_error_photo_capture_failed">Неуспешно заснемане на снимката</string>
+    <string gender="unknown" name="dat_error_registration_already_registered">Потребителят вече е регистриран, когато се опита да се регистрира отново</string>
+    <string gender="unknown" name="dat_error_registration_configuration_invalid">Конфигурацията на набора от инструменти за достъп до носими устройства е невалидна или непълна</string>
+    <string gender="unknown" name="dat_error_registration_failed_to_register">Процесът по регистрация е неуспешен поради неразпозната причина</string>
+    <string gender="unknown" name="dat_error_registration_failed_to_unregister">Процесът по отрегистрация е неуспешен поради неуточнена причина</string>
+    <string gender="unknown" name="dat_error_registration_meta_ai_not_installed">Приложението Meta AI не е инсталирано на устройството, което се изисква за регистрация</string>
+    <string gender="unknown" name="dat_error_registration_network_unavailable">Няма налична интернет връзка. Проверете връзката си и опитайте отново</string>
+    <string gender="unknown" name="dat_error_registration_unknown">Възникна неизвестна грешка по време на процеса по регистрация</string>
+    <string gender="unknown" name="dat_error_session_already_exists">Вече съществува сесия за това устройство</string>
+    <string gender="unknown" name="dat_error_session_already_stopped">Сесията вече е спряна</string>
+    <string gender="unknown" name="dat_error_session_battery_critical">Нивото на батерията на устройството е критично ниско</string>
+    <string gender="unknown" name="dat_error_session_capability_already_active">Възможност от този тип вече е активна в сесията</string>
+    <string gender="unknown" name="dat_error_session_capability_denied">Възможността е отказана от устройството</string>
+    <string gender="unknown" name="dat_error_session_capability_not_found">Към сесията не е прикачена възможност от този тип</string>
+    <string gender="unknown" name="dat_error_session_dat_app_on_the_glasses_update_required">Очилата ви трябва да бъдат актуализирани. Отидете в страницата „Връзки с приложения“ в Meta AI, за да ги актуализирате</string>
+    <string gender="unknown" name="dat_error_session_dat_app_update_required">Приложението на очилата ви трябва да бъде актуализирано, преди тази сесия да може да започне. Отидете на страницата „Връзки с приложения“ в Meta AI, за да го актуализирате.</string>
+    <string gender="unknown" name="dat_error_session_device_disconnected">Връзката с устройството е прекъсната</string>
+    <string gender="unknown" name="dat_error_session_dwa_out_of_stu_range">Тази версия на приложението може да не работи спрямо очакванията със свързаните очила. Сесията може да продължи. Приложението може да предлага актуализация от време на време.</string>
+    <string gender="unknown" name="dat_error_session_dwa_unavailable">Приложението DAT Wearables на очилата не е достъпно</string>
+    <string gender="unknown" name="dat_error_session_ended_by_device">Сесията е прекратена от устройството</string>
+    <string gender="unknown" name="dat_error_session_idle">Сесията е неактивна. Стартирайте сесията, преди да добавяте възможности</string>
+    <string gender="unknown" name="dat_error_session_insufficient_sdk_version">Това приложение е създадено с версия на SDK, която вече не се поддържа от очилата ви. Представете по-нова версия на приложението, създадена с текущия SDK.</string>
+    <string gender="unknown" name="dat_error_session_no_eligible_device">Няма налично допустимо устройство</string>
+    <string gender="unknown" name="dat_error_session_peak_power_shutdown">Устройството е изключено поради пикова консумация на енергия</string>
+    <string gender="unknown" name="dat_error_session_thermal_critical">Топлинното състояние на устройството е критично</string>
+    <string gender="unknown" name="dat_error_session_thermal_emergency">Топлинното състояние на устройството е аварийно – изключва се</string>
+    <string gender="unknown" name="dat_error_session_unexpected_error">Възникна неочаквана грешка</string>
+    <string gender="unknown" name="dat_error_stream_battery_low">Батерията на устройството не стига за поточно предаване</string>
+    <string gender="unknown" name="dat_error_stream_critical_error">Критична грешка, поточното предаване трябва да бъде прекратено</string>
+    <string gender="unknown" name="dat_error_stream_device_not_connected">Устройството не е свързано</string>
+    <string gender="unknown" name="dat_error_stream_device_not_found">Устройството не е намерено</string>
+    <string gender="unknown" name="dat_error_stream_error">Неопределена грешка, поточното предаване може да продължи</string>
+    <string gender="unknown" name="dat_error_stream_hinge_closed">Пантите на очилата са затворени</string>
+    <string gender="unknown" name="dat_error_stream_peak_power_limit">Достигнат е лимитът за пикова консумация на енергия на устройството</string>
+    <string gender="unknown" name="dat_error_stream_permissions_denied">Разрешенията са отказани</string>
+    <string gender="unknown" name="dat_error_stream_thermal_hot">Температурата на устройството е твърде висока за поточно предаване</string>
+    <string gender="unknown" name="dat_error_stream_timeout">Операцията изтече</string>
+    <string gender="unknown" name="dat_error_unregistration_already_unregistered">Потребителят вече е отменен, когато се опита да се отмени отново</string>
+    <string gender="unknown" name="dat_error_unregistration_configuration_invalid">Конфигурацията на набора от инструменти за достъп до носими устройства е невалидна или непълна</string>
+    <string gender="unknown" name="dat_error_unregistration_meta_ai_not_installed">Приложението Meta AI не е инсталирано на устройството, което се изисква за отмяната на регистрацията</string>
+    <string gender="unknown" name="dat_error_unregistration_unknown">Възникна неизвестна грешка по време на процеса по отмяна на регистрацията</string>
+    <string gender="unknown" name="dat_error_voice_action_failed">Действието е неуспешно</string>
+    <string gender="unknown" name="dat_error_voice_channel_error">Възникна грешка в канала</string>
+    <string gender="unknown" name="dat_error_voice_channel_not_connected">Каналът не е свързан</string>
+    <string gender="unknown" name="dat_error_voice_channel_setup_failed">Неуспешно настройване на канала за действия на AI</string>
+    <string gender="unknown" name="dat_error_voice_connection_not_available">Връзката с устройството не е налична</string>
+    <string gender="unknown" name="dat_error_voice_device_not_found">Устройството не е намерено</string>
+    <string gender="unknown" name="dat_error_voice_fail_to_send_init_request">Неуспешно изпращане на заявката за инициализация</string>
+    <string gender="unknown" name="dat_error_voice_init_request_error">Неуспешно стартиране на заявката</string>
+    <string gender="unknown" name="dat_error_voice_init_request_returned_error">Първоначалната заявка върна грешка</string>
+    <string gender="unknown" name="dat_error_voice_invalid_action_message_proto">Невалиден протокол за съобщения за действия</string>
+    <string gender="unknown" name="dat_error_voice_invalid_message_proto">Невалиден протокол за съобщения</string>
+    <string gender="unknown" name="dat_error_voice_invalid_session_state">Невалидно състояние на сесията за операцията</string>
+    <string gender="unknown" name="dat_error_voice_invalid_wearables_interface">Предоставен е невалиден WearablesInterface</string>
+    <string gender="unknown" name="dat_error_voice_send_message_error">Неуспешно изпращане на съобщението</string>
+    <string gender="unknown" name="dat_error_voice_unknown_message_type">Получен е неизвестен тип съобщение</string>
+    <string gender="unknown" name="dat_error_wearables_already_configured">Вече е конфигурирано</string>
+    <string gender="unknown" name="dat_error_wearables_already_initialized">Вече е инициализирано устройство за носене.</string>
+    <string gender="unknown" name="dat_error_wearables_configuration_error">Грешка в конфигурацията</string>
+    <string gender="unknown" name="dat_error_wearables_internal_error">Вътрешна грешка</string>
+    <string gender="unknown" name="dat_error_wearables_not_initialized">Носимите устройства не са инициализирани. Първо извикайте Wearables.initialize(context).</string>
+    <string gender="unknown" name="dat_error_wearables_url_registration_error">Грешка при регистрация</string>
+    <string gender="unknown" name="dat_error_wearables_url_unregistration_error">Грешка при отмяна на регистрация</string>
+    <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
+</resources>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string msgid="881409763997275156" name="call_notification_answer_action">"Одговори"</string>
+    <string msgid="8793775615905189152" name="call_notification_answer_video_action">"Видео"</string>
+    <string msgid="3229508546291798546" name="call_notification_decline_action">"Одбиј"</string>
+    <string msgid="2659457946726154263" name="call_notification_hang_up_action">"Прекини везу"</string>
+    <string msgid="6107532579223922871" name="call_notification_incoming_text">"Долазни позив"</string>
+    <string msgid="8623827134497363134" name="call_notification_ongoing_text">"Позив је у току"</string>
+    <string msgid="59049573811482460" name="call_notification_screening_text">"Проверава се долазни позив"</string>
+    <string gender="unknown" name="dat_error_permission_connection_error">Дошло је до грешке са везом током комуникације са уређајем</string>
+    <string gender="unknown" name="dat_error_permission_internal_error">Дошло је до неочекиване интерне грешке</string>
+    <string gender="unknown" name="dat_error_permission_meta_ai_not_installed">Пратећа апликација Meta AI није инсталирана на уређају</string>
+    <string gender="unknown" name="dat_error_permission_no_device">Није откривен ни регистрован ниједан носиви уређај</string>
+    <string gender="unknown" name="dat_error_permission_no_device_with_connection">Сви откривени уређаји су искључени или је прекинута веза</string>
+    <string gender="unknown" name="dat_error_permission_request_in_progress">Захтев за дозволу је већ у току</string>
+    <string gender="unknown" name="dat_error_permission_request_timeout">Захтев за дозволу је прекорачио дозвољено временско ограничење</string>
+    <string gender="unknown" name="dat_error_registration_already_registered">Корисник је већ регистрован када покуша да се поново региструје</string>
+    <string gender="unknown" name="dat_error_registration_configuration_invalid">Конфигурација комплета алатки за приступ носивим уређајима је неважећа или непотпуна</string>
+    <string gender="unknown" name="dat_error_registration_meta_ai_not_installed">Апликација Meta AI није инсталирана на уређају, што је обавезно за регистрацију</string>
+    <string gender="unknown" name="dat_error_registration_network_unavailable">Нисте повезани на интернет. Проверите везу и покушајте поново</string>
+    <string gender="unknown" name="dat_error_registration_unknown">Дошло је до непознате грешке током поступка регистрације</string>
+    <string gender="unknown" name="dat_error_session_already_exists">Већ постоји сесија за овај уређај</string>
+    <string gender="unknown" name="dat_error_session_already_stopped">Сесија је већ заустављена</string>
+    <string gender="unknown" name="dat_error_session_battery_critical">Батерија уређаја је критично слаба</string>
+    <string gender="unknown" name="dat_error_session_capability_already_active">Могућност овог типа је већ активна у сесији</string>
+    <string gender="unknown" name="dat_error_session_capability_not_found">Ниједна функција овог типа није приложена сесији</string>
+    <string gender="unknown" name="dat_error_session_idle">Сесија је у стању мировања. Покрените сесију пре додавања могућности</string>
+    <string gender="unknown" name="dat_error_session_no_eligible_device">Нема доступног уређаја који испуњава услове</string>
+    <string gender="unknown" name="dat_error_session_peak_power_shutdown">Искључивање уређаја због прекорачене снаге</string>
+    <string gender="unknown" name="dat_error_session_thermal_critical">Температура уређаја је критична</string>
+    <string gender="unknown" name="dat_error_session_thermal_emergency">Критична температура уређаја – уређај се искључује</string>
+    <string gender="unknown" name="dat_error_stream_battery_low">Батерија уређаја је преслаба за стримовање</string>
+    <string gender="unknown" name="dat_error_stream_critical_error">Критична грешка, стрим би требало да се заврши</string>
+    <string gender="unknown" name="dat_error_stream_error">Непозната грешка, стрим ипак може да се настави</string>
+    <string gender="unknown" name="dat_error_stream_hinge_closed">Шарке на наочарима су биле затворене</string>
+    <string gender="unknown" name="dat_error_stream_peak_power_limit">Достигнуто је ограничење снаге уређаја</string>
+    <string gender="unknown" name="dat_error_stream_permissions_denied">Није дозвољено</string>
+    <string gender="unknown" name="dat_error_stream_thermal_hot">Температура уређаја је превисока за стримовање</string>
+    <string gender="unknown" name="dat_error_stream_timeout">Радња је истекла</string>
+    <string gender="unknown" name="dat_error_unregistration_already_unregistered">Корисник је већ одјављен када покуша поново да се одјави</string>
+    <string gender="unknown" name="dat_error_unregistration_configuration_invalid">Конфигурација комплета алатки за приступ носивим уређајима је неважећа или непотпуна</string>
+    <string gender="unknown" name="dat_error_unregistration_meta_ai_not_installed">Апликација Meta AI није инсталирана на уређају, што је обавезно за опозивање регистрације</string>
+    <string gender="unknown" name="dat_error_unregistration_unknown">Дошло је до непознате грешке током поступка опозивања регистрације</string>
+    <string gender="unknown" name="dat_error_voice_action_failed">Радња није успела</string>
+    <string gender="unknown" name="dat_error_voice_channel_setup_failed">Подешавање канала за AI радње није успело</string>
+    <string gender="unknown" name="dat_error_voice_connection_not_available">Веза са уређајем није доступна</string>
+    <string gender="unknown" name="dat_error_voice_device_not_found">Уређај није пронађен</string>
+    <string gender="unknown" name="dat_error_voice_init_request_error">Покретање захтева није успело</string>
+    <string gender="unknown" name="dat_error_voice_invalid_message_proto">Неважећи прототип поруке</string>
+    <string gender="unknown" name="dat_error_voice_invalid_wearables_interface">Наведен је неважећи интерфејс за носиве уређаје</string>
+    <string gender="unknown" name="dat_error_voice_send_message_error">Слање поруке није успело</string>
+    <string gender="unknown" name="dat_error_wearables_already_configured">Већ је конфигурисано</string>
+    <string gender="unknown" name="dat_error_wearables_configuration_error">Грешка у конфигурацији</string>
+    <string gender="unknown" name="dat_error_wearables_internal_error">Интерна грешка</string>
+    <string gender="unknown" name="dat_error_wearables_url_registration_error">Грешка приликом регистрације</string>
+    <string gender="unknown" name="dat_error_wearables_url_unregistration_error">Грешка приликом опозивања регистрације</string>
+    <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
+</resources>

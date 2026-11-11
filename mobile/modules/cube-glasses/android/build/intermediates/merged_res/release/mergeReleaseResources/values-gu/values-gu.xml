@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string msgid="881409763997275156" name="call_notification_answer_action">"જવાબ આપો"</string>
+    <string msgid="8793775615905189152" name="call_notification_answer_video_action">"વીડિયો"</string>
+    <string msgid="3229508546291798546" name="call_notification_decline_action">"નકારો"</string>
+    <string msgid="2659457946726154263" name="call_notification_hang_up_action">"સમાપ્ત કરો"</string>
+    <string msgid="6107532579223922871" name="call_notification_incoming_text">"ઇનકમિંગ કૉલ"</string>
+    <string msgid="8623827134497363134" name="call_notification_ongoing_text">"ચાલુ કૉલ"</string>
+    <string msgid="59049573811482460" name="call_notification_screening_text">"ઇનકમિંગ કૉલનું સ્ક્રીનિંગ થાય છે"</string>
+    <string gender="unknown" name="dat_error_capture_busy">કેપ્ચર વ્યસ્ત છે</string>
+    <string gender="unknown" name="dat_error_capture_device_disconnected">ડિવાઇસ ડિસ્કનેક્ટ થયું</string>
+    <string gender="unknown" name="dat_error_capture_device_health_critical">ડિવાઇસ હેલ્થ જોખમી છે</string>
+    <string gender="unknown" name="dat_error_capture_failure">કેપ્ચર કરવાનું નિષ્ફળ થયું</string>
+    <string gender="unknown" name="dat_error_capture_not_ready">કેપ્ચર તૈયાર નથી</string>
+    <string gender="unknown" name="dat_error_capture_permission_denied">કેપ્ચર પરવાનગી નકારી</string>
+    <string gender="unknown" name="dat_error_capture_service_unavailable">કેપ્ચર સેવા ઉપલબ્ધ નથી</string>
+    <string gender="unknown" name="dat_error_capture_setup_failed">કેપ્ચર સેટઅપ નિષ્ફળ થયું</string>
+    <string gender="unknown" name="dat_error_capture_timed_out">કેપ્ચર કરવાનો સમય સમાપ્ત થયો</string>
+    <string gender="unknown" name="dat_error_capture_unknown">અજ્ઞાત કેપ્ચર ભૂલ</string>
+    <string gender="unknown" name="dat_error_mock_app_management_unsupported_app_id">ઍપ મેનેજમેન્ટ અનસપોર્ટેડ ઍપ આઈડી</string>
+    <string gender="unknown" name="dat_error_mock_app_management_unsupported_message_type">ઍપ મેનેજમેન્ટ અનસપોર્ટેડ મેસેજનો પ્રકાર</string>
+    <string gender="unknown" name="dat_error_mock_failed_sending_video_frames">વીડિયો ફ્રેમ મોકલવામાં નિષ્ફળ થયાં</string>
+    <string gender="unknown" name="dat_error_mock_peer_building_info_unsupported_message_type">ડિવાઇસની માહિતી, અનસપોર્ટેડ મેસેજ પ્રકાર</string>
+    <string gender="unknown" name="dat_error_mock_permissions_unsupported_message_type">પરવાનગીઓ, અસમર્થિત મેસેજ પ્રકાર</string>
+    <string gender="unknown" name="dat_error_mock_photo_capture">ફોટો કેપ્ચર કરતી વખતે અપવાદ</string>
+    <string gender="unknown" name="dat_error_mock_remote_session_device_not_ready">રિમોટ સેશન, ડિવાઇસ તૈયાર નથી</string>
+    <string gender="unknown" name="dat_error_mock_remote_session_id_mismatch">રિમોટ સેશન, સેશન આઈડી મેળ ખાતું નથી</string>
+    <string gender="unknown" name="dat_error_mock_remote_session_unsupported_message_type">રિમોટ સેશન, અનસપોર્ટેડ મેસેજનો પ્રકાર</string>
+    <string gender="unknown" name="dat_error_mock_stream_internal_error">એક આંતરિક ભૂલ આવી</string>
+    <string gender="unknown" name="dat_error_mock_stream_no_camera_feed">કોઈ કેમેરા સોર્સ કન્ફિગર કરેલ નથી</string>
+    <string gender="unknown" name="dat_error_mock_stream_start_failure">સ્ટ્રીમ શરૂ કરવામાં નિષ્ફળતા</string>
+    <string gender="unknown" name="dat_error_mock_streaming_error">સ્ટ્રીમ કરતી વખતે અપવાદ આવ્યો</string>
+    <string gender="unknown" name="dat_error_mock_streaming_unhandled_user_action">યુઝર એક્શન હેન્ડલ કરી શક્યા નહી</string>
+    <string gender="unknown" name="dat_error_mock_voice_invocation_failed_to_parse_action_response">વોઇસ ઇન્વોકેશન, એક્શન જવાબનું વિશ્લેષણ કરવામાં નિષ્ફળ થયાં</string>
+    <string gender="unknown" name="dat_error_mock_voice_invocation_failed_to_parse_init_request">વોઇસ ઇન્વોકેશન, પ્રારંભિક વિનંતીનું વિશ્લેષણ કરવામાં નિષ્ફળ</string>
+    <string gender="unknown" name="dat_error_mock_voice_invocation_unknown_message_type">વોઇસ ઇન્વોકેશન, અજ્ઞાત મેસેજ પ્રકાર</string>
+    <string gender="unknown" name="dat_error_navigation_meta_ai_not_installed">ડિવાઇસ પર Meta AI ઍપ ઇન્સ્ટોલ કરેલી નથી</string>
+    <string gender="unknown" name="dat_error_navigation_not_registered">ઍપ AI સ્માર્ટ ચશ્માં સાથે રજિસ્ટ્રેશન કરેલી નથી</string>
+    <string gender="unknown" name="dat_error_permission_connection_error">ડિવાઇસ સાથે વાતચીત કરતી વખતે કનેક્શનમાં ભૂલ આવી</string>
+    <string gender="unknown" name="dat_error_permission_internal_error">અનપેક્ષિત આંતરિક ભૂલ આવી</string>
+    <string gender="unknown" name="dat_error_permission_meta_ai_not_installed">ડિવાઇસ પર Meta AI સાથી ઍપ ઇન્સ્ટોલ કરેલી નથી</string>
+    <string gender="unknown" name="dat_error_permission_no_device">કોઈ પહેરવા યોગ્ય ડિવાઇસ મળ્યા નથી અથવા રજિસ્ટ્રેશન કરેેલા નથી</string>
+    <string gender="unknown" name="dat_error_permission_no_device_with_connection">બધા ડિસ્કવર કરેલા ડિવાઇસ બંધ છે અથવા ડિસ્કનેક્ટ કરેલા છે</string>
+    <string gender="unknown" name="dat_error_permission_request_in_progress">પરવાનગીની વિનંતી પહેલાથી જ ચાલુ છે</string>
+    <string gender="unknown" name="dat_error_permission_request_timeout">પરવાનગીની વિનંતી માન્ય સમય મર્યાદાને ઓળંગી ગઈ છે</string>
+    <string gender="unknown" name="dat_error_photo_capture_failed">ફોટો કેપ્ચર કરવાનું નિષ્ફળ થયું</string>
+    <string gender="unknown" name="dat_error_registration_already_registered">ફરીથી રજિસ્ટ્રેશન કરવાનો પ્રયાસ કરતી વખતે યુઝરે પહેલાથી જ રજિસ્ટ્રેશન કરેલું છે</string>
+    <string gender="unknown" name="dat_error_registration_configuration_invalid">વેરેબલ્સ ડિવાઇસ એક્સેસ ટૂલકિટનું કન્ફિગરેશન અમાન્ય અથવા અપૂર્ણ છે</string>
+    <string gender="unknown" name="dat_error_registration_failed_to_register">અનિશ્ચિત કારણોસર રજિસ્ટ્રેશન પ્રક્રિયા નિષ્ફળ ગઈ</string>
+    <string gender="unknown" name="dat_error_registration_failed_to_unregister">અનિશ્ચિત કારણસર નોંધણી રદ કરવાની પ્રક્રિયા નિષ્ફળ ગઈ</string>
+    <string gender="unknown" name="dat_error_registration_meta_ai_not_installed">ડિવાઇસ પર Meta AI ઍપ ઇન્સ્ટોલ કરેલી નથી, આ રજિસ્ટ્રેશન માટે જરૂરી છે</string>
+    <string gender="unknown" name="dat_error_registration_network_unavailable">કોઈ ઇન્ટરનેટ કનેક્શન ઉપલબ્ધ નથી. કૃપા કરીને તમારું કનેક્શન તપાસો અને ફરી પ્રયાસ કરો</string>
+    <string gender="unknown" name="dat_error_registration_unknown">રજિસ્ટ્રેશન પ્રક્રિયા દરમિયાન અજાણી ભૂલ આવી</string>
+    <string gender="unknown" name="dat_error_session_already_exists">આ ડિવાઇસ માટે એક સેશન પહેલેથી જ ઉપલબ્ધ છે</string>
+    <string gender="unknown" name="dat_error_session_already_stopped">સેશન પહેલેથી જ બંધ કરવામાં આવ્યું છે</string>
+    <string gender="unknown" name="dat_error_session_battery_critical">ડિવાઇસની બેટરી ખૂબ ઓછી છે</string>
+    <string gender="unknown" name="dat_error_session_capability_already_active">આ પ્રકારની ક્ષમતા સેશન પર પહેલાથી જ એક્ટિવ છે</string>
+    <string gender="unknown" name="dat_error_session_capability_denied">ડિવાઇસ દ્વારા ક્ષમતા નકારવામાં આવી</string>
+    <string gender="unknown" name="dat_error_session_capability_not_found">આ પ્રકારની કોઈ ક્ષમતા સેશન સાથે જોડાયેલી નથી</string>
+    <string gender="unknown" name="dat_error_session_dat_app_on_the_glasses_update_required">તમારા ચશ્માંને અપડેટની જરૂર છે. અપડેટ કરવા માટે Meta AIમાં ઍપ કનેક્શન પેજ પર જાઓ</string>
+    <string gender="unknown" name="dat_error_session_dat_app_update_required">આ સેશન શરૂ થાય તે પહેલાં તમારા ચશ્માં પરની ઍપને અપડેટની જરૂર છે. તેને અપડેટ કરવા માટે Meta AIમાં ઍપ કનેક્શન પેજ પર જાઓ.</string>
+    <string gender="unknown" name="dat_error_session_device_disconnected">ડિવાઇસ ડિસ્કનેક્ટ થયું</string>
+    <string gender="unknown" name="dat_error_session_dwa_out_of_stu_range">બની શકે કે ઍપનું આ વર્ઝન કનેક્ટેડ ચશ્માં સાથે અપેક્ષા મુજબ કામ ન કરે. સત્ર ચાલુ રાખી શકાય છે. ઍપ ક્યારેક-ક્યારેક અપડેટ સૂચવી શકે છે.</string>
+    <string gender="unknown" name="dat_error_session_dwa_unavailable">ચશ્માં પરની DAT વેરેબલ ઍપ સુધી પહોંચી શકાતું નથી</string>
+    <string gender="unknown" name="dat_error_session_ended_by_device">ડિવાઇસ દ્વારા સેશન સમાપ્ત થયું</string>
+    <string gender="unknown" name="dat_error_session_idle">સેશન નિષ્ક્રિય છે. ક્ષમતાઓ ઉમેરતા પહેલા સેશન શરૂ કરો</string>
+    <string gender="unknown" name="dat_error_session_insufficient_sdk_version">આ ઍપ SDK વર્ઝન સાથે બનાવવામાં આવી હતી જે હવે તમારા ચશ્માં દ્વારા સપોર્ટેડ નથી. વર્તમાન SDK સાથે બનેલી ઍપનું નવું વર્ઝન રિલીઝ કરો.</string>
+    <string gender="unknown" name="dat_error_session_no_eligible_device">કોઈ યોગ્ય ડિવાઇસ ઉપલબ્ધ નથી</string>
+    <string gender="unknown" name="dat_error_session_peak_power_shutdown">ડિવાઇસ પીક પાવર શટડાઉન</string>
+    <string gender="unknown" name="dat_error_session_thermal_critical">ડિવાઇસની તાપમાન સ્થિતિ ચિંતાજનક છે</string>
+    <string gender="unknown" name="dat_error_session_thermal_emergency">ડિવાઇસ ખુબ ગરમ થઈ ગયું છે - તેને બંધ કરી રહ્યા છીએ</string>
+    <string gender="unknown" name="dat_error_session_unexpected_error">અનપેક્ષિત ભૂલ આવી</string>
+    <string gender="unknown" name="dat_error_stream_battery_low">સ્ટ્રીમિંગ માટે ડિવાઇસની બેટરી ખૂબ ઓછી છે</string>
+    <string gender="unknown" name="dat_error_stream_critical_error">ગંભીર ભૂલ, સ્ટ્રીમ સમાપ્ત થવી જોઈએ</string>
+    <string gender="unknown" name="dat_error_stream_device_not_connected">ડિવાઇસ કનેક્ટ થયેલું નથી</string>
+    <string gender="unknown" name="dat_error_stream_device_not_found">ડિવાઇસ મળ્યું નહીં</string>
+    <string gender="unknown" name="dat_error_stream_error">અજ્ઞાત ભૂલ, આને ધ્યાનમાં લીધા વગર સ્ટ્રીમ ચાલુ રાખી શકાય છે</string>
+    <string gender="unknown" name="dat_error_stream_hinge_closed">ચશ્માં પરના હિંજ બંધ હતા</string>
+    <string gender="unknown" name="dat_error_stream_peak_power_limit">ડિવાઇસની મહત્તમ પાવર મર્યાદા પર પહોંચી ગયા</string>
+    <string gender="unknown" name="dat_error_stream_permissions_denied">પરવાનગીઓ નકારી</string>
+    <string gender="unknown" name="dat_error_stream_thermal_hot">સ્ટ્રીમ કરવા માટે ડિવાઇસનું તાપમાન ખૂબ વધારે છે</string>
+    <string gender="unknown" name="dat_error_stream_timeout">કામગીરીનો સમય સમાપ્ત થયો</string>
+    <string gender="unknown" name="dat_error_unregistration_already_unregistered">ફરીથી રજિસ્ટ્રેશન રદ કરવાનો પ્રયાસ કરતી વખતે યુઝરે પહેલાથી જ રજિસ્ટ્રેશન રદ કરેલું છે</string>
+    <string gender="unknown" name="dat_error_unregistration_configuration_invalid">વેરેબલ્સ ડિવાઇસ એક્સેસ ટૂલકિટનું કન્ફિગરેશન અમાન્ય અથવા અપૂર્ણ છે</string>
+    <string gender="unknown" name="dat_error_unregistration_meta_ai_not_installed">ડિવાઇસ પર Meta AI ઍપ ઇન્સ્ટોલ કરેલી નથી, જે રજિસ્ટ્રેશન રદ કરવા માટે જરૂરી છે</string>
+    <string gender="unknown" name="dat_error_unregistration_unknown">રજિસ્ટ્રેશન રદ કરવાની પ્રક્રિયા દરમિયાન અજાણી ભૂલ આવી</string>
+    <string gender="unknown" name="dat_error_voice_action_failed">એક્શન નિષ્ફળ થઈ</string>
+    <string gender="unknown" name="dat_error_voice_channel_error">ચેનલ ભૂલ આવી</string>
+    <string gender="unknown" name="dat_error_voice_channel_not_connected">ચેનલ કનેક્ટ થયેલી નથી</string>
+    <string gender="unknown" name="dat_error_voice_channel_setup_failed">AI એક્શન ચેનલ સેટઅપ કરી શક્યા નથી</string>
+    <string gender="unknown" name="dat_error_voice_connection_not_available">ડિવાઇસ કનેક્શન ઉપલબ્ધ નથી</string>
+    <string gender="unknown" name="dat_error_voice_device_not_found">ડિવાઇસ મળ્યું નહીં</string>
+    <string gender="unknown" name="dat_error_voice_fail_to_send_init_request">પ્રારંભિક વિનંતી મોકલવામાં નિષ્ફળ</string>
+    <string gender="unknown" name="dat_error_voice_init_request_error">વિનંતી શરૂ કરવામાં નિષ્ફળ</string>
+    <string gender="unknown" name="dat_error_voice_init_request_returned_error">પ્રારંભિક વિનંતીએ એક ભૂલ આપી</string>
+    <string gender="unknown" name="dat_error_voice_invalid_action_message_proto">અમાન્ય એક્શન મેસેજ પ્રોટોકોલ</string>
+    <string gender="unknown" name="dat_error_voice_invalid_message_proto">અમાન્ય મેસેજ પ્રોટોકોલ</string>
+    <string gender="unknown" name="dat_error_voice_invalid_session_state">કામગીરી માટે અમાન્ય સેશનની સ્થિતિ</string>
+    <string gender="unknown" name="dat_error_voice_invalid_wearables_interface">અમાન્ય WearablesInterface પૂરું પાડવામાં આવ્યું</string>
+    <string gender="unknown" name="dat_error_voice_send_message_error">મેસેજ મોકલવામાં નિષ્ફળ થયાં</string>
+    <string gender="unknown" name="dat_error_voice_unknown_message_type">અજ્ઞાત મેસેજનો પ્રકાર મળ્યો</string>
+    <string gender="unknown" name="dat_error_wearables_already_configured">પહેલેથી કન્ફિગર કરેલું છે</string>
+    <string gender="unknown" name="dat_error_wearables_already_initialized">પહેરવાલાયક વસ્તુઓ પહેલાથી જ પ્રારંભ કરવામાં આવી છે.</string>
+    <string gender="unknown" name="dat_error_wearables_configuration_error">કન્ફિગરેશન ભૂલ</string>
+    <string gender="unknown" name="dat_error_wearables_internal_error">આંતરિક ભૂલ</string>
+    <string gender="unknown" name="dat_error_wearables_not_initialized">પહેરવાલાયક વસ્તુઓ શરુ થઈ નથી. પહેલા Wearables.initialize(context) કૉલ કરો.</string>
+    <string gender="unknown" name="dat_error_wearables_url_registration_error">રજિસ્ટ્રેશનમાં ભૂલ</string>
+    <string gender="unknown" name="dat_error_wearables_url_unregistration_error">નોંધણી રદ કરવામાં ભૂલ</string>
+    <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
+</resources>

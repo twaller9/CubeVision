@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string msgid="881409763997275156" name="call_notification_answer_action">"Beantwoorden"</string>
+    <string msgid="8793775615905189152" name="call_notification_answer_video_action">"Video"</string>
+    <string msgid="3229508546291798546" name="call_notification_decline_action">"Weigeren"</string>
+    <string msgid="2659457946726154263" name="call_notification_hang_up_action">"Ophangen"</string>
+    <string msgid="6107532579223922871" name="call_notification_incoming_text">"Inkomend gesprek"</string>
+    <string msgid="8623827134497363134" name="call_notification_ongoing_text">"Actief gesprek"</string>
+    <string msgid="59049573811482460" name="call_notification_screening_text">"Een inkomend gesprek screenen"</string>
+    <string gender="unknown" name="dat_error_capture_busy">Opname is bezet</string>
+    <string gender="unknown" name="dat_error_capture_device_disconnected">Apparaat losgekoppeld</string>
+    <string gender="unknown" name="dat_error_capture_device_health_critical">Status apparaat kritiek</string>
+    <string gender="unknown" name="dat_error_capture_failure">Opnemen mislukt</string>
+    <string gender="unknown" name="dat_error_capture_not_ready">Opname is niet klaar</string>
+    <string gender="unknown" name="dat_error_capture_permission_denied">Toestemming voor opname geweigerd</string>
+    <string gender="unknown" name="dat_error_capture_service_unavailable">Opnamedienst niet beschikbaar</string>
+    <string gender="unknown" name="dat_error_capture_setup_failed">Opnameconfiguratie is mislukt</string>
+    <string gender="unknown" name="dat_error_capture_timed_out">Time-out voor opname</string>
+    <string gender="unknown" name="dat_error_capture_unknown">Onbekende opnamefout</string>
+    <string gender="unknown" name="dat_error_mock_app_management_unsupported_app_id">Niet-ondersteunde app-ID voor appbeheer</string>
+    <string gender="unknown" name="dat_error_mock_app_management_unsupported_message_type">Niet-ondersteund berichttype voor appbeheer</string>
+    <string gender="unknown" name="dat_error_mock_failed_sending_video_frames">Videokaders verzenden is mislukt</string>
+    <string gender="unknown" name="dat_error_mock_peer_building_info_unsupported_message_type">Apparaatgegevens, niet-ondersteund chatberichttype</string>
+    <string gender="unknown" name="dat_error_mock_permissions_unsupported_message_type">Toestemmingen, niet-ondersteund chatberichttype</string>
+    <string gender="unknown" name="dat_error_mock_photo_capture">Uitzondering tijdens foto-opname</string>
+    <string gender="unknown" name="dat_error_mock_remote_session_device_not_ready">Externe sessie, apparaat niet gereed</string>
+    <string gender="unknown" name="dat_error_mock_remote_session_id_mismatch">Externe sessie, sessie-ID komt niet overeen</string>
+    <string gender="unknown" name="dat_error_mock_remote_session_unsupported_message_type">Externe sessie, niet-ondersteund berichttype</string>
+    <string gender="unknown" name="dat_error_mock_stream_internal_error">Er is een interne fout opgetreden</string>
+    <string gender="unknown" name="dat_error_mock_stream_no_camera_feed">Geen camerabron geconfigureerd</string>
+    <string gender="unknown" name="dat_error_mock_stream_start_failure">Stream starten is mislukt</string>
+    <string gender="unknown" name="dat_error_mock_streaming_error">Uitzondering opgetreden tijdens streamen</string>
+    <string gender="unknown" name="dat_error_mock_streaming_unhandled_user_action">Niet-afgehandelde gebruikersactie</string>
+    <string gender="unknown" name="dat_error_mock_voice_invocation_failed_to_parse_action_response">Spraakoproep, parseren van actierespons is mislukt</string>
+    <string gender="unknown" name="dat_error_mock_voice_invocation_failed_to_parse_init_request">Spraakoproep, parseren van init-verzoek mislukt</string>
+    <string gender="unknown" name="dat_error_mock_voice_invocation_unknown_message_type">Spraakoproep, onbekend berichttype</string>
+    <string gender="unknown" name="dat_error_navigation_meta_ai_not_installed">De Meta AI-app is niet geïnstalleerd op het apparaat</string>
+    <string gender="unknown" name="dat_error_navigation_not_registered">De app is niet geregistreerd bij AI glasses</string>
+    <string gender="unknown" name="dat_error_permission_connection_error">Er is een verbindingsfout opgetreden tijdens de communicatie met het apparaat</string>
+    <string gender="unknown" name="dat_error_permission_internal_error">Er is een onverwachte interne fout opgetreden</string>
+    <string gender="unknown" name="dat_error_permission_meta_ai_not_installed">De begeleidende Meta AI-app is niet geïnstalleerd op het apparaat</string>
+    <string gender="unknown" name="dat_error_permission_no_device">Er zijn geen draagbare apparaten ontdekt of geregistreerd</string>
+    <string gender="unknown" name="dat_error_permission_no_device_with_connection">Alle ontdekte apparaten zijn uitgeschakeld of losgekoppeld</string>
+    <string gender="unknown" name="dat_error_permission_request_in_progress">Er is al een toestemmingsverzoek actief</string>
+    <string gender="unknown" name="dat_error_permission_request_timeout">Het toestemmingsverzoek heeft de toegestane tijdslimiet overschreden</string>
+    <string gender="unknown" name="dat_error_photo_capture_failed">Het maken van de foto is mislukt</string>
+    <string gender="unknown" name="dat_error_registration_already_registered">Gebruiker is al geregistreerd bij nieuwe registratiepoging</string>
+    <string gender="unknown" name="dat_error_registration_configuration_invalid">De configuratie van de Wearables Device Access Toolkit is ongeldig of onvolledig</string>
+    <string gender="unknown" name="dat_error_registration_failed_to_register">Registratieproces is mislukt vanwege een niet-gespecificeerde reden</string>
+    <string gender="unknown" name="dat_error_registration_failed_to_unregister">Deregistratieproces is mislukt vanwege een niet opgegeven reden</string>
+    <string gender="unknown" name="dat_error_registration_meta_ai_not_installed">De Meta AI-app is niet geïnstalleerd op het apparaat. Zonder deze app werkt de registratie niet</string>
+    <string gender="unknown" name="dat_error_registration_network_unavailable">Geen internetverbinding beschikbaar. Controleer je verbinding en probeer het opnieuw</string>
+    <string gender="unknown" name="dat_error_registration_unknown">Er is een onbekende fout opgetreden tijdens het registratieproces</string>
+    <string gender="unknown" name="dat_error_session_already_exists">Er bestaat al een sessie voor dit apparaat</string>
+    <string gender="unknown" name="dat_error_session_already_stopped">Sessie is al gestopt</string>
+    <string gender="unknown" name="dat_error_session_battery_critical">Batterijniveau van apparaat is kritiek laag</string>
+    <string gender="unknown" name="dat_error_session_capability_already_active">Er is al een mogelijkheid van dit type actief in de sessie</string>
+    <string gender="unknown" name="dat_error_session_capability_denied">Mogelijkheid afgewezen door apparaat</string>
+    <string gender="unknown" name="dat_error_session_capability_not_found">Er is geen mogelijkheid van dit type gekoppeld aan de sessie</string>
+    <string gender="unknown" name="dat_error_session_dat_app_on_the_glasses_update_required">Je bril moet worden bijgewerkt. Ga in Meta AI naar de pagina App-connecties om je bril bij te werken</string>
+    <string gender="unknown" name="dat_error_session_dat_app_update_required">De app op je bril moet worden bijgewerkt voordat deze sessie kan worden gestart. Ga in Meta AI naar de pagina Gekoppelde apps om de app bij te werken.</string>
+    <string gender="unknown" name="dat_error_session_device_disconnected">Apparaat losgekoppeld</string>
+    <string gender="unknown" name="dat_error_session_dwa_out_of_stu_range">Deze app-versie werkt mogelijk niet zoals verwacht met de gekoppelde bril. De sessie kan doorgaan. De app kan je soms een update voorstellen.</string>
+    <string gender="unknown" name="dat_error_session_dwa_unavailable">DAT Wearables-app op de bril is niet bereikbaar</string>
+    <string gender="unknown" name="dat_error_session_ended_by_device">Sessie beëindigd door apparaat</string>
+    <string gender="unknown" name="dat_error_session_idle">Sessie is inactief. Start de sessie voordat je mogelijkheden toevoegt</string>
+    <string gender="unknown" name="dat_error_session_insufficient_sdk_version">Deze app is ontwikkeld met een SDK-versie die niet meer wordt ondersteund door je bril. Release een nieuwere versie van de app die is ontwikkeld met de huidige SDK.</string>
+    <string gender="unknown" name="dat_error_session_no_eligible_device">Geen geschikt apparaat beschikbaar</string>
+    <string gender="unknown" name="dat_error_session_peak_power_shutdown">Afsluiten apparaat door piekverbruik</string>
+    <string gender="unknown" name="dat_error_session_thermal_critical">Thermische staat van apparaat is kritiek</string>
+    <string gender="unknown" name="dat_error_session_thermal_emergency">Thermische staat van apparaat is Nood: apparaat wordt uitgeschakeld</string>
+    <string gender="unknown" name="dat_error_session_unexpected_error">Er is een onverwachte fout opgetreden</string>
+    <string gender="unknown" name="dat_error_stream_battery_low">Batterijniveau apparaat is te laag voor streamen</string>
+    <string gender="unknown" name="dat_error_stream_critical_error">Kritieke fout, de stream moet worden beëindigd</string>
+    <string gender="unknown" name="dat_error_stream_device_not_connected">Apparaat is niet gekoppeld</string>
+    <string gender="unknown" name="dat_error_stream_device_not_found">Apparaat niet gevonden</string>
+    <string gender="unknown" name="dat_error_stream_error">Niet-gespecificeerde fout, de stream kan doorgaan</string>
+    <string gender="unknown" name="dat_error_stream_hinge_closed">De pootjes van de bril zijn gesloten</string>
+    <string gender="unknown" name="dat_error_stream_peak_power_limit">Limiet voor piekverbruik apparaat bereikt</string>
+    <string gender="unknown" name="dat_error_stream_permissions_denied">Toestemmingen geweigerd</string>
+    <string gender="unknown" name="dat_error_stream_thermal_hot">Het thermische niveau van het apparaat is te hoog voor streamen</string>
+    <string gender="unknown" name="dat_error_stream_timeout">Er is een time-out opgetreden voor de bewerking</string>
+    <string gender="unknown" name="dat_error_unregistration_already_unregistered">Registratie van gebruiker is al ongedaan gemaakt bij nieuwe poging om registratie ongedaan te maken</string>
+    <string gender="unknown" name="dat_error_unregistration_configuration_invalid">De configuratie van de Wearables Device Access Toolkit is ongeldig of onvolledig</string>
+    <string gender="unknown" name="dat_error_unregistration_meta_ai_not_installed">De Meta AI-app is niet geïnstalleerd op het apparaat, wat is vereist om de registratie ongedaan te kunnen maken</string>
+    <string gender="unknown" name="dat_error_unregistration_unknown">Er is een onbekende fout opgetreden tijdens het proces voor het ongedaan maken van registratie</string>
+    <string gender="unknown" name="dat_error_voice_action_failed">Actie is mislukt</string>
+    <string gender="unknown" name="dat_error_voice_channel_error">Er is een kanaalfout opgetreden</string>
+    <string gender="unknown" name="dat_error_voice_channel_not_connected">Kanaal is niet gekoppeld</string>
+    <string gender="unknown" name="dat_error_voice_channel_setup_failed">Het instellen van het kanaal AI-acties is mislukt</string>
+    <string gender="unknown" name="dat_error_voice_connection_not_available">Apparaatverbinding niet beschikbaar</string>
+    <string gender="unknown" name="dat_error_voice_device_not_found">Apparaat niet gevonden</string>
+    <string gender="unknown" name="dat_error_voice_fail_to_send_init_request">Verzenden van init-verzoek is mislukt</string>
+    <string gender="unknown" name="dat_error_voice_init_request_error">Verzoek starten is mislukt</string>
+    <string gender="unknown" name="dat_error_voice_init_request_returned_error">Init-verzoek heeft een fout geretourneerd</string>
+    <string gender="unknown" name="dat_error_voice_invalid_action_message_proto">Ongeldige Protobuf voor actiebericht</string>
+    <string gender="unknown" name="dat_error_voice_invalid_message_proto">Ongeldige proto chatbericht</string>
+    <string gender="unknown" name="dat_error_voice_invalid_session_state">Ongeldige sessiestatus voor bewerking</string>
+    <string gender="unknown" name="dat_error_voice_invalid_wearables_interface">Ongeldige WearablesInterface opgegeven</string>
+    <string gender="unknown" name="dat_error_voice_send_message_error">Verzenden van chatbericht is mislukt</string>
+    <string gender="unknown" name="dat_error_voice_unknown_message_type">Onbekend berichttype ontvangen</string>
+    <string gender="unknown" name="dat_error_wearables_already_configured">Al geconfigureerd</string>
+    <string gender="unknown" name="dat_error_wearables_already_initialized">Wearables is al geïnitialiseerd.</string>
+    <string gender="unknown" name="dat_error_wearables_configuration_error">Configuratiefout</string>
+    <string gender="unknown" name="dat_error_wearables_internal_error">Interne fout</string>
+    <string gender="unknown" name="dat_error_wearables_not_initialized">Wearables niet geïnitialiseerd. Roep eerst Wearables.initialize(context) aan.</string>
+    <string gender="unknown" name="dat_error_wearables_url_registration_error">Registratiefout</string>
+    <string gender="unknown" name="dat_error_wearables_url_unregistration_error">Fout bij ongedaan maken registratie</string>
+    <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
+</resources>

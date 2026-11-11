@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string msgid="881409763997275156" name="call_notification_answer_action">"Answer"</string>
+    <string msgid="8793775615905189152" name="call_notification_answer_video_action">"Video"</string>
+    <string msgid="3229508546291798546" name="call_notification_decline_action">"Decline"</string>
+    <string msgid="2659457946726154263" name="call_notification_hang_up_action">"Hang up"</string>
+    <string msgid="6107532579223922871" name="call_notification_incoming_text">"Incoming call"</string>
+    <string msgid="8623827134497363134" name="call_notification_ongoing_text">"On-going call"</string>
+    <string msgid="59049573811482460" name="call_notification_screening_text">"Screening an incoming call"</string>
+    <string gender="unknown" name="dat_error_capture_setup_failed">Capture session setup failed</string>
+    <string gender="unknown" name="dat_error_mock_app_management_unsupported_app_id">App management unsupported app ID</string>
+    <string gender="unknown" name="dat_error_mock_peer_building_info_unsupported_message_type">Device info, unsupported message type</string>
+    <string gender="unknown" name="dat_error_mock_remote_session_id_mismatch">Remote session, session ID mismatch</string>
+    <string gender="unknown" name="dat_error_mock_remote_session_unsupported_message_type">Remote session – unsupported message type</string>
+    <string gender="unknown" name="dat_error_mock_voice_invocation_failed_to_parse_action_response">Voice invocation, failed to parse action response</string>
+    <string gender="unknown" name="dat_error_mock_voice_invocation_failed_to_parse_init_request">Voice invocation, failed to parse init request</string>
+    <string gender="unknown" name="dat_error_mock_voice_invocation_unknown_message_type">Voice invocation, unknown message type</string>
+    <string gender="unknown" name="dat_error_registration_network_unavailable">No Internet connection available. Please check your connection and try again</string>
+    <string gender="unknown" name="dat_error_session_dat_app_on_the_glasses_update_required">Your glasses need an update. Go to the App Connections page in Meta AI to update</string>
+    <string gender="unknown" name="dat_error_session_dwa_unavailable">DAT Wearables app on the glasses is not reachable</string>
+    <string gender="unknown" name="dat_error_session_thermal_emergency">Device thermal state is emergency – shutting down</string>
+    <string gender="unknown" name="dat_error_stream_critical_error">Critical error – the stream should end</string>
+    <string gender="unknown" name="dat_error_stream_error">Unspecified error – the stream can continue regardless</string>
+    <string gender="unknown" name="dat_error_voice_channel_setup_failed">Failed to set up AI actions channel</string>
+    <string gender="unknown" name="dat_error_voice_init_request_error">Failed to initialise request</string>
+    <string gender="unknown" name="dat_error_voice_invalid_message_proto">Invalid message proto</string>
+    <string gender="unknown" name="dat_error_wearables_already_initialized">Wearables has already been initialized.</string>
+    <string gender="unknown" name="dat_error_wearables_not_initialized">Wearables not initialised. Call Wearables.initialize(context) first.</string>
+    <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
+</resources>

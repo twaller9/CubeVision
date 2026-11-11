@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string msgid="881409763997275156" name="call_notification_answer_action">"Răspunde"</string>
+    <string msgid="8793775615905189152" name="call_notification_answer_video_action">"Video"</string>
+    <string msgid="3229508546291798546" name="call_notification_decline_action">"Respinge"</string>
+    <string msgid="2659457946726154263" name="call_notification_hang_up_action">"Închide"</string>
+    <string msgid="6107532579223922871" name="call_notification_incoming_text">"Apel primit"</string>
+    <string msgid="8623827134497363134" name="call_notification_ongoing_text">"Apel în desfășurare"</string>
+    <string msgid="59049573811482460" name="call_notification_screening_text">"Se filtrează un apel primit"</string>
+    <string gender="unknown" name="dat_error_capture_busy">Funcţia de capturare este deja activă</string>
+    <string gender="unknown" name="dat_error_capture_device_disconnected">Dispozitivul s-a deconectat</string>
+    <string gender="unknown" name="dat_error_capture_device_health_critical">Starea de funcţionare a dispozitivului este critică</string>
+    <string gender="unknown" name="dat_error_capture_failure">Captura nu a fost realizată</string>
+    <string gender="unknown" name="dat_error_capture_not_ready">Captura nu este gata</string>
+    <string gender="unknown" name="dat_error_capture_permission_denied">Permisiunea privind captura a fost refuzată</string>
+    <string gender="unknown" name="dat_error_capture_service_unavailable">Serviciul de capturare este indisponibil</string>
+    <string gender="unknown" name="dat_error_capture_setup_failed">Configurarea capturii nu a reuşit</string>
+    <string gender="unknown" name="dat_error_capture_timed_out">Captura a expirat</string>
+    <string gender="unknown" name="dat_error_capture_unknown">Eroare necunoscută la captură</string>
+    <string gender="unknown" name="dat_error_mock_app_management_unsupported_app_id">ID de aplicaţie neacceptat pentru administrarea aplicaţiei</string>
+    <string gender="unknown" name="dat_error_mock_app_management_unsupported_message_type">Tip de mesaj neacceptat pentru administrarea aplicaţiei</string>
+    <string gender="unknown" name="dat_error_mock_failed_sending_video_frames">Trimiterea cadrelor video nu a reuşit</string>
+    <string gender="unknown" name="dat_error_mock_peer_building_info_unsupported_message_type">Informaţii despre dispozitiv, tip de mesaj neacceptat</string>
+    <string gender="unknown" name="dat_error_mock_permissions_unsupported_message_type">Permisiuni, tip de mesaj neacceptat</string>
+    <string gender="unknown" name="dat_error_mock_photo_capture">Excepţie în timpul realizării de fotografii</string>
+    <string gender="unknown" name="dat_error_mock_remote_session_device_not_ready">Sesiune la distanţă, dispozitivul nu este gata</string>
+    <string gender="unknown" name="dat_error_mock_remote_session_id_mismatch">Sesiune la distanţă, nepotrivire ID sesiune</string>
+    <string gender="unknown" name="dat_error_mock_remote_session_unsupported_message_type">Sesiune la distanţă, tip de mesaj neacceptat</string>
+    <string gender="unknown" name="dat_error_mock_stream_internal_error">A apărut o eroare internă</string>
+    <string gender="unknown" name="dat_error_mock_stream_start_failure">Eroare la începerea fluxului</string>
+    <string gender="unknown" name="dat_error_mock_streaming_error">A apărut o excepţie în timpul transmisiunii</string>
+    <string gender="unknown" name="dat_error_mock_streaming_unhandled_user_action">Acţiunea utilizatorului nu a fost procesată</string>
+    <string gender="unknown" name="dat_error_mock_voice_invocation_failed_to_parse_action_response">Invocare vocală, nu s-a putut analiza răspunsul la acţiune</string>
+    <string gender="unknown" name="dat_error_mock_voice_invocation_failed_to_parse_init_request">Invocare vocală, nu s-a putut analiza solicitarea de iniţializare</string>
+    <string gender="unknown" name="dat_error_mock_voice_invocation_unknown_message_type">Invocare vocală, tip de mesaj necunoscut</string>
+    <string gender="unknown" name="dat_error_navigation_meta_ai_not_installed">Aplicaţia Meta AI nu este instalată pe dispozitiv</string>
+    <string gender="unknown" name="dat_error_navigation_not_registered">Aplicaţia nu este înregistrată pe ochelarii AI glasses</string>
+    <string gender="unknown" name="dat_error_permission_connection_error">A apărut o eroare de conexiune în timpul comunicării cu dispozitivul</string>
+    <string gender="unknown" name="dat_error_permission_internal_error">A apărut o eroare internă neaşteptată</string>
+    <string gender="unknown" name="dat_error_permission_meta_ai_not_installed">Aplicaţia Meta AI de însoţire nu este instalată pe dispozitiv</string>
+    <string gender="unknown" name="dat_error_permission_no_device">Nu au fost descoperite sau înregistrate dispozitive purtabile</string>
+    <string gender="unknown" name="dat_error_permission_no_device_with_connection">Toate dispozitivele descoperite sunt oprite sau deconectate</string>
+    <string gender="unknown" name="dat_error_permission_request_in_progress">O solicitare de permisiune este deja în curs</string>
+    <string gender="unknown" name="dat_error_permission_request_timeout">Solicitarea privind permisiunea a depăşit limita de timp permisă</string>
+    <string gender="unknown" name="dat_error_photo_capture_failed">Captura foto nu a putut fi realizată</string>
+    <string gender="unknown" name="dat_error_registration_already_registered">Utilizatorul este deja înregistrat când încearcă să se înregistreze din nou</string>
+    <string gender="unknown" name="dat_error_registration_configuration_invalid">Configurarea Setului de instrumente pentru accesul dispozitivelor purtabile este nevalidă sau incompletă</string>
+    <string gender="unknown" name="dat_error_registration_failed_to_register">Procesul de înregistrare nu a reuşit dintr-un motiv necunoscut</string>
+    <string gender="unknown" name="dat_error_registration_failed_to_unregister">Procesul de anulare a înregistrării nu a reuşit dintr-un motiv necunoscut</string>
+    <string gender="unknown" name="dat_error_registration_meta_ai_not_installed">Aplicaţia Meta AI nu este instalată pe dispozitiv, aceasta fiind o condiţie obligatorie pentru înregistrare</string>
+    <string gender="unknown" name="dat_error_registration_network_unavailable">Nu este disponibilă nicio conexiune la Internet. Te rugăm să verifici conexiunea şi să încerci din nou</string>
+    <string gender="unknown" name="dat_error_registration_unknown">A apărut o eroare necunoscută în timpul procesului de înregistrare</string>
+    <string gender="unknown" name="dat_error_session_already_exists">Există deja o sesiune pentru acest dispozitiv</string>
+    <string gender="unknown" name="dat_error_session_already_stopped">Sesiunea a fost oprită deja</string>
+    <string gender="unknown" name="dat_error_session_battery_critical">Bateria dispozitivului este foarte descărcată</string>
+    <string gender="unknown" name="dat_error_session_capability_already_active">O capacitate de acest tip este deja activă în sesiune</string>
+    <string gender="unknown" name="dat_error_session_capability_denied">Capacitate refuzată de dispozitiv</string>
+    <string gender="unknown" name="dat_error_session_capability_not_found">La această sesiune nu este ataşată nicio capacitate de acest tip</string>
+    <string gender="unknown" name="dat_error_session_dat_app_on_the_glasses_update_required">Ochelarii tăi necesită o actualizare. Pentru a-i actualiza, mergi la pagina Aplicaţii conectate din Meta AI.</string>
+    <string gender="unknown" name="dat_error_session_dat_app_update_required">Aplicaţia de pe ochelari trebuie actualizată înainte ca această sesiune să poată începe. Pentru a o actualiza, mergi la pagina Aplicaţii conectate din Meta AI.</string>
+    <string gender="unknown" name="dat_error_session_device_disconnected">Dispozitivul s-a deconectat</string>
+    <string gender="unknown" name="dat_error_session_dwa_out_of_stu_range">S-ar putea ca această versiune a aplicaţiei să nu funcţioneze corect cu ochelarii conectaţi. Sesiunea poate continua. S-ar putea ca aplicaţia să-ţi sugereze o actualizare din când în când.</string>
+    <string gender="unknown" name="dat_error_session_dwa_unavailable">Aplicaţia DAT Wearables de pe ochelari nu poate fi accesată</string>
+    <string gender="unknown" name="dat_error_session_ended_by_device">Sesiunea a fost încheiată de dispozitiv</string>
+    <string gender="unknown" name="dat_error_session_idle">Sesiunea este inactivă. Începe sesiunea înainte de a adăuga capacităţi</string>
+    <string gender="unknown" name="dat_error_session_insufficient_sdk_version">Această aplicaţie a fost creată cu o versiune SDK care nu mai este acceptată de ochelarii tăi. Lansează o versiune mai nouă a aplicaţiei, creată cu SDK-ul actual.</string>
+    <string gender="unknown" name="dat_error_session_no_eligible_device">Nu este disponibil niciun dispozitiv eligibil</string>
+    <string gender="unknown" name="dat_error_session_peak_power_shutdown">Oprirea dispozitivului din cauza consumului maxim de energie</string>
+    <string gender="unknown" name="dat_error_session_thermal_critical">Starea termică a dispozitivului este critică</string>
+    <string gender="unknown" name="dat_error_session_thermal_emergency">Starea termică a dispozitivului este la nivel de urgenţă - se opreşte</string>
+    <string gender="unknown" name="dat_error_session_unexpected_error">A apărut o eroare neaşteptată</string>
+    <string gender="unknown" name="dat_error_stream_battery_low">Bateria dispozitivului este prea descărcată pentru a realiza transmisiuni</string>
+    <string gender="unknown" name="dat_error_stream_critical_error">Eroare critică, fluxul ar trebui să se încheie</string>
+    <string gender="unknown" name="dat_error_stream_device_not_connected">Dispozitivul nu este conectat</string>
+    <string gender="unknown" name="dat_error_stream_device_not_found">Dispozitivul nu a fost găsit</string>
+    <string gender="unknown" name="dat_error_stream_error">Eroare neprecizată. Fluxul poate continua</string>
+    <string gender="unknown" name="dat_error_stream_hinge_closed">Braţele ochelarilor au fost închise</string>
+    <string gender="unknown" name="dat_error_stream_peak_power_limit">A fost atinsă limita de consum maxim a dispozitivului</string>
+    <string gender="unknown" name="dat_error_stream_permissions_denied">Permisiuni refuzate</string>
+    <string gender="unknown" name="dat_error_stream_thermal_hot">Nivelul termic al dispozitivului este prea ridicat pentru a realiza transmisiuni</string>
+    <string gender="unknown" name="dat_error_stream_timeout">Operaţiunea a expirat</string>
+    <string gender="unknown" name="dat_error_unregistration_already_unregistered">Înregistrarea utilizatorul este deja anulată când încearcă să o anuleze din nou</string>
+    <string gender="unknown" name="dat_error_unregistration_configuration_invalid">Configurarea Setului de instrumente pentru accesul dispozitivelor purtabile este nevalidă sau incompletă</string>
+    <string gender="unknown" name="dat_error_unregistration_meta_ai_not_installed">Aplicaţia Meta AI nu este instalată pe dispozitiv, aceasta fiind o condiţie obligatorie pentru anularea înregistrării</string>
+    <string gender="unknown" name="dat_error_unregistration_unknown">A apărut o eroare necunoscută în timpul procesului de anulare a înregistrării</string>
+    <string gender="unknown" name="dat_error_voice_action_failed">Acţiunea nu a reuşit</string>
+    <string gender="unknown" name="dat_error_voice_channel_error">A apărut o eroare privind canalul</string>
+    <string gender="unknown" name="dat_error_voice_channel_not_connected">Canalul nu este conectat</string>
+    <string gender="unknown" name="dat_error_voice_channel_setup_failed">Canalul Acţiuni AI nu a fost configurat</string>
+    <string gender="unknown" name="dat_error_voice_connection_not_available">Conexiunea la dispozitiv nu este disponibilă</string>
+    <string gender="unknown" name="dat_error_voice_device_not_found">Dispozitivul nu a fost găsit</string>
+    <string gender="unknown" name="dat_error_voice_fail_to_send_init_request">Solicitarea de iniţializare nu a fost trimisă</string>
+    <string gender="unknown" name="dat_error_voice_init_request_error">Solicitarea nu a putut fi iniţializată</string>
+    <string gender="unknown" name="dat_error_voice_init_request_returned_error">Solicitarea de iniţializare a returnat o eroare</string>
+    <string gender="unknown" name="dat_error_voice_invalid_action_message_proto">Proto mesaj de acţiune nevalid</string>
+    <string gender="unknown" name="dat_error_voice_invalid_message_proto">Proto mesaj nevalid</string>
+    <string gender="unknown" name="dat_error_voice_invalid_session_state">Stare nevalidă a sesiunii pentru operaţiune</string>
+    <string gender="unknown" name="dat_error_voice_send_message_error">Mesajul nu a putut fi trimis</string>
+    <string gender="unknown" name="dat_error_voice_unknown_message_type">Tip de mesaj necunoscut primit</string>
+    <string gender="unknown" name="dat_error_wearables_already_configured">Deja configurat</string>
+    <string gender="unknown" name="dat_error_wearables_already_initialized">Wearables este iniţializat deja.</string>
+    <string gender="unknown" name="dat_error_wearables_configuration_error">Eroare de configurare</string>
+    <string gender="unknown" name="dat_error_wearables_internal_error">Eroare internă</string>
+    <string gender="unknown" name="dat_error_wearables_not_initialized">Wearables nu a fost iniţializat. Mai întâi apelează Wearables.initialize(context).</string>
+    <string gender="unknown" name="dat_error_wearables_url_registration_error">Eroare la înregistrare</string>
+    <string gender="unknown" name="dat_error_wearables_url_unregistration_error">Eroare la anularea înregistrării</string>
+    <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
+</resources>

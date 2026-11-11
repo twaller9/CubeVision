@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string msgid="881409763997275156" name="call_notification_answer_action">"Відповісти"</string>
+    <string msgid="8793775615905189152" name="call_notification_answer_video_action">"Відео"</string>
+    <string msgid="3229508546291798546" name="call_notification_decline_action">"Відхилити"</string>
+    <string msgid="2659457946726154263" name="call_notification_hang_up_action">"Завершити"</string>
+    <string msgid="6107532579223922871" name="call_notification_incoming_text">"Вхідний виклик"</string>
+    <string msgid="8623827134497363134" name="call_notification_ongoing_text">"Активний виклик"</string>
+    <string msgid="59049573811482460" name="call_notification_screening_text">"Вхідний виклик (Фільтр)"</string>
+    <string gender="unknown" name="dat_error_permission_connection_error">Під час спілкування з пристроєм сталася помилка підключення</string>
+    <string gender="unknown" name="dat_error_permission_internal_error">Сталася неочікувана внутрішня помилка</string>
+    <string gender="unknown" name="dat_error_permission_meta_ai_not_installed">На пристрої не встановлено супутній додаток Meta AI</string>
+    <string gender="unknown" name="dat_error_permission_no_device">Носимі пристрої не знайдено або не зареєстровано</string>
+    <string gender="unknown" name="dat_error_permission_no_device_with_connection">Усі знайдені пристрої вимкнено або відключено</string>
+    <string gender="unknown" name="dat_error_permission_request_in_progress">Запит на дозвіл уже розглядається</string>
+    <string gender="unknown" name="dat_error_permission_request_timeout">Запит на дозвіл перевищив дозволений ліміт часу</string>
+    <string gender="unknown" name="dat_error_registration_already_registered">Користувач уже зареєстрований і намагається зареєструватися знову</string>
+    <string gender="unknown" name="dat_error_registration_configuration_invalid">Конфігурація інструментів доступу до пристроїв Wearables недійсна або неповна</string>
+    <string gender="unknown" name="dat_error_registration_meta_ai_not_installed">Додаток Meta AI не встановлено на цьому пристрої, що є обов’язковою умовою для реєстрації</string>
+    <string gender="unknown" name="dat_error_registration_network_unavailable">Немає доступного з’єднання з Інтернетом. Перевірте налаштування мережі й повторіть спробу.</string>
+    <string gender="unknown" name="dat_error_registration_unknown">Під час реєстрації сталася невідома помилка</string>
+    <string gender="unknown" name="dat_error_session_already_exists">Для цього пристрою вже існує сеанс</string>
+    <string gender="unknown" name="dat_error_session_already_stopped">Сеанс уже завершено</string>
+    <string gender="unknown" name="dat_error_session_battery_critical">Акумулятор пристрою критично розряджений</string>
+    <string gender="unknown" name="dat_error_session_capability_already_active">Можливість цього типу вже активна в сеансі</string>
+    <string gender="unknown" name="dat_error_session_capability_not_found">До сеансу не приєднано жодної можливості цього типу</string>
+    <string gender="unknown" name="dat_error_session_idle">Сеанс неактивний. Почніть сеанс, перш ніж додавати функції</string>
+    <string gender="unknown" name="dat_error_session_no_eligible_device">Немає доступного пристрою, що відповідає вимогам</string>
+    <string gender="unknown" name="dat_error_session_peak_power_shutdown">Відключення пристрою при піковій потужності</string>
+    <string gender="unknown" name="dat_error_session_thermal_critical">Температурний рівень пристрою критичний</string>
+    <string gender="unknown" name="dat_error_session_thermal_emergency">Температурний рівень пристрою надзвичайний — вимкнення</string>
+    <string gender="unknown" name="dat_error_stream_battery_low">Заряд акумулятора пристрою занизький для трансляції</string>
+    <string gender="unknown" name="dat_error_stream_critical_error">Критична помилка, трансляцію потрібно завершити</string>
+    <string gender="unknown" name="dat_error_stream_error">Сталася невідома помилка, трансляцію можна продовжити</string>
+    <string gender="unknown" name="dat_error_stream_hinge_closed">Дужки на окулярах закриті</string>
+    <string gender="unknown" name="dat_error_stream_peak_power_limit">Досягнуто ліміту пікової потужності пристрою</string>
+    <string gender="unknown" name="dat_error_stream_permissions_denied">У дозволах відмовлено</string>
+    <string gender="unknown" name="dat_error_stream_thermal_hot">Температурний рівень пристрою надто високий для трансляції</string>
+    <string gender="unknown" name="dat_error_stream_timeout">Час очікування операції минув</string>
+    <string gender="unknown" name="dat_error_unregistration_already_unregistered">Користувач уже скасував реєстрацію під час повторної спроби скасувати реєстрацію</string>
+    <string gender="unknown" name="dat_error_unregistration_configuration_invalid">Конфігурація інструментів доступу до пристроїв Wearables недійсна або неповна</string>
+    <string gender="unknown" name="dat_error_unregistration_meta_ai_not_installed">Додаток Meta AI не встановлено на цьому пристрої, що є обов’язковою умовою для скасування реєстрації</string>
+    <string gender="unknown" name="dat_error_unregistration_unknown">Сталася невідома помилка під час скасування реєстрації</string>
+    <string gender="unknown" name="dat_error_voice_action_failed">Не вдалося виконати дію</string>
+    <string gender="unknown" name="dat_error_voice_channel_setup_failed">Не вдалося налаштувати канал дій ШІ</string>
+    <string gender="unknown" name="dat_error_voice_connection_not_available">Підключення пристрою недоступне</string>
+    <string gender="unknown" name="dat_error_voice_device_not_found">Пристрій не знайдено</string>
+    <string gender="unknown" name="dat_error_voice_init_request_error">Не вдалося ініціалізувати запит</string>
+    <string gender="unknown" name="dat_error_voice_invalid_message_proto">Недійсний прототип повідомлення</string>
+    <string gender="unknown" name="dat_error_voice_invalid_wearables_interface">Надано недійсний інтерфейс Wearables</string>
+    <string gender="unknown" name="dat_error_voice_send_message_error">Не вдалося надіслати повідомлення</string>
+    <string gender="unknown" name="dat_error_wearables_already_configured">Уже налаштовано</string>
+    <string gender="unknown" name="dat_error_wearables_configuration_error">Помилка конфігурації</string>
+    <string gender="unknown" name="dat_error_wearables_internal_error">Внутрішня помилка</string>
+    <string gender="unknown" name="dat_error_wearables_url_registration_error">Помилка реєстрації</string>
+    <string gender="unknown" name="dat_error_wearables_url_unregistration_error">Помилка скасування реєстрації</string>
+    <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
+</resources>

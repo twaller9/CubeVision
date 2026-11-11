@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string msgid="881409763997275156" name="call_notification_answer_action">"Fogadás"</string>
+    <string msgid="8793775615905189152" name="call_notification_answer_video_action">"Videó"</string>
+    <string msgid="3229508546291798546" name="call_notification_decline_action">"Elutasítás"</string>
+    <string msgid="2659457946726154263" name="call_notification_hang_up_action">"Befejezés"</string>
+    <string msgid="6107532579223922871" name="call_notification_incoming_text">"Bejövő hívás"</string>
+    <string msgid="8623827134497363134" name="call_notification_ongoing_text">"Hívás folyamatban"</string>
+    <string msgid="59049573811482460" name="call_notification_screening_text">"Bejövő hívás szűrése"</string>
+    <string gender="unknown" name="dat_error_capture_busy">A felvételkészítés elfoglalt.</string>
+    <string gender="unknown" name="dat_error_capture_device_disconnected">A készülék lekapcsolódott.</string>
+    <string gender="unknown" name="dat_error_capture_device_health_critical">Kritikus készülékállapot.</string>
+    <string gender="unknown" name="dat_error_capture_failure">Sikertelen felvételkészítés</string>
+    <string gender="unknown" name="dat_error_capture_not_ready">A felvétel nincs készen.</string>
+    <string gender="unknown" name="dat_error_capture_permission_denied">Felvételre vonatkozó engedély megtagadva</string>
+    <string gender="unknown" name="dat_error_capture_service_unavailable">A felvételkészítési szolgáltatás nem érhető el.</string>
+    <string gender="unknown" name="dat_error_capture_setup_failed">Sikertelen felvételbeállítás.</string>
+    <string gender="unknown" name="dat_error_capture_timed_out">Időtúllépés a felvételnél.</string>
+    <string gender="unknown" name="dat_error_capture_unknown">Ismeretlen rögzítési hiba</string>
+    <string gender="unknown" name="dat_error_mock_app_management_unsupported_app_id">Alkalmazáskezelés – nem támogatott alkalmazásazonosító</string>
+    <string gender="unknown" name="dat_error_mock_app_management_unsupported_message_type">Alkalmazáskezelés által nem támogatott üzenettípus</string>
+    <string gender="unknown" name="dat_error_mock_failed_sending_video_frames">Nem sikerült elküldeni a videókockákat.</string>
+    <string gender="unknown" name="dat_error_mock_peer_building_info_unsupported_message_type">Készülék adatai, nem támogatott üzenettípus</string>
+    <string gender="unknown" name="dat_error_mock_permissions_unsupported_message_type">Jogosultságok, nem támogatott üzenettípus</string>
+    <string gender="unknown" name="dat_error_mock_photo_capture">Kivétel fénykép készítésekor</string>
+    <string gender="unknown" name="dat_error_mock_remote_session_device_not_ready">Távoli munkamenet, a készülék nem áll készen.</string>
+    <string gender="unknown" name="dat_error_mock_remote_session_id_mismatch">Távoli munkamenet, munkamenet-azonosító eltérése.</string>
+    <string gender="unknown" name="dat_error_mock_remote_session_unsupported_message_type">Távoli munkamenet, nem támogatott üzenettípus</string>
+    <string gender="unknown" name="dat_error_mock_stream_internal_error">Belső hiba történt.</string>
+    <string gender="unknown" name="dat_error_mock_stream_no_camera_feed">Nincs beállítva kameraforrás.</string>
+    <string gender="unknown" name="dat_error_mock_stream_start_failure">Közvetítés sikertelen indítása.</string>
+    <string gender="unknown" name="dat_error_mock_streaming_error">Kivétel történt a közvetítés során.</string>
+    <string gender="unknown" name="dat_error_mock_streaming_unhandled_user_action">Nem kezelt felhasználói művelet</string>
+    <string gender="unknown" name="dat_error_mock_voice_invocation_failed_to_parse_action_response">Hangalapú meghívás, nem sikerült elemezni a művelet válaszát.</string>
+    <string gender="unknown" name="dat_error_mock_voice_invocation_failed_to_parse_init_request">Hangalapú meghívás, nem sikerült elemezni az init kérést.</string>
+    <string gender="unknown" name="dat_error_mock_voice_invocation_unknown_message_type">Hangutasítás, ismeretlen üzenettípus.</string>
+    <string gender="unknown" name="dat_error_navigation_meta_ai_not_installed">A készüléken nincs telepítve a Meta AI alkalmazás.</string>
+    <string gender="unknown" name="dat_error_navigation_not_registered">Az alkalmazás nincs regisztrálva az MI-szemüvegnél.</string>
+    <string gender="unknown" name="dat_error_permission_connection_error">Kapcsolódási hiba történt a készülékkel folytatott kommunikáció során.</string>
+    <string gender="unknown" name="dat_error_permission_internal_error">Váratlan belső hiba lépett fel.</string>
+    <string gender="unknown" name="dat_error_permission_meta_ai_not_installed">A készüléken nincs telepítve a Meta AI társalkalmazás.</string>
+    <string gender="unknown" name="dat_error_permission_no_device">Nem található vagy nincs regisztrált viselhető készülék.</string>
+    <string gender="unknown" name="dat_error_permission_no_device_with_connection">Az összes felfedezett készülék ki van kapcsolva, vagy nem kapcsolódik a hálózathoz.</string>
+    <string gender="unknown" name="dat_error_permission_request_in_progress">Már folyamatban van egy jogosultságkérés.</string>
+    <string gender="unknown" name="dat_error_permission_request_timeout">Az engedélykérés túllépte a megengedett időkorlátot.</string>
+    <string gender="unknown" name="dat_error_photo_capture_failed">Sikertelen fényképkészítés.</string>
+    <string gender="unknown" name="dat_error_registration_already_registered">A felhasználó már regisztrálva van, amikor ismét megpróbál regisztrálni.</string>
+    <string gender="unknown" name="dat_error_registration_configuration_invalid">A Wearables Device Access Toolkit konfigurációja érvénytelen vagy hiányos.</string>
+    <string gender="unknown" name="dat_error_registration_failed_to_register">A regisztrációs folyamat ismeretlen okból sikertelen volt.</string>
+    <string gender="unknown" name="dat_error_registration_failed_to_unregister">A regisztráció megszüntetésének folyamata ismeretlen okból sikertelen volt.</string>
+    <string gender="unknown" name="dat_error_registration_meta_ai_not_installed">Nincs telepítve a Meta AI alkalmazás erre a készülékre, de a regisztrációhoz szükség van rá.</string>
+    <string gender="unknown" name="dat_error_registration_network_unavailable">Nincs internetkapcsolat. Kérjük, ellenőrizd a kapcsolatot, majd próbálkozz újból.</string>
+    <string gender="unknown" name="dat_error_registration_unknown">Ismeretlen hiba történt a regisztrációs folyamat során.</string>
+    <string gender="unknown" name="dat_error_session_already_exists">Ehhez a készülékhez már van meglévő munkamenet.</string>
+    <string gender="unknown" name="dat_error_session_already_stopped">A munkamenet már leállt.</string>
+    <string gender="unknown" name="dat_error_session_battery_critical">Kritikusan alacsony a készülék akkumulátortöltöttsége.</string>
+    <string gender="unknown" name="dat_error_session_capability_already_active">A munkamenetnél már aktív egy ilyen típusú képesség.</string>
+    <string gender="unknown" name="dat_error_session_capability_denied">Készülék által elutasított képesség.</string>
+    <string gender="unknown" name="dat_error_session_capability_not_found">Ennél a típusnál nem kapcsolódik képesség a munkamenethez.</string>
+    <string gender="unknown" name="dat_error_session_dat_app_on_the_glasses_update_required">Frissítés szükséges a szemüvegeden. A frissítéshez nyisd meg a Meta AI „Alkalmazáskapcsolatok” oldalát.</string>
+    <string gender="unknown" name="dat_error_session_dat_app_update_required">A munkamenet elindításához frissítened kell a szemüveg alkalmazását. A frissítéshez nyisd meg az Alkalmazáskapcsolatok oldalt a Meta AI felületén.</string>
+    <string gender="unknown" name="dat_error_session_device_disconnected">Készülék leválasztva.</string>
+    <string gender="unknown" name="dat_error_session_dwa_out_of_stu_range">Előfordulhat, hogy az alkalmazásnak ez a verziója nem a várt módon működik a hozzákapcsolt szemüveggel. A munkamenet folytatható. Az alkalmazás időnként frissítést javasolhat.</string>
+    <string gender="unknown" name="dat_error_session_dwa_unavailable">A szemüvegen nem elérhető a DAT Wearables alkalmazás.</string>
+    <string gender="unknown" name="dat_error_session_ended_by_device">A készülék által lezárt munkamenet</string>
+    <string gender="unknown" name="dat_error_session_idle">A munkamenet inaktív. Indítsd el a munkamenetet a képességek hozzáadása előtt.</string>
+    <string gender="unknown" name="dat_error_session_insufficient_sdk_version">Az alkalmazás olyan SDK-verzióval készült, amelyet a szemüveged már nem támogat. Az alkalmazás aktuális SDK-val készült újabb verzióját kell megjelentetned.</string>
+    <string gender="unknown" name="dat_error_session_no_eligible_device">Nincs elérhető, a feltételeknek megfelelő készülék.</string>
+    <string gender="unknown" name="dat_error_session_peak_power_shutdown">Készülék leállítása csúcsáramfelvétel miatt</string>
+    <string gender="unknown" name="dat_error_session_thermal_critical">Kritikus a készülék hőállapota.</string>
+    <string gender="unknown" name="dat_error_session_thermal_emergency">A készülék hőállapota vészhelyzeti szintet ért el – leállítás</string>
+    <string gender="unknown" name="dat_error_session_unexpected_error">Váratlan hiba lépett fel.</string>
+    <string gender="unknown" name="dat_error_stream_battery_low">A készülék akkumulátortöltöttsége túl gyenge a közvetítéshez.</string>
+    <string gender="unknown" name="dat_error_stream_critical_error">Kritikus hiba, a közvetítésnek le kell állnia.</string>
+    <string gender="unknown" name="dat_error_stream_device_not_connected">A készülék nem kapcsolódik.</string>
+    <string gender="unknown" name="dat_error_stream_device_not_found">A készülék nem található.</string>
+    <string gender="unknown" name="dat_error_stream_error">Nem meghatározott hiba, a közvetítés folytatódhat.</string>
+    <string gender="unknown" name="dat_error_stream_hinge_closed">A szemüveg szárai be voltak csukva.</string>
+    <string gender="unknown" name="dat_error_stream_peak_power_limit">A készülék elérte áramigényének maximumát.</string>
+    <string gender="unknown" name="dat_error_stream_permissions_denied">Elutasított engedélyek</string>
+    <string gender="unknown" name="dat_error_stream_thermal_hot">A készülék hőmérsékleti szintje túl magas a közvetítéshez.</string>
+    <string gender="unknown" name="dat_error_stream_timeout">A művelet időtúllépése</string>
+    <string gender="unknown" name="dat_error_unregistration_already_unregistered">A felhasználó már nincs regisztrálva, amikor ismét megpróbálja megszüntetni a regisztrációt.</string>
+    <string gender="unknown" name="dat_error_unregistration_configuration_invalid">A Wearables Device Access Toolkit konfigurációja érvénytelen vagy hiányos.</string>
+    <string gender="unknown" name="dat_error_unregistration_meta_ai_not_installed">Nincs telepítve a Meta AI alkalmazás erre a készülékre, de a regisztráció megszüntetéséhez szükség van rá.</string>
+    <string gender="unknown" name="dat_error_unregistration_unknown">Ismeretlen hiba történt a regisztrációmegszüntetési folyamat során.</string>
+    <string gender="unknown" name="dat_error_voice_action_failed">Sikertelen művelet</string>
+    <string gender="unknown" name="dat_error_voice_channel_error">Csatornahiba történt.</string>
+    <string gender="unknown" name="dat_error_voice_channel_not_connected">A csatorna nem kapcsolódik.</string>
+    <string gender="unknown" name="dat_error_voice_channel_setup_failed">Nem sikerült beállítani az MI-műveletek csatornáját.</string>
+    <string gender="unknown" name="dat_error_voice_connection_not_available">A készülékkapcsolat nem érhető el.</string>
+    <string gender="unknown" name="dat_error_voice_device_not_found">A készülék nem található.</string>
+    <string gender="unknown" name="dat_error_voice_fail_to_send_init_request">Nem sikerült elküldeni az init kérést.</string>
+    <string gender="unknown" name="dat_error_voice_init_request_error">Nem sikerült inicializálni a kérést.</string>
+    <string gender="unknown" name="dat_error_voice_init_request_returned_error">Az Init kérés hibába ütközött.</string>
+    <string gender="unknown" name="dat_error_voice_invalid_action_message_proto">Érvénytelen műveletüzenet-prototípus</string>
+    <string gender="unknown" name="dat_error_voice_invalid_message_proto">Érvénytelen üzenetprototípus</string>
+    <string gender="unknown" name="dat_error_voice_invalid_session_state">Érvénytelen munkamenet-állapot a művelethez.</string>
+    <string gender="unknown" name="dat_error_voice_invalid_wearables_interface">Érvénytelen WearablesInterface megadása</string>
+    <string gender="unknown" name="dat_error_voice_send_message_error">Az üzenetet nem sikerült elküldeni.</string>
+    <string gender="unknown" name="dat_error_voice_unknown_message_type">Ismeretlen üzenettípus érkezett.</string>
+    <string gender="unknown" name="dat_error_wearables_already_configured">Már konfigurálva</string>
+    <string gender="unknown" name="dat_error_wearables_already_initialized">A Wearables már inicializálva van.</string>
+    <string gender="unknown" name="dat_error_wearables_configuration_error">Konfigurációs hiba</string>
+    <string gender="unknown" name="dat_error_wearables_internal_error">Belső hiba</string>
+    <string gender="unknown" name="dat_error_wearables_not_initialized">A Wearables nem inicializálódott. Előbb a(z) Wearables.initialize(context) meghívása szükséges.</string>
+    <string gender="unknown" name="dat_error_wearables_url_registration_error">Regisztrációs hiba</string>
+    <string gender="unknown" name="dat_error_wearables_url_unregistration_error">Regisztrációmegszüntetési hiba</string>
+    <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
+</resources>

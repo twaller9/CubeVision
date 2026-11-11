@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string msgid="881409763997275156" name="call_notification_answer_action">"Atsakyti"</string>
+    <string msgid="8793775615905189152" name="call_notification_answer_video_action">"Vaizdo įrašas"</string>
+    <string msgid="3229508546291798546" name="call_notification_decline_action">"Atmesti"</string>
+    <string msgid="2659457946726154263" name="call_notification_hang_up_action">"Baigti pok."</string>
+    <string msgid="6107532579223922871" name="call_notification_incoming_text">"Gaunamasis skambutis"</string>
+    <string msgid="8623827134497363134" name="call_notification_ongoing_text">"Vykstantis skambutis"</string>
+    <string msgid="59049573811482460" name="call_notification_screening_text">"Gaunamojo skambučio tikrinimas"</string>
+    <string gender="unknown" name="dat_error_permission_connection_error">Užmezgant ryšį su įrenginiu įvyko ryšio klaida</string>
+    <string gender="unknown" name="dat_error_permission_internal_error">Įvyko netikėta vidinė klaida</string>
+    <string gender="unknown" name="dat_error_permission_meta_ai_not_installed">„Meta AI“ papildoma programa neįdiegta įrenginyje</string>
+    <string gender="unknown" name="dat_error_permission_no_device">Neaptikta arba neužregistruota jokių dėvimųjų įrenginių</string>
+    <string gender="unknown" name="dat_error_permission_no_device_with_connection">Visi aptikti įrenginiai išjungti arba atsieti</string>
+    <string gender="unknown" name="dat_error_permission_request_in_progress">Leidimo užklausa jau vykdoma</string>
+    <string gender="unknown" name="dat_error_permission_request_timeout">Leidimo užklausa viršijo leistiną laiko apribojimą</string>
+    <string gender="unknown" name="dat_error_registration_already_registered">Bandoma užsiregistruoti dar kartą, nors naudotojas jau užregistruotas</string>
+    <string gender="unknown" name="dat_error_registration_configuration_invalid">Dėvimojo įrenginio prieigos įrankių rinkinio konfigūracija netinkama arba neužbaigta</string>
+    <string gender="unknown" name="dat_error_registration_meta_ai_not_installed">„Meta AI“ programa neįdiegta įrenginyje, tai būtina norint užsiregistruoti</string>
+    <string gender="unknown" name="dat_error_registration_network_unavailable">Nėra interneto ryšio. Patikrinkite ryšį ir bandykite dar kartą</string>
+    <string gender="unknown" name="dat_error_registration_unknown">Per registracijos procesą įvyko nežinoma klaida</string>
+    <string gender="unknown" name="dat_error_session_already_exists">Šio įrenginio seansas jau sukurtas</string>
+    <string gender="unknown" name="dat_error_session_already_stopped">Seansas jau sustabdytas</string>
+    <string gender="unknown" name="dat_error_session_battery_critical">Įrenginio akumuliatorius beveik išsikrovęs</string>
+    <string gender="unknown" name="dat_error_session_capability_already_active">Šio tipo funkcija šiame seanse jau aktyvi</string>
+    <string gender="unknown" name="dat_error_session_capability_not_found">Prie seanso nepridėta jokių šio tipo funkcijų</string>
+    <string gender="unknown" name="dat_error_session_idle">Seansas neaktyvus. Prieš pridėdami funkcijų, pradėkite seansą</string>
+    <string gender="unknown" name="dat_error_session_no_eligible_device">Nepasiekiamas joks tinkamas įrenginys</string>
+    <string gender="unknown" name="dat_error_session_peak_power_shutdown">Įrenginio išjungimas pasiekus didžiausią galią</string>
+    <string gender="unknown" name="dat_error_session_thermal_critical">Įrenginio šiluminė būsena kritinė</string>
+    <string gender="unknown" name="dat_error_session_thermal_emergency">Įrenginio šiluminė būsena kritinė – jis išjungiamas</string>
+    <string gender="unknown" name="dat_error_stream_battery_low">Per maža įrenginio akumuliatoriaus įkrova transliacijai</string>
+    <string gender="unknown" name="dat_error_stream_critical_error">Kritinė klaida, transliacija turi būti užbaigta</string>
+    <string gender="unknown" name="dat_error_stream_error">Nenurodyta klaida, transliaciją galima tęsti</string>
+    <string gender="unknown" name="dat_error_stream_hinge_closed">Akinių kojelės buvo uždarytos</string>
+    <string gender="unknown" name="dat_error_stream_peak_power_limit">Pasiektas įrenginio didžiausios galios apribojimas</string>
+    <string gender="unknown" name="dat_error_stream_permissions_denied">Leidimai nesuteikti</string>
+    <string gender="unknown" name="dat_error_stream_thermal_hot">Įrenginio temperatūra per aukšta transliacijai tęsti</string>
+    <string gender="unknown" name="dat_error_stream_timeout">Baigėsi operacijos skirtasis laikas</string>
+    <string gender="unknown" name="dat_error_unregistration_already_unregistered">Bandoma atšaukti registraciją dar kartą, nors naudotojo registracija jau atšaukta</string>
+    <string gender="unknown" name="dat_error_unregistration_configuration_invalid">Dėvimojo įrenginio prieigos įrankių rinkinio konfigūracija netinkama arba neužbaigta</string>
+    <string gender="unknown" name="dat_error_unregistration_meta_ai_not_installed">„Meta AI“ programa neįdiegta įrenginyje, tai būtina norint atšaukti registraciją</string>
+    <string gender="unknown" name="dat_error_unregistration_unknown">Atšaukiant registraciją įvyko nežinoma klaida</string>
+    <string gender="unknown" name="dat_error_voice_action_failed">Nepavyko atlikti veiksmo</string>
+    <string gender="unknown" name="dat_error_voice_channel_setup_failed">Nepavyko nustatyti DI veiksmų kanalo</string>
+    <string gender="unknown" name="dat_error_voice_connection_not_available">Įrenginio ryšys nepasiekiamas</string>
+    <string gender="unknown" name="dat_error_voice_device_not_found">Įrenginys nerastas</string>
+    <string gender="unknown" name="dat_error_voice_init_request_error">Nepavyko inicijuoti užklausos</string>
+    <string gender="unknown" name="dat_error_voice_invalid_message_proto">Netinkamas pranešimo prototipas</string>
+    <string gender="unknown" name="dat_error_voice_invalid_wearables_interface">Nurodyta netinkama dėvimųjų įrenginių sąsaja</string>
+    <string gender="unknown" name="dat_error_voice_send_message_error">Nepavyko išsiųsti pranešimo</string>
+    <string gender="unknown" name="dat_error_wearables_already_configured">Jau sukonfigūruota</string>
+    <string gender="unknown" name="dat_error_wearables_configuration_error">Konfigūracijos klaida</string>
+    <string gender="unknown" name="dat_error_wearables_internal_error">Vidinė klaida</string>
+    <string gender="unknown" name="dat_error_wearables_url_registration_error">Registracijos klaida</string>
+    <string gender="unknown" name="dat_error_wearables_url_unregistration_error">Registracijos atšaukimo klaida</string>
+    <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
+</resources>

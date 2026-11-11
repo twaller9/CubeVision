@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string msgid="881409763997275156" name="call_notification_answer_action">"Sagutin"</string>
+    <string msgid="8793775615905189152" name="call_notification_answer_video_action">"Video"</string>
+    <string msgid="3229508546291798546" name="call_notification_decline_action">"Tanggihan"</string>
+    <string msgid="2659457946726154263" name="call_notification_hang_up_action">"Ibaba"</string>
+    <string msgid="6107532579223922871" name="call_notification_incoming_text">"Papasok na tawag"</string>
+    <string msgid="8623827134497363134" name="call_notification_ongoing_text">"Kasalukuyang tawag"</string>
+    <string msgid="59049573811482460" name="call_notification_screening_text">"Nagsi-screen ng papasok na tawag"</string>
+    <string gender="unknown" name="dat_error_capture_busy">Abala ang pagkuha</string>
+    <string gender="unknown" name="dat_error_capture_device_disconnected">Na-disconnect ang device</string>
+    <string gender="unknown" name="dat_error_capture_device_health_critical">Kritikal ang health ng device</string>
+    <string gender="unknown" name="dat_error_capture_failure">Hindi nakunan</string>
+    <string gender="unknown" name="dat_error_capture_not_ready">Hindi handa ang nakunan</string>
+    <string gender="unknown" name="dat_error_capture_permission_denied">Tinanggihan ang pahintulot sa pag-capture</string>
+    <string gender="unknown" name="dat_error_capture_service_unavailable">Hindi available ang serbisyo sa pagkuha</string>
+    <string gender="unknown" name="dat_error_capture_setup_failed">Hindi na-set up ang pagkuha</string>
+    <string gender="unknown" name="dat_error_capture_timed_out">Nag-time out ang pagkuha</string>
+    <string gender="unknown" name="dat_error_capture_unknown">Hindi alam na error sa pag-capture</string>
+    <string gender="unknown" name="dat_error_mock_app_management_unsupported_app_id">Hindi suportado ang app id ng app management</string>
+    <string gender="unknown" name="dat_error_mock_app_management_unsupported_message_type">Hindi sinusuportahang uri ng message sa pag-manage ng app</string>
+    <string gender="unknown" name="dat_error_mock_failed_sending_video_frames">Hindi naipadala ang mga video frame</string>
+    <string gender="unknown" name="dat_error_mock_peer_building_info_unsupported_message_type">Impormasyon ng device, hindi suportadong uri ng message</string>
+    <string gender="unknown" name="dat_error_mock_permissions_unsupported_message_type">Mga pahintulot, hindi suportadong uri ng message</string>
+    <string gender="unknown" name="dat_error_mock_photo_capture">Exception sa pagkuha ng litrato</string>
+    <string gender="unknown" name="dat_error_mock_remote_session_device_not_ready">Remote session, hindi handa ang device</string>
+    <string gender="unknown" name="dat_error_mock_remote_session_id_mismatch">Remote session, hindi magkatugmang Session ID</string>
+    <string gender="unknown" name="dat_error_mock_remote_session_unsupported_message_type">Remote session, hindi sinusuportahang uri ng message</string>
+    <string gender="unknown" name="dat_error_mock_stream_internal_error">Nagkaroon ng internal error</string>
+    <string gender="unknown" name="dat_error_mock_stream_no_camera_feed">Walang na-configure na camera source</string>
+    <string gender="unknown" name="dat_error_mock_stream_start_failure">Hindi nakapagsimula ng stream</string>
+    <string gender="unknown" name="dat_error_mock_streaming_error">Nangyari ang exception habang nagsi-stream</string>
+    <string gender="unknown" name="dat_error_mock_streaming_unhandled_user_action">Hindi na-handle na aksyon ng user</string>
+    <string gender="unknown" name="dat_error_mock_voice_invocation_failed_to_parse_action_response">Voice Invocation, hindi na-parse ang tugon ng aksyon</string>
+    <string gender="unknown" name="dat_error_mock_voice_invocation_failed_to_parse_init_request">Voice Invocation, hindi na-parse ang init request</string>
+    <string gender="unknown" name="dat_error_mock_voice_invocation_unknown_message_type">Voice Invocation, hindi kilalang uri ng message</string>
+    <string gender="unknown" name="dat_error_navigation_meta_ai_not_installed">Hindi naka-install ang Meta AI app sa device</string>
+    <string gender="unknown" name="dat_error_navigation_not_registered">Hindi naka-register ang app sa AI glasses</string>
+    <string gender="unknown" name="dat_error_permission_connection_error">Nagkaroon ng error sa koneksyon habang nakikipag-communicate sa device</string>
+    <string gender="unknown" name="dat_error_permission_internal_error">Nagkaroon ng hindi inaasahang internal error</string>
+    <string gender="unknown" name="dat_error_permission_meta_ai_not_installed">Hindi naka-install ang Meta AI companion app sa device</string>
+    <string gender="unknown" name="dat_error_permission_no_device">Walang natuklasan o na-register na wearable device</string>
+    <string gender="unknown" name="dat_error_permission_no_device_with_connection">Naka-off o nakadiskonekta ang lahat ng natuklasang device</string>
+    <string gender="unknown" name="dat_error_permission_request_in_progress">In progress na ang request sa pahintulot</string>
+    <string gender="unknown" name="dat_error_permission_request_timeout">Lumampas na sa pinapayagang time limit ang request sa pahintulot</string>
+    <string gender="unknown" name="dat_error_photo_capture_failed">Hindi nakunan ng litrato</string>
+    <string gender="unknown" name="dat_error_registration_already_registered">Naka-register na ang user kapag sinusubukang mag-register ulit</string>
+    <string gender="unknown" name="dat_error_registration_configuration_invalid">Invalid o hindi kumpleto ang configuration ng Wearables Device Access Toolkit</string>
+    <string gender="unknown" name="dat_error_registration_failed_to_register">Nabigo ang proseso ng pagre-register dahil sa hindi tinukoy na dahilan</string>
+    <string gender="unknown" name="dat_error_registration_failed_to_unregister">Nabigo ang proseso ng pag-unregister para sa hindi tinukoy na dahilan</string>
+    <string gender="unknown" name="dat_error_registration_meta_ai_not_installed">Hindi naka-install ang Meta AI app sa device, na kinakailangan para sa pagre-register</string>
+    <string gender="unknown" name="dat_error_registration_network_unavailable">Walang available na koneksyon sa internet. Pakisuri ang koneksyon mo at subukang muli</string>
+    <string gender="unknown" name="dat_error_registration_unknown">Nagkaroon ng hindi alam na error sa proseso ng pagre-register</string>
+    <string gender="unknown" name="dat_error_session_already_exists">Mayroon nang session para sa device na ito</string>
+    <string gender="unknown" name="dat_error_session_already_stopped">Itinigil na ang session</string>
+    <string gender="unknown" name="dat_error_session_battery_critical">Sobrang mababa na ang battery ng device</string>
+    <string gender="unknown" name="dat_error_session_capability_already_active">Aktibo na sa session ang isang kakayahan ng ganitong uri</string>
+    <string gender="unknown" name="dat_error_session_capability_denied">Tinanggihan ng device ang kakayahan</string>
+    <string gender="unknown" name="dat_error_session_capability_not_found">Walang kakayahan ng ganitong uri ang naka-attach sa session</string>
+    <string gender="unknown" name="dat_error_session_dat_app_on_the_glasses_update_required">Kailangan ng update ng iyong glasses. Pumunta sa page na Mga Koneksyon ng App sa Meta AI para i-update</string>
+    <string gender="unknown" name="dat_error_session_dat_app_update_required">Kailangan ng update ng app sa glasses mo bago makapagsimula ang session na ito. Pumunta sa page na Mga Koneksyon ng App sa Meta AI para i-update ito.</string>
+    <string gender="unknown" name="dat_error_session_device_disconnected">Nadiskonekta ang device</string>
+    <string gender="unknown" name="dat_error_session_dwa_out_of_stu_range">Maaaring hindi gumana ayon sa inaasahan ang bersyon ng app na ito sa nakakonektang glasses. Maaari pa ring ipagpatuloy ang session. Paminsan-minsan, maaaring magmungkahi ang app ng update.</string>
+    <string gender="unknown" name="dat_error_session_dwa_unavailable">Hindi reachable ang DAT Wearables App sa glasses</string>
+    <string gender="unknown" name="dat_error_session_ended_by_device">Tinapos ng device ang session</string>
+    <string gender="unknown" name="dat_error_session_idle">Idle ang session. Simulan ang session bago magdagdag ng mga kakayahan</string>
+    <string gender="unknown" name="dat_error_session_insufficient_sdk_version">Binuo ang app na ito gamit ang bersyon ng SDK na hindi na sinusuportahan ng iyong glasses. Maglabas ng mas bagong bersyon ng app na binuo gamit ang kasalukuyang SDK.</string>
+    <string gender="unknown" name="dat_error_session_no_eligible_device">Walang available na eligible na device</string>
+    <string gender="unknown" name="dat_error_session_peak_power_shutdown">Peak power shutdown ng device</string>
+    <string gender="unknown" name="dat_error_session_thermal_critical">Kritikal ang thermal state ng device</string>
+    <string gender="unknown" name="dat_error_session_thermal_emergency">Emergency na ang thermal state ng device — nagsa-shut down</string>
+    <string gender="unknown" name="dat_error_session_unexpected_error">Nagkaroon ng hindi inaasahang error</string>
+    <string gender="unknown" name="dat_error_stream_battery_low">Masyadong mababa ang battery ng device para sa pag-stream</string>
+    <string gender="unknown" name="dat_error_stream_critical_error">Kritikal na error, dapat tapusin ang stream</string>
+    <string gender="unknown" name="dat_error_stream_device_not_connected">Hindi nakakonekta ang device</string>
+    <string gender="unknown" name="dat_error_stream_device_not_found">Hindi nahanap ang device</string>
+    <string gender="unknown" name="dat_error_stream_error">Hindi matukoy na error, puwedeng magpatuloy ang stream kahit papaano</string>
+    <string gender="unknown" name="dat_error_stream_hinge_closed">Nakasara ang mga hinge sa glasses</string>
+    <string gender="unknown" name="dat_error_stream_peak_power_limit">Naabot na ang peak power limit ng device</string>
+    <string gender="unknown" name="dat_error_stream_permissions_denied">Tinanggihan ang mga pahintulot</string>
+    <string gender="unknown" name="dat_error_stream_thermal_hot">Masyadong mataas para sa pag-stream ang thermal level ng device</string>
+    <string gender="unknown" name="dat_error_stream_timeout">Nag-time out ang operation</string>
+    <string gender="unknown" name="dat_error_unregistration_already_unregistered">Naka-unregister na ang user kapag sinusubukang mag-unregister ulit</string>
+    <string gender="unknown" name="dat_error_unregistration_configuration_invalid">Invalid o hindi kumpleto ang configuration ng Wearables Device Access Toolkit</string>
+    <string gender="unknown" name="dat_error_unregistration_meta_ai_not_installed">Hindi naka-install ang Meta AI app sa device, na kinakailangan para sa pag-unregister</string>
+    <string gender="unknown" name="dat_error_unregistration_unknown">Nagkaroon ng hindi alam na error sa proseso ng pag-unregister</string>
+    <string gender="unknown" name="dat_error_voice_action_failed">Nabigo ang aksyon</string>
+    <string gender="unknown" name="dat_error_voice_channel_error">Nagkaroon ng channel error</string>
+    <string gender="unknown" name="dat_error_voice_channel_not_connected">Hindi nakakonekta ang channel</string>
+    <string gender="unknown" name="dat_error_voice_channel_setup_failed">Hindi na-set up ang channel ng Mga Aksyon ng AI</string>
+    <string gender="unknown" name="dat_error_voice_connection_not_available">Hindi available ang koneksyon sa device</string>
+    <string gender="unknown" name="dat_error_voice_device_not_found">Hindi nahanap ang device</string>
+    <string gender="unknown" name="dat_error_voice_fail_to_send_init_request">Hindi naipadala ang init request</string>
+    <string gender="unknown" name="dat_error_voice_init_request_error">Hindi nasimulan ang request</string>
+    <string gender="unknown" name="dat_error_voice_init_request_returned_error">Nagbalik ng error ang init request</string>
+    <string gender="unknown" name="dat_error_voice_invalid_action_message_proto">Invalid na action message proto</string>
+    <string gender="unknown" name="dat_error_voice_invalid_message_proto">Invalid na Message proto</string>
+    <string gender="unknown" name="dat_error_voice_invalid_session_state">Invalid na session state para sa operation</string>
+    <string gender="unknown" name="dat_error_voice_invalid_wearables_interface">Invalid ang ibinigay na WearablesInterface</string>
+    <string gender="unknown" name="dat_error_voice_send_message_error">Hindi naipadala ang message</string>
+    <string gender="unknown" name="dat_error_voice_unknown_message_type">Nakatanggap ng hindi kilalang uri ng message</string>
+    <string gender="unknown" name="dat_error_wearables_already_configured">Na-configure na</string>
+    <string gender="unknown" name="dat_error_wearables_already_initialized">Na-initialize na ang Wearables.</string>
+    <string gender="unknown" name="dat_error_wearables_configuration_error">Error sa configuration</string>
+    <string gender="unknown" name="dat_error_wearables_not_initialized">Hindi na-initialize ang Wearables. I-call muna ang Wearables.initialize(context).</string>
+    <string gender="unknown" name="dat_error_wearables_url_registration_error">Error sa pagre-register</string>
+    <string gender="unknown" name="dat_error_wearables_url_unregistration_error">Error sa pag-unregister</string>
+    <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
+</resources>

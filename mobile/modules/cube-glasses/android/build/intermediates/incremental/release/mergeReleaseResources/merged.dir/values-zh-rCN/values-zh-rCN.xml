@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string msgid="881409763997275156" name="call_notification_answer_action">"接听"</string>
+    <string msgid="8793775615905189152" name="call_notification_answer_video_action">"视频通话"</string>
+    <string msgid="3229508546291798546" name="call_notification_decline_action">"拒接"</string>
+    <string msgid="2659457946726154263" name="call_notification_hang_up_action">"挂断"</string>
+    <string msgid="6107532579223922871" name="call_notification_incoming_text">"来电"</string>
+    <string msgid="8623827134497363134" name="call_notification_ongoing_text">"正在通话"</string>
+    <string msgid="59049573811482460" name="call_notification_screening_text">"正在过滤来电"</string>
+    <string gender="unknown" name="dat_error_capture_busy">拍摄功能正忙</string>
+    <string gender="unknown" name="dat_error_capture_device_disconnected">设备已断开连接</string>
+    <string gender="unknown" name="dat_error_capture_device_health_critical">设备出现危急状况</string>
+    <string gender="unknown" name="dat_error_capture_failure">拍摄失败</string>
+    <string gender="unknown" name="dat_error_capture_not_ready">拍摄未就绪</string>
+    <string gender="unknown" name="dat_error_capture_permission_denied">拍摄权限已被拒</string>
+    <string gender="unknown" name="dat_error_capture_service_unavailable">拍摄服务不可用</string>
+    <string gender="unknown" name="dat_error_capture_setup_failed">拍摄设置失败</string>
+    <string gender="unknown" name="dat_error_capture_timed_out">拍摄超时</string>
+    <string gender="unknown" name="dat_error_capture_unknown">未知拍摄错误</string>
+    <string gender="unknown" name="dat_error_mock_app_management_unsupported_app_id">应用管理不支持的应用编号</string>
+    <string gender="unknown" name="dat_error_mock_app_management_unsupported_message_type">应用管理不支持的消息类型</string>
+    <string gender="unknown" name="dat_error_mock_failed_sending_video_frames">视频帧发送失败</string>
+    <string gender="unknown" name="dat_error_mock_peer_building_info_unsupported_message_type">设备信息，不支持的消息类型</string>
+    <string gender="unknown" name="dat_error_mock_permissions_unsupported_message_type">权限，不支持的消息类型</string>
+    <string gender="unknown" name="dat_error_mock_photo_capture">拍照时出现异常</string>
+    <string gender="unknown" name="dat_error_mock_remote_session_device_not_ready">远程会话，设备未就绪</string>
+    <string gender="unknown" name="dat_error_mock_remote_session_id_mismatch">远程会话，会话编号不匹配</string>
+    <string gender="unknown" name="dat_error_mock_remote_session_unsupported_message_type">远程会话，不支持的消息类型</string>
+    <string gender="unknown" name="dat_error_mock_stream_internal_error">发生内部错误</string>
+    <string gender="unknown" name="dat_error_mock_stream_no_camera_feed">未配置摄像头源</string>
+    <string gender="unknown" name="dat_error_mock_stream_start_failure">流式传输发起失败</string>
+    <string gender="unknown" name="dat_error_mock_streaming_error">流式传输时出现异常</string>
+    <string gender="unknown" name="dat_error_mock_streaming_unhandled_user_action">未处理的用户操作</string>
+    <string gender="unknown" name="dat_error_mock_voice_invocation_failed_to_parse_action_response">语音调用，操作响应解析失败</string>
+    <string gender="unknown" name="dat_error_mock_voice_invocation_failed_to_parse_init_request">语音调用，未能解析 init 请求</string>
+    <string gender="unknown" name="dat_error_mock_voice_invocation_unknown_message_type">语音调用，未知消息类型</string>
+    <string gender="unknown" name="dat_error_navigation_meta_ai_not_installed">设备未安装 Meta AI 应用</string>
+    <string gender="unknown" name="dat_error_navigation_not_registered">应用未在 AI 眼镜上注册</string>
+    <string gender="unknown" name="dat_error_permission_connection_error">与设备通信时发生连接错误</string>
+    <string gender="unknown" name="dat_error_permission_internal_error">发生意外的内部错误</string>
+    <string gender="unknown" name="dat_error_permission_meta_ai_not_installed">设备未安装 Meta AI 配套应用</string>
+    <string gender="unknown" name="dat_error_permission_no_device">未发现或注册可穿戴设备</string>
+    <string gender="unknown" name="dat_error_permission_no_device_with_connection">已发现的所有设备都已关机或断开连接</string>
+    <string gender="unknown" name="dat_error_permission_request_in_progress">权限请求已在进行中</string>
+    <string gender="unknown" name="dat_error_permission_request_timeout">权限请求超出允许的时间限制</string>
+    <string gender="unknown" name="dat_error_photo_capture_failed">照片拍摄失败</string>
+    <string gender="unknown" name="dat_error_registration_already_registered">用户在尝试再次注册时已完成注册</string>
+    <string gender="unknown" name="dat_error_registration_configuration_invalid">可穿戴设备访问工具箱配置无效或未完成</string>
+    <string gender="unknown" name="dat_error_registration_failed_to_register">注册流程失败，原因未说明</string>
+    <string gender="unknown" name="dat_error_registration_failed_to_unregister">取消注册流程失败，原因未说明</string>
+    <string gender="unknown" name="dat_error_registration_meta_ai_not_installed">设备未安装 Meta AI 应用，必须安装应用才能注册</string>
+    <string gender="unknown" name="dat_error_registration_network_unavailable">没有可用的网络连接。请检查你的网络连接并重试</string>
+    <string gender="unknown" name="dat_error_registration_unknown">注册过程中发生未知错误</string>
+    <string gender="unknown" name="dat_error_session_already_exists">这台设备已有会话</string>
+    <string gender="unknown" name="dat_error_session_already_stopped">会话已停止</string>
+    <string gender="unknown" name="dat_error_session_battery_critical">设备电量严重过低</string>
+    <string gender="unknown" name="dat_error_session_capability_already_active">会话中已启用此类型的功能</string>
+    <string gender="unknown" name="dat_error_session_capability_denied">功能已被设备拒绝</string>
+    <string gender="unknown" name="dat_error_session_capability_not_found">会话未附加任何此类型的功能</string>
+    <string gender="unknown" name="dat_error_session_dat_app_on_the_glasses_update_required">你的眼镜需要更新。请前往 Meta AI 中的“应用连接”页面进行更新</string>
+    <string gender="unknown" name="dat_error_session_dat_app_update_required">眼镜上的应用需要更新才能发起此会话。请前往 Meta AI 中的“应用连接”页面进行更新。</string>
+    <string gender="unknown" name="dat_error_session_device_disconnected">设备已断开连接</string>
+    <string gender="unknown" name="dat_error_session_dwa_out_of_stu_range">此应用版本可能无法在已连接的眼镜上正常运行。会话可以继续。应用可能会不时建议更新。</string>
+    <string gender="unknown" name="dat_error_session_dwa_unavailable">无法连接眼镜上的 DAT 可穿戴设备应用</string>
+    <string gender="unknown" name="dat_error_session_ended_by_device">会话已由设备结束</string>
+    <string gender="unknown" name="dat_error_session_idle">会话已闲置。请先发起会话再添加功能</string>
+    <string gender="unknown" name="dat_error_session_insufficient_sdk_version">此应用使用的 SDK 版本不再受你的眼镜支持。请使用当前 SDK 发布新版应用。</string>
+    <string gender="unknown" name="dat_error_session_no_eligible_device">没有符合条件的可用设备</string>
+    <string gender="unknown" name="dat_error_session_peak_power_shutdown">设备峰值功率关机</string>
+    <string gender="unknown" name="dat_error_session_thermal_critical">设备发热已进入严重状态</string>
+    <string gender="unknown" name="dat_error_session_thermal_emergency">设备发热已进入紧急状态 — 正在关机</string>
+    <string gender="unknown" name="dat_error_session_unexpected_error">发生意外错误</string>
+    <string gender="unknown" name="dat_error_stream_battery_low">设备电量太低，无法进行流式传输</string>
+    <string gender="unknown" name="dat_error_stream_critical_error">严重错误，流式传输应结束</string>
+    <string gender="unknown" name="dat_error_stream_device_not_connected">设备未连接</string>
+    <string gender="unknown" name="dat_error_stream_device_not_found">找不到设备</string>
+    <string gender="unknown" name="dat_error_stream_error">未知错误，直流式传输可继续</string>
+    <string gender="unknown" name="dat_error_stream_hinge_closed">眼镜铰链已关闭</string>
+    <string gender="unknown" name="dat_error_stream_peak_power_limit">设备已达到峰值功率限制</string>
+    <string gender="unknown" name="dat_error_stream_permissions_denied">权限被拒绝</string>
+    <string gender="unknown" name="dat_error_stream_thermal_hot">设备温度过高而无法进行流式传输</string>
+    <string gender="unknown" name="dat_error_stream_timeout">操作已超时</string>
+    <string gender="unknown" name="dat_error_unregistration_already_unregistered">用户在重试取消注册时，已经取消注册了</string>
+    <string gender="unknown" name="dat_error_unregistration_configuration_invalid">可穿戴设备访问工具箱配置无效或未完成</string>
+    <string gender="unknown" name="dat_error_unregistration_meta_ai_not_installed">设备未安装 Meta AI 应用，须安装此应用才能取消注册</string>
+    <string gender="unknown" name="dat_error_unregistration_unknown">取消注册过程中出现未知错误</string>
+    <string gender="unknown" name="dat_error_voice_action_failed">操作失败</string>
+    <string gender="unknown" name="dat_error_voice_channel_error">发生频道错误</string>
+    <string gender="unknown" name="dat_error_voice_channel_not_connected">频道未连接</string>
+    <string gender="unknown" name="dat_error_voice_channel_setup_failed">AI 操作频道设置失败</string>
+    <string gender="unknown" name="dat_error_voice_connection_not_available">设备无法连接</string>
+    <string gender="unknown" name="dat_error_voice_device_not_found">找不到设备</string>
+    <string gender="unknown" name="dat_error_voice_fail_to_send_init_request">未能发送初始化请求</string>
+    <string gender="unknown" name="dat_error_voice_init_request_error">未能初始化请求</string>
+    <string gender="unknown" name="dat_error_voice_init_request_returned_error">初始化请求返回错误</string>
+    <string gender="unknown" name="dat_error_voice_invalid_action_message_proto">无效操作消息原型</string>
+    <string gender="unknown" name="dat_error_voice_invalid_message_proto">无效消息原型</string>
+    <string gender="unknown" name="dat_error_voice_invalid_session_state">操作的会话状态无效</string>
+    <string gender="unknown" name="dat_error_voice_invalid_wearables_interface">提供的 WearablesInterface 无效</string>
+    <string gender="unknown" name="dat_error_voice_send_message_error">消息发送失败</string>
+    <string gender="unknown" name="dat_error_voice_unknown_message_type">收到未知的消息类型</string>
+    <string gender="unknown" name="dat_error_wearables_already_configured">已配置</string>
+    <string gender="unknown" name="dat_error_wearables_already_initialized">可穿戴设备已初始化。</string>
+    <string gender="unknown" name="dat_error_wearables_configuration_error">配置错误</string>
+    <string gender="unknown" name="dat_error_wearables_internal_error">内部错误</string>
+    <string gender="unknown" name="dat_error_wearables_not_initialized">可穿戴设备未初始化。请先调用Wearables.initialize(context)。</string>
+    <string gender="unknown" name="dat_error_wearables_url_registration_error">注册错误</string>
+    <string gender="unknown" name="dat_error_wearables_url_unregistration_error">取消注册时出错</string>
+    <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
+</resources>

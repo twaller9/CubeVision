@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string msgid="881409763997275156" name="call_notification_answer_action">"Svar"</string>
+    <string msgid="8793775615905189152" name="call_notification_answer_video_action">"Video"</string>
+    <string msgid="3229508546291798546" name="call_notification_decline_action">"Avvis"</string>
+    <string msgid="2659457946726154263" name="call_notification_hang_up_action">"Legg på"</string>
+    <string msgid="6107532579223922871" name="call_notification_incoming_text">"Innkommende anrop"</string>
+    <string msgid="8623827134497363134" name="call_notification_ongoing_text">"Pågående samtale"</string>
+    <string msgid="59049573811482460" name="call_notification_screening_text">"Filtrerer et innkommende anrop"</string>
+    <string gender="unknown" name="dat_error_capture_busy">Kameraet er i bruk</string>
+    <string gender="unknown" name="dat_error_capture_device_disconnected">Enhet frakoblet</string>
+    <string gender="unknown" name="dat_error_capture_device_health_critical">Enhetens tilstand er kritisk</string>
+    <string gender="unknown" name="dat_error_capture_failure">Kan ikke bruke kameraet</string>
+    <string gender="unknown" name="dat_error_capture_not_ready">Kameraet er ikke klart</string>
+    <string gender="unknown" name="dat_error_capture_permission_denied">Kameratillatelse ikke gitt</string>
+    <string gender="unknown" name="dat_error_capture_service_unavailable">Kameratjenesten er utilgjengelig</string>
+    <string gender="unknown" name="dat_error_capture_setup_failed">Konfigurering av kamera mislyktes</string>
+    <string gender="unknown" name="dat_error_capture_timed_out">Kameraet ble tidsavbrutt</string>
+    <string gender="unknown" name="dat_error_capture_unknown">Ukjent feil med kamerabruk</string>
+    <string gender="unknown" name="dat_error_mock_app_management_unsupported_app_id">Appadministrasjon støtter ikke app-ID</string>
+    <string gender="unknown" name="dat_error_mock_app_management_unsupported_message_type">Meldingstype støttes ikke for appadministrasjon</string>
+    <string gender="unknown" name="dat_error_mock_failed_sending_video_frames">Kan ikke sende videobilder</string>
+    <string gender="unknown" name="dat_error_mock_peer_building_info_unsupported_message_type">Enhetsinformasjon, meldingstype støttes ikke</string>
+    <string gender="unknown" name="dat_error_mock_permissions_unsupported_message_type">Tillatelser, meldingstypen støttes ikke</string>
+    <string gender="unknown" name="dat_error_mock_photo_capture">Unntak når det tas bilder</string>
+    <string gender="unknown" name="dat_error_mock_remote_session_device_not_ready">Ekstern økt, enhet ikke klar</string>
+    <string gender="unknown" name="dat_error_mock_remote_session_id_mismatch">Ekstern økt, økt-ID samsvarer ikke</string>
+    <string gender="unknown" name="dat_error_mock_remote_session_unsupported_message_type">Ekstern økt, meldingstypen støttes ikke</string>
+    <string gender="unknown" name="dat_error_mock_stream_internal_error">Det har oppstått en intern feil</string>
+    <string gender="unknown" name="dat_error_mock_stream_no_camera_feed">Ingen kamerakilde er konfigurert</string>
+    <string gender="unknown" name="dat_error_mock_stream_start_failure">Strømmen kan ikke starte</string>
+    <string gender="unknown" name="dat_error_mock_streaming_error">Unntak oppsto under strømming</string>
+    <string gender="unknown" name="dat_error_mock_streaming_unhandled_user_action">Ubehandlet brukerhandling</string>
+    <string gender="unknown" name="dat_error_mock_voice_invocation_failed_to_parse_action_response">Talepåkallelse, kunne ikke analysere svar på handling</string>
+    <string gender="unknown" name="dat_error_mock_voice_invocation_failed_to_parse_init_request">Talepåkallelse, kunne ikke analysere init-forespørsel</string>
+    <string gender="unknown" name="dat_error_mock_voice_invocation_unknown_message_type">Talepåkallelse, ukjent meldingstype</string>
+    <string gender="unknown" name="dat_error_navigation_meta_ai_not_installed">Meta AI-appen er ikke installert på enheten</string>
+    <string gender="unknown" name="dat_error_navigation_not_registered">Appen er ikke registrert med AI Glasses</string>
+    <string gender="unknown" name="dat_error_permission_connection_error">Det oppsto en tilkoblingsfeil under kommunisering med enheten</string>
+    <string gender="unknown" name="dat_error_permission_internal_error">Det oppstod en uventet intern feil</string>
+    <string gender="unknown" name="dat_error_permission_meta_ai_not_installed">Meta AI-tilleggsappen er ikke installert på enheten</string>
+    <string gender="unknown" name="dat_error_permission_no_device">Ingen smarttilbehør-enheter har blitt funnet eller registrert</string>
+    <string gender="unknown" name="dat_error_permission_no_device_with_connection">Alle oppdagede enheter er slått av eller koblet fra</string>
+    <string gender="unknown" name="dat_error_permission_request_in_progress">Det finnes allerede en pågående forespørsel om tillatelse</string>
+    <string gender="unknown" name="dat_error_permission_request_timeout">Forespørselen om tillatelse overskred den tillatte tidsgrensen</string>
+    <string gender="unknown" name="dat_error_photo_capture_failed">Bildetaking mislyktes</string>
+    <string gender="unknown" name="dat_error_registration_already_registered">Brukeren er allerede registrert ved forsøk på å registrere seg igjen</string>
+    <string gender="unknown" name="dat_error_registration_configuration_invalid">Konfigureringen av verktøysett for tilgang til smarttilbehør er ugyldig eller ufullstendig</string>
+    <string gender="unknown" name="dat_error_registration_failed_to_register">Registreringsprosessen mislyktes av en uspesifisert grunn</string>
+    <string gender="unknown" name="dat_error_registration_failed_to_unregister">Avregistreringsprosessen mislyktes av en uspesifisert grunn</string>
+    <string gender="unknown" name="dat_error_registration_meta_ai_not_installed">Meta AI-appen er ikke installert på enheten, noe som kreves for registrering</string>
+    <string gender="unknown" name="dat_error_registration_network_unavailable">Ingen internettforbindelse er tilgjengelig. Sjekk tilkoblingen din, og prøv på nytt</string>
+    <string gender="unknown" name="dat_error_registration_unknown">Det oppsto en ukjent feil under registreringsprosessen</string>
+    <string gender="unknown" name="dat_error_session_already_exists">Det finnes allerede en økt for denne enheten</string>
+    <string gender="unknown" name="dat_error_session_already_stopped">Økten har allerede stoppet</string>
+    <string gender="unknown" name="dat_error_session_battery_critical">Kritisk lavt batterinivå på enheten</string>
+    <string gender="unknown" name="dat_error_session_capability_already_active">En egenskap av denne typen er allerede aktiv i økten</string>
+    <string gender="unknown" name="dat_error_session_capability_denied">Egenskap avvist av enhet</string>
+    <string gender="unknown" name="dat_error_session_capability_not_found">Ingen egenskap av denne typen er tilknyttet økten</string>
+    <string gender="unknown" name="dat_error_session_dat_app_on_the_glasses_update_required">Brillene dine trenger en oppdatering. Gå til siden Apptilkoblinger i Meta AI for å oppdatere</string>
+    <string gender="unknown" name="dat_error_session_dat_app_update_required">Appen på brillene dine må oppdateres før denne økten kan starte. Gå til siden Apptilkoblinger i Meta AI for å oppdatere den.</string>
+    <string gender="unknown" name="dat_error_session_device_disconnected">Enhet frakoblet</string>
+    <string gender="unknown" name="dat_error_session_dwa_out_of_stu_range">Denne appversjonen fungerer kanskje ikke som forventet med de tilkoblede brillene. Økten kan fortsette. Appen kan foreslå en oppdatering innimellom.</string>
+    <string gender="unknown" name="dat_error_session_dwa_unavailable">DAT Wearables-appen på brillene kan ikke nås</string>
+    <string gender="unknown" name="dat_error_session_ended_by_device">Økt avsluttet av enhet</string>
+    <string gender="unknown" name="dat_error_session_idle">Økten er inaktiv. Start økten før du legger til egenskaper</string>
+    <string gender="unknown" name="dat_error_session_insufficient_sdk_version">Denne appen ble utviklet med en SDK-versjon som ikke lenger støttes av brillene dine. Utgi en nyere versjon av appen utviklet med den nåværende SDK-en.</string>
+    <string gender="unknown" name="dat_error_session_no_eligible_device">Ingen kvalifisert enhet er tilgjengelig</string>
+    <string gender="unknown" name="dat_error_session_peak_power_shutdown">Enheten slås av pga. høyt strømforbruk</string>
+    <string gender="unknown" name="dat_error_session_thermal_critical">Enhetens termiske tilstand er kritisk</string>
+    <string gender="unknown" name="dat_error_session_thermal_emergency">Enhetens termiske tilstand er kritisk – slår seg av</string>
+    <string gender="unknown" name="dat_error_session_unexpected_error">Det oppstod en uventet feil</string>
+    <string gender="unknown" name="dat_error_stream_battery_low">Enhetens batterinivå er for lavt for strømming</string>
+    <string gender="unknown" name="dat_error_stream_critical_error">Alvorlig feil, strømmingen avsluttes</string>
+    <string gender="unknown" name="dat_error_stream_device_not_connected">Enheten er ikke koblet til</string>
+    <string gender="unknown" name="dat_error_stream_device_not_found">Fant ikke enheten</string>
+    <string gender="unknown" name="dat_error_stream_error">Uspesifisert feil, strømmingen kan fortsette</string>
+    <string gender="unknown" name="dat_error_stream_hinge_closed">Stengene på brillene ble lukket</string>
+    <string gender="unknown" name="dat_error_stream_peak_power_limit">Enhetens øvre strømgrense er nådd</string>
+    <string gender="unknown" name="dat_error_stream_permissions_denied">Tillatelser avslått</string>
+    <string gender="unknown" name="dat_error_stream_thermal_hot">Enheten er for varm til å kunne strømme</string>
+    <string gender="unknown" name="dat_error_stream_timeout">Operasjonen ble tidsavbrutt</string>
+    <string gender="unknown" name="dat_error_unregistration_already_unregistered">Brukeren er allerede avregistrert ved forsøk på å avregistrere seg igjen</string>
+    <string gender="unknown" name="dat_error_unregistration_configuration_invalid">Konfigureringen av verktøysett for tilgang til smarttilbehør er ugyldig eller ufullstendig</string>
+    <string gender="unknown" name="dat_error_unregistration_meta_ai_not_installed">Meta AI-appen er ikke installert på enheten, noe som kreves for avregistrering</string>
+    <string gender="unknown" name="dat_error_unregistration_unknown">Det oppstod en ukjent feil under avregistreringsprosessen</string>
+    <string gender="unknown" name="dat_error_voice_action_failed">Handlingen mislyktes</string>
+    <string gender="unknown" name="dat_error_voice_channel_error">En kanalfeil oppstod</string>
+    <string gender="unknown" name="dat_error_voice_channel_not_connected">Kanalen er ikke tilkoblet</string>
+    <string gender="unknown" name="dat_error_voice_channel_setup_failed">Kan ikke konfigurere KI-handlingskanal</string>
+    <string gender="unknown" name="dat_error_voice_connection_not_available">Enhetstilkobling er ikke tilgjengelig</string>
+    <string gender="unknown" name="dat_error_voice_device_not_found">Fant ikke enheten</string>
+    <string gender="unknown" name="dat_error_voice_fail_to_send_init_request">Kan ikke sende init-forespørsel</string>
+    <string gender="unknown" name="dat_error_voice_init_request_error">Kan ikke starte forespørsel</string>
+    <string gender="unknown" name="dat_error_voice_init_request_returned_error">Init-forespørsel returnerte en feil</string>
+    <string gender="unknown" name="dat_error_voice_invalid_action_message_proto">Ugyldig handlingsmeldingsproto</string>
+    <string gender="unknown" name="dat_error_voice_invalid_message_proto">Ugyldig meldingsproto</string>
+    <string gender="unknown" name="dat_error_voice_invalid_session_state">Ugyldig øktstatus for operasjon</string>
+    <string gender="unknown" name="dat_error_voice_invalid_wearables_interface">Ugyldig smarttilbehørgrensesnitt oppgitt</string>
+    <string gender="unknown" name="dat_error_voice_send_message_error">Kan ikke sende melding</string>
+    <string gender="unknown" name="dat_error_voice_unknown_message_type">Ukjent meldingstype mottatt</string>
+    <string gender="unknown" name="dat_error_wearables_already_configured">Allerede konfigurert</string>
+    <string gender="unknown" name="dat_error_wearables_already_initialized">Smarttilbehør har allerede blitt startet.</string>
+    <string gender="unknown" name="dat_error_wearables_configuration_error">Konfigureringsfeil</string>
+    <string gender="unknown" name="dat_error_wearables_internal_error">Intern feil</string>
+    <string gender="unknown" name="dat_error_wearables_not_initialized">Smarttilbehør ikke initialisert. Anrop Wearables.initialize(context) først.</string>
+    <string gender="unknown" name="dat_error_wearables_url_registration_error">Registreringsfeil</string>
+    <string gender="unknown" name="dat_error_wearables_url_unregistration_error">Avregistreringsfeil</string>
+    <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
+</resources>

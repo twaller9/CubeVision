@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string msgid="881409763997275156" name="call_notification_answer_action">"பதிலளி"</string>
+    <string msgid="8793775615905189152" name="call_notification_answer_video_action">"வீடியோ"</string>
+    <string msgid="3229508546291798546" name="call_notification_decline_action">"நிராகரி"</string>
+    <string msgid="2659457946726154263" name="call_notification_hang_up_action">"துண்டி"</string>
+    <string msgid="6107532579223922871" name="call_notification_incoming_text">"உள்வரும் அழைப்பு"</string>
+    <string msgid="8623827134497363134" name="call_notification_ongoing_text">"செயலில் இருக்கும் அழைப்பு"</string>
+    <string msgid="59049573811482460" name="call_notification_screening_text">"உள்வரும் அழைப்பை மதிப்பாய்வு செய்கிறது"</string>
+    <string gender="unknown" name="dat_error_capture_busy">படமெடுத்தல் பிஸியாக உள்ளது</string>
+    <string gender="unknown" name="dat_error_capture_device_disconnected">சாதனம் இணைப்பு அகற்றப்பட்டது</string>
+    <string gender="unknown" name="dat_error_capture_device_health_critical">சாதன ஹெல்த் மிகவும் மோசமாக உள்ளது</string>
+    <string gender="unknown" name="dat_error_capture_failure">படமெடுக்க முடியவில்லை</string>
+    <string gender="unknown" name="dat_error_capture_not_ready">படமெடுத்தல் தயாராகவில்லை</string>
+    <string gender="unknown" name="dat_error_capture_permission_denied">படமெடுத்தல் அனுமதி மறுக்கப்பட்டது</string>
+    <string gender="unknown" name="dat_error_capture_service_unavailable">படமெடுத்தல் சேவை கிடைக்கவில்லை</string>
+    <string gender="unknown" name="dat_error_capture_setup_failed">படமெடுத்தல் அமைவு தோல்வியுற்றது</string>
+    <string gender="unknown" name="dat_error_capture_timed_out">படமெடுத்தலுக்கான நேரம் முடிந்துவிட்டது</string>
+    <string gender="unknown" name="dat_error_capture_unknown">அறியாத படமெடுத்தல் பிழை</string>
+    <string gender="unknown" name="dat_error_mock_app_management_unsupported_app_id">செயலி நிர்வாகம் ஆதரிக்கப்படாத செயலி ஐடி</string>
+    <string gender="unknown" name="dat_error_mock_app_management_unsupported_message_type">செயலி நிர்வாகத்திற்கு ஆதரிக்கப்படாத மெசேஜ் வகை</string>
+    <string gender="unknown" name="dat_error_mock_failed_sending_video_frames">வீடியோ ஃபிரேம்களை அனுப்ப முடியவில்லை</string>
+    <string gender="unknown" name="dat_error_mock_peer_building_info_unsupported_message_type">சாதனத் தகவல், ஆதரிக்கப்படாத மெசேஜ் வகை</string>
+    <string gender="unknown" name="dat_error_mock_permissions_unsupported_message_type">அனுமதிகள், ஆதரிக்கப்படாத மெசேஜ் வகை</string>
+    <string gender="unknown" name="dat_error_mock_photo_capture">படமெடுக்கும்போது விதிவிலக்கு</string>
+    <string gender="unknown" name="dat_error_mock_remote_session_device_not_ready">தொலைநிலை அமர்வு, சாதனம் தயாராகவில்லை</string>
+    <string gender="unknown" name="dat_error_mock_remote_session_id_mismatch">தொலைநிலை அமர்வு, அமர்வு ஐடி பொருந்தவில்லை</string>
+    <string gender="unknown" name="dat_error_mock_remote_session_unsupported_message_type">தொலைநிலை அமர்வு, ஆதரிக்கப்படாத மெசேஜ் வகை</string>
+    <string gender="unknown" name="dat_error_mock_stream_internal_error">உள்ளகப் பிழை ஏற்பட்டது</string>
+    <string gender="unknown" name="dat_error_mock_stream_no_camera_feed">கேமரா மூலம் எதுவும் உள்ளமைக்கப்படவில்லை</string>
+    <string gender="unknown" name="dat_error_mock_stream_start_failure">ஸ்ட்ரீமைத் தொடங்க முடியவில்லை</string>
+    <string gender="unknown" name="dat_error_mock_streaming_error">ஸ்ட்ரீம் செய்தலின்போது விதிவிலக்கு ஏற்பட்டது</string>
+    <string gender="unknown" name="dat_error_mock_streaming_unhandled_user_action">கையாளப்படாத பயனர் செயல்பாடு</string>
+    <string gender="unknown" name="dat_error_mock_voice_invocation_failed_to_parse_action_response">குரல் அழைப்பு, செயல் பதிலைப் பாகுபடுத்த முடியவில்லை</string>
+    <string gender="unknown" name="dat_error_mock_voice_invocation_failed_to_parse_init_request">குரல் அழைப்பு, தொடக்கக் கோரிக்கையைப் பாகுபடுத்த முடியவில்லை</string>
+    <string gender="unknown" name="dat_error_mock_voice_invocation_unknown_message_type">குரல் அழைப்பு, அறியப்படாத மெசேஜ் வகை</string>
+    <string gender="unknown" name="dat_error_navigation_meta_ai_not_installed">Meta AI செயலி, சாதனத்தில் நிறுவப்படவில்லை</string>
+    <string gender="unknown" name="dat_error_navigation_not_registered">செயலி AI கிளாஸ்களுடன் பதிவு செய்யப்படவில்லை</string>
+    <string gender="unknown" name="dat_error_permission_connection_error">சாதனத்துடன் தொடர்புகொள்ளும்போது இணைப்பு பிழை ஏற்பட்டது</string>
+    <string gender="unknown" name="dat_error_permission_internal_error">எதிர்பாராத உள்ளகப் பிழை ஏற்பட்டது</string>
+    <string gender="unknown" name="dat_error_permission_meta_ai_not_installed">Meta AI துணைச் செயலி, சாதனத்தில் நிறுவப்படவில்லை</string>
+    <string gender="unknown" name="dat_error_permission_no_device">அணியக்கூடிய சாதனங்கள் எதுவும் கண்டறியப்படவில்லை அல்லது பதிவுசெய்யப்படவில்லை</string>
+    <string gender="unknown" name="dat_error_permission_no_device_with_connection">கண்டறியப்பட்ட சாதனங்கள் அனைத்தும் முடக்கப்பட்டுள்ளன அல்லது அவற்றின் இணைப்பு அகற்றப்பட்டுள்ளது</string>
+    <string gender="unknown" name="dat_error_permission_request_in_progress">அனுமதிக்கான கோரிக்கை ஏற்கெனவே செயலில் உள்ளது</string>
+    <string gender="unknown" name="dat_error_permission_request_timeout">அனுமதிக்கான கோரிக்கை, அனுமதிக்கப்பட்ட நேர வரம்பைத் தாண்டிவிட்டது</string>
+    <string gender="unknown" name="dat_error_photo_capture_failed">படமெடுக்க முடியவில்லை</string>
+    <string gender="unknown" name="dat_error_registration_already_registered">பதிவுசெய்ய முயலும்போது பயனர் ஏற்கெனவே பதிவுசெய்யப்பட்டிருந்தார்</string>
+    <string gender="unknown" name="dat_error_registration_configuration_invalid">அணியத்தக்க சாதன அணுகல் கருவிப்பெட்டியின் உள்ளமைவு தவறானது அல்லது முழுமையடையவில்லை</string>
+    <string gender="unknown" name="dat_error_registration_failed_to_register">குறிப்பிடப்படாத காரணத்தால் பதிவு செய்தல் செயல்முறை தோல்வியடைந்தது</string>
+    <string gender="unknown" name="dat_error_registration_failed_to_unregister">குறிப்பிடப்படாத காரணத்திற்காகப் பதிவுநீக்குதல் செயல்முறை தோல்வியடைந்தது</string>
+    <string gender="unknown" name="dat_error_registration_meta_ai_not_installed">பதிவு செய்வதற்குத் தேவையான Meta AI செயலி, சாதனத்தில் நிறுவப்படவில்லை</string>
+    <string gender="unknown" name="dat_error_registration_network_unavailable">இணைய இணைப்பு கிடைக்கவில்லை. உங்கள் இணைப்பைச் சரிபார்த்துவிட்டு முயலுங்கள்</string>
+    <string gender="unknown" name="dat_error_registration_unknown">பதிவுசெய்யும் செயல்முறையின்போது அறியப்படாத பிழை ஏற்பட்டது</string>
+    <string gender="unknown" name="dat_error_session_already_exists">இந்தச் சாதனத்திற்கு ஏற்கெனவே ஓர் அமர்வு உள்ளது</string>
+    <string gender="unknown" name="dat_error_session_already_stopped">அமர்வு ஏற்கெனவே நிறுத்தப்பட்டுள்ளது</string>
+    <string gender="unknown" name="dat_error_session_battery_critical">சாதனத்தின் பேட்டரி மிகவும் குறைவாக உள்ளது</string>
+    <string gender="unknown" name="dat_error_session_capability_already_active">இந்த வகையின் திறன் ஏற்கெனவே அமர்வில் செயலில் உள்ளது</string>
+    <string gender="unknown" name="dat_error_session_capability_denied">சாதனத்தால் திறன் மறுக்கப்பட்டது</string>
+    <string gender="unknown" name="dat_error_session_capability_not_found">இந்த வகையின் திறன் எதுவும் அமர்வில் இணைக்கப்படவில்லை</string>
+    <string gender="unknown" name="dat_error_session_dat_app_on_the_glasses_update_required">உங்கள் கண்ணாடிகளுக்குப் புதுப்பிப்பு தேவை. Meta AI இல் உள்ள செயலி இணைப்புகள் பக்கத்திற்குச் சென்று புதுப்பித்திடுங்கள்</string>
+    <string gender="unknown" name="dat_error_session_dat_app_update_required">இந்த அமர்வு தொடங்குவதற்கு முன்பு உங்கள் கண்ணாடிகளில் உள்ள செயலியைப் புதுப்பிக்க வேண்டும். அதைப் புதுப்பிக்க Meta AI இல் செயலி இணைப்புகள் பக்கத்திற்குச் செல்லுங்கள்.</string>
+    <string gender="unknown" name="dat_error_session_device_disconnected">சாதனம் இணைப்பு அகற்றப்பட்டது</string>
+    <string gender="unknown" name="dat_error_session_dwa_out_of_stu_range">இணைக்கப்பட்ட கண்ணாடிகளுடன் இந்தச் செயலிப் பதிப்பு எதிர்பார்த்தவாறு வேலை செய்யாமல் போகலாம். அமர்வைத் தொடரலாம். செயலி அவ்வப்போது புதுப்பிப்பைப் பரிந்துரைக்கலாம்.</string>
+    <string gender="unknown" name="dat_error_session_dwa_unavailable">கண்ணாடிகளில் உள்ள DAT Wearables செயலியைத் தொடர்புகொள்ள முடியவில்லை</string>
+    <string gender="unknown" name="dat_error_session_ended_by_device">சாதனத்தால் அமர்வு முடிக்கப்பட்டது</string>
+    <string gender="unknown" name="dat_error_session_idle">அமர்வு செயலற்ற நிலையில் உள்ளது. திறன்களைச் சேர்ப்பதற்கு முன் அமர்வைத் தொடங்குங்கள்</string>
+    <string gender="unknown" name="dat_error_session_insufficient_sdk_version">இந்தச் செயலி உங்கள் கண்ணாடிகள் தற்போது ஆதரிக்காத SDK பதிப்பில் உருவாக்கப்பட்டுள்ளது. தற்போதைய SDK இல் உருவாக்கப்பட்ட செயலியின் புதிய பதிப்பை வெளியிடுங்கள்.</string>
+    <string gender="unknown" name="dat_error_session_no_eligible_device">தகுதிபெறும் சாதனம் எதுவும் இல்லை</string>
+    <string gender="unknown" name="dat_error_session_peak_power_shutdown">சாதனத்தின் உச்ச ஆற்றல் முடக்கம்</string>
+    <string gender="unknown" name="dat_error_session_thermal_critical">சாதனத்தின் வெப்ப நிலை மிகவும் அதிகமாக உள்ளது</string>
+    <string gender="unknown" name="dat_error_session_thermal_emergency">சாதனத்தின் வெப்ப நிலை அவசர நிலையில் உள்ளது — முடக்குகிறது</string>
+    <string gender="unknown" name="dat_error_session_unexpected_error">எதிர்பாராத பிழை ஏற்பட்டது</string>
+    <string gender="unknown" name="dat_error_stream_battery_low">சாதனத்தில் பேட்டரி மிகவும் குறைவாக உள்ளதால் ஸ்ட்ரீம் செய்ய முடியாது</string>
+    <string gender="unknown" name="dat_error_stream_critical_error">மிக மோசமான பிழை, ஸ்ட்ரீமை முடிக்க வேண்டும்</string>
+    <string gender="unknown" name="dat_error_stream_device_not_connected">சாதனம் இணைக்கப்படவில்லை</string>
+    <string gender="unknown" name="dat_error_stream_device_not_found">சாதனம் கண்டறியப்படவில்லை</string>
+    <string gender="unknown" name="dat_error_stream_error">குறிப்பிடப்படாத பிழை, இதனைப் பொருட்படுத்தாமல் ஸ்ட்ரீம் தொடரலாம்</string>
+    <string gender="unknown" name="dat_error_stream_hinge_closed">கண்ணாடிகளில் உள்ள கீல்கள் மூடப்பட்டுள்ளன</string>
+    <string gender="unknown" name="dat_error_stream_peak_power_limit">சாதனம் உச்ச ஆற்றல் வரம்பை அடைந்துவிட்டது</string>
+    <string gender="unknown" name="dat_error_stream_permissions_denied">அனுமதி மறுக்கப்பட்டது</string>
+    <string gender="unknown" name="dat_error_stream_thermal_hot">சாதனத்தின் வெப்ப அளவு ஸ்ட்ரீம் செய்வதற்கு மிக அதிகமாக உள்ளது</string>
+    <string gender="unknown" name="dat_error_stream_timeout">செயல்முறை நேரம் முடிந்தது</string>
+    <string gender="unknown" name="dat_error_unregistration_already_unregistered">பதிவுநீக்க முயலும்போது பயனர் ஏற்கெனவே பதிவுநீக்கப்பட்டிருந்தார்</string>
+    <string gender="unknown" name="dat_error_unregistration_configuration_invalid">அணியத்தக்க சாதன அணுகல் கருவிப்பெட்டியின் உள்ளமைவு தவறானது அல்லது முழுமையடையவில்லை</string>
+    <string gender="unknown" name="dat_error_unregistration_meta_ai_not_installed">பதிவுநீக்கத்திற்குத் தேவையான Meta AI செயலி, சாதனத்தில் நிறுவப்படவில்லை</string>
+    <string gender="unknown" name="dat_error_unregistration_unknown">பதிவுநீக்கச் செயலாக்கத்தின்போது அறியப்படாத பிழை ஏற்பட்டது</string>
+    <string gender="unknown" name="dat_error_voice_action_failed">செயல்பாட்டுத் தோல்வி</string>
+    <string gender="unknown" name="dat_error_voice_channel_error">சேனல் பிழை ஏற்பட்டது</string>
+    <string gender="unknown" name="dat_error_voice_channel_not_connected">சேனல் இணைக்கப்படவில்லை</string>
+    <string gender="unknown" name="dat_error_voice_channel_setup_failed">AI செயல்பாடுகள் சேனலை அமைக்க முடியவில்லை</string>
+    <string gender="unknown" name="dat_error_voice_connection_not_available">சாதன இணைப்பு கிடைக்கவில்லை</string>
+    <string gender="unknown" name="dat_error_voice_device_not_found">சாதனம் இல்லை</string>
+    <string gender="unknown" name="dat_error_voice_fail_to_send_init_request">தொடக்கக் கோரிக்கையை அனுப்ப முடியவில்லை</string>
+    <string gender="unknown" name="dat_error_voice_init_request_error">கோரிக்கையைத் தொடங்க முடியவில்லை</string>
+    <string gender="unknown" name="dat_error_voice_init_request_returned_error">தொடக்கக் கோரிக்கை பிழையை வழங்கியது</string>
+    <string gender="unknown" name="dat_error_voice_invalid_action_message_proto">தவறான செயல் மெசேஜ் ப்ரோட்டோ</string>
+    <string gender="unknown" name="dat_error_voice_invalid_message_proto">தவறான மெசேஜ் ப்ரோட்டோ</string>
+    <string gender="unknown" name="dat_error_voice_invalid_session_state">செயல்பாட்டுக்கான அமர்வு நிலை தவறானது</string>
+    <string gender="unknown" name="dat_error_voice_invalid_wearables_interface">தவறான WearablesInterface வழங்கப்பட்டது</string>
+    <string gender="unknown" name="dat_error_voice_send_message_error">மெசேஜை அனுப்ப முடியவில்லை</string>
+    <string gender="unknown" name="dat_error_voice_unknown_message_type">தெரியாத மெசேஜ் வகை பெறப்பட்டது</string>
+    <string gender="unknown" name="dat_error_wearables_already_configured">ஏற்கனவே உள்ளமைக்கப்பட்டுள்ளது</string>
+    <string gender="unknown" name="dat_error_wearables_already_initialized">Wearables ஏற்கெனவே துவக்கப்பட்டுள்ளது.</string>
+    <string gender="unknown" name="dat_error_wearables_configuration_error">உள்ளமைவுப் பிழை</string>
+    <string gender="unknown" name="dat_error_wearables_internal_error">உள்ளகப் பிழை</string>
+    <string gender="unknown" name="dat_error_wearables_not_initialized">அணியக்கூடிய சாதனங்கள் இன்னும் தயாராகவில்லை. முதலில் Wearables.initialize(context) என்பதை அழைத்திடுங்கள்.</string>
+    <string gender="unknown" name="dat_error_wearables_url_registration_error">பதிவு செய்தல் பிழை</string>
+    <string gender="unknown" name="dat_error_wearables_url_unregistration_error">பதிவுநீக்கல் பிழை</string>
+    <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
+</resources>

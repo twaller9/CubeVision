@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string msgid="881409763997275156" name="call_notification_answer_action">"Sprejmi"</string>
+    <string msgid="8793775615905189152" name="call_notification_answer_video_action">"Video"</string>
+    <string msgid="3229508546291798546" name="call_notification_decline_action">"Zavrni"</string>
+    <string msgid="2659457946726154263" name="call_notification_hang_up_action">"Prekini klic"</string>
+    <string msgid="6107532579223922871" name="call_notification_incoming_text">"Dohodni klic"</string>
+    <string msgid="8623827134497363134" name="call_notification_ongoing_text">"Aktivni klic"</string>
+    <string msgid="59049573811482460" name="call_notification_screening_text">"Preverjanje dohodnega klica"</string>
+    <string gender="unknown" name="dat_error_permission_connection_error">Med komunikacijo z napravo je prišlo do napake povezave</string>
+    <string gender="unknown" name="dat_error_permission_internal_error">Prišlo je do nepričakovane interne napake</string>
+    <string gender="unknown" name="dat_error_permission_meta_ai_not_installed">Spremljevalna aplikacija Meta AI ni nameščena v napravi</string>
+    <string gender="unknown" name="dat_error_permission_no_device">Nobena nosljiva naprava ni bila najdena ali registrirana</string>
+    <string gender="unknown" name="dat_error_permission_no_device_with_connection">Vse odrite naprave so izklopljene ali prekinjene</string>
+    <string gender="unknown" name="dat_error_permission_request_in_progress">Zahteva za dovoljenje je že v postopku</string>
+    <string gender="unknown" name="dat_error_permission_request_timeout">Zahteva za dovoljenje je presegla dovoljeno časovno omejitev</string>
+    <string gender="unknown" name="dat_error_registration_already_registered">Uporabnik je že registriran, ko se poskuša znova registrirati</string>
+    <string gender="unknown" name="dat_error_registration_configuration_invalid">Konfiguracija kompletov za dostop do nosljivih naprav ni veljavna ali pa ni popolna</string>
+    <string gender="unknown" name="dat_error_registration_meta_ai_not_installed">Aplikacija Meta AI ni nameščena v napravi, kar je pogoj za registracijo</string>
+    <string gender="unknown" name="dat_error_registration_network_unavailable">Internetna povezava ni na voljo. Preveri svojo povezavo in poskusi znova</string>
+    <string gender="unknown" name="dat_error_registration_unknown">V postopku registracije je prišlo do neznane napake</string>
+    <string gender="unknown" name="dat_error_session_already_exists">Seja za to napravo že obstaja</string>
+    <string gender="unknown" name="dat_error_session_already_stopped">Seja je že zaustavljena</string>
+    <string gender="unknown" name="dat_error_session_battery_critical">Stanje napolnjenosti baterije naprave je kritično nizko</string>
+    <string gender="unknown" name="dat_error_session_capability_already_active">Zmožnost te vrste je že aktivna v seji</string>
+    <string gender="unknown" name="dat_error_session_capability_not_found">Nobena zmogljivost te vrste ni pripeta seji</string>
+    <string gender="unknown" name="dat_error_session_idle">Seja je nedejavna. Preden dodaš zmogljivosti, začni sejo</string>
+    <string gender="unknown" name="dat_error_session_no_eligible_device">Na voljo ni nobene primerne naprave</string>
+    <string gender="unknown" name="dat_error_session_peak_power_shutdown">Izklop naprave zaradi prevelike porabe</string>
+    <string gender="unknown" name="dat_error_session_thermal_critical">Termalno stanje naprave je kritično</string>
+    <string gender="unknown" name="dat_error_session_thermal_emergency">Termalno stanje naprave je kritično — izklop</string>
+    <string gender="unknown" name="dat_error_stream_battery_low">Baterija naprave je prenizka za pretakanje</string>
+    <string gender="unknown" name="dat_error_stream_critical_error">Kritična napaka; tok se mora končati</string>
+    <string gender="unknown" name="dat_error_stream_error">Nedoločena napaka; pretakanje lahko nadaljuje</string>
+    <string gender="unknown" name="dat_error_stream_hinge_closed">Tečaji na očalih so zaprti</string>
+    <string gender="unknown" name="dat_error_stream_peak_power_limit">Dosežena je največja omejitev naprave</string>
+    <string gender="unknown" name="dat_error_stream_permissions_denied">Dovoljenja so zavrnjena</string>
+    <string gender="unknown" name="dat_error_stream_thermal_hot">Termalna raven naprave je previsoka za pretakanje</string>
+    <string gender="unknown" name="dat_error_stream_timeout">Postopek je potekel</string>
+    <string gender="unknown" name="dat_error_unregistration_already_unregistered">Uporabnik je že odjavljen, ko poskuša znova odjaviti</string>
+    <string gender="unknown" name="dat_error_unregistration_configuration_invalid">Konfiguracija orodja Wearables Device Access ni veljavna ali točna</string>
+    <string gender="unknown" name="dat_error_unregistration_meta_ai_not_installed">Aplikacija Meta AI ni nameščena v napravi, kar je pogoj za preklic registracije</string>
+    <string gender="unknown" name="dat_error_unregistration_unknown">V postopku preklica registracije je prišlo do neznane napake</string>
+    <string gender="unknown" name="dat_error_voice_action_failed">Dejanje je neuspešno</string>
+    <string gender="unknown" name="dat_error_voice_channel_setup_failed">Kanala za dejanja umetne inteligence ni mogoče nastaviti</string>
+    <string gender="unknown" name="dat_error_voice_connection_not_available">Povezava z napravo ni vzpostavljena</string>
+    <string gender="unknown" name="dat_error_voice_device_not_found">Naprava ni najdena</string>
+    <string gender="unknown" name="dat_error_voice_init_request_error">Zahteve ni mogoče inicializirati</string>
+    <string gender="unknown" name="dat_error_voice_invalid_message_proto">Neveljaven prototip sporočila</string>
+    <string gender="unknown" name="dat_error_voice_invalid_wearables_interface">Podana vmesnik za nosljive naprave ni veljaven</string>
+    <string gender="unknown" name="dat_error_voice_send_message_error">Napaka pri pošiljanju sporočila</string>
+    <string gender="unknown" name="dat_error_wearables_already_configured">Že konfigurirano</string>
+    <string gender="unknown" name="dat_error_wearables_configuration_error">Napaka konfiguracije</string>
+    <string gender="unknown" name="dat_error_wearables_internal_error">Notranja napaka</string>
+    <string gender="unknown" name="dat_error_wearables_url_registration_error">Napaka pri registraciji</string>
+    <string gender="unknown" name="dat_error_wearables_url_unregistration_error">Napaka pri odjavi</string>
+    <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
+</resources>

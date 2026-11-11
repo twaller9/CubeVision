@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string msgid="881409763997275156" name="call_notification_answer_action">"উত্তর দিন"</string>
+    <string msgid="8793775615905189152" name="call_notification_answer_video_action">"ভিডিও"</string>
+    <string msgid="3229508546291798546" name="call_notification_decline_action">"বাতিল করুন"</string>
+    <string msgid="2659457946726154263" name="call_notification_hang_up_action">"কল কেটে দিন"</string>
+    <string msgid="6107532579223922871" name="call_notification_incoming_text">"ইনকামিং কল"</string>
+    <string msgid="8623827134497363134" name="call_notification_ongoing_text">"চালু থাকা কল"</string>
+    <string msgid="59049573811482460" name="call_notification_screening_text">"ইনকামিং কল স্ক্রিনিং করা হচ্ছে"</string>
+    <string gender="unknown" name="dat_error_capture_busy">ক্যাপচার ব্যস্ত আছে</string>
+    <string gender="unknown" name="dat_error_capture_device_disconnected">ডিভাইস ডিসকানেক্ট হয়ে গেছে</string>
+    <string gender="unknown" name="dat_error_capture_device_health_critical">ডিভাইসের অবস্থা গুরুতর</string>
+    <string gender="unknown" name="dat_error_capture_failure">ক্যাপচার করা যায়নি</string>
+    <string gender="unknown" name="dat_error_capture_not_ready">ক্যাপচার করার জন্য প্রস্তুত নয়</string>
+    <string gender="unknown" name="dat_error_capture_permission_denied">ক্যাপচার করার অনুমতি দেওয়া হয়নি</string>
+    <string gender="unknown" name="dat_error_capture_service_unavailable">ক্যাপচার পরিষেবা উপলভ্য নেই</string>
+    <string gender="unknown" name="dat_error_capture_setup_failed">ক্যাপচার সেটআপ করা যায়নি</string>
+    <string gender="unknown" name="dat_error_capture_timed_out">ক্যাপচারের সময়সীমা শেষ হয়ে গেছে</string>
+    <string gender="unknown" name="dat_error_capture_unknown">অজানা ক্যাপচার সংক্রান্ত ত্রুটি</string>
+    <string gender="unknown" name="dat_error_mock_app_management_unsupported_app_id">অ্যাপ ম্যানেজমেন্টে সমর্থিত নয় এমন অ্যাপ আইডি</string>
+    <string gender="unknown" name="dat_error_mock_app_management_unsupported_message_type">অ্যাপ ম্যানেজমেন্টে যে ধরনের মেসেজ সাপোর্ট করে না</string>
+    <string gender="unknown" name="dat_error_mock_failed_sending_video_frames">ভিডিও ফ্রেম পাঠানো যায়নি</string>
+    <string gender="unknown" name="dat_error_mock_peer_building_info_unsupported_message_type">ডিভাইসের তথ্য, যে ধরনের মেসেজ সাপোর্ট করা হয় না</string>
+    <string gender="unknown" name="dat_error_mock_permissions_unsupported_message_type">অনুমতি, যে ধরনের মেসেজ সাপোর্ট করা হয় না</string>
+    <string gender="unknown" name="dat_error_mock_photo_capture">ফটো তোলার সময় ত্রুটি</string>
+    <string gender="unknown" name="dat_error_mock_remote_session_device_not_ready">রিমোট সেশন, ডিভাইস প্রস্তুত নয়</string>
+    <string gender="unknown" name="dat_error_mock_remote_session_id_mismatch">রিমোট সেশন, সেশন আইডি ম্যাচ করছে না</string>
+    <string gender="unknown" name="dat_error_mock_remote_session_unsupported_message_type">রিমোট সেশন, যে ধরনের মেসেজ সমর্থিত নয়</string>
+    <string gender="unknown" name="dat_error_mock_stream_internal_error">কোনো অভ্যন্তরীণ সমস্যা হয়েছে</string>
+    <string gender="unknown" name="dat_error_mock_stream_no_camera_feed">কোনো ক্যামেরার উৎস কনফিগার করা হয়নি</string>
+    <string gender="unknown" name="dat_error_mock_stream_start_failure">স্ট্রিম শুরু করা যায়নি</string>
+    <string gender="unknown" name="dat_error_mock_streaming_error">স্ট্রিমিংয়ের সময় ব্যতিক্রম ঘটেছে</string>
+    <string gender="unknown" name="dat_error_mock_streaming_unhandled_user_action">ইউজারের পদক্ষেপ পরিচালনা করা যায়নি</string>
+    <string gender="unknown" name="dat_error_mock_voice_invocation_failed_to_parse_action_response">ভয়েস ইনভোকেশন, অ্যাকশন সংক্রান্ত ফলাফল প্রক্রিয়াকরণ করা যায়নি</string>
+    <string gender="unknown" name="dat_error_mock_voice_invocation_failed_to_parse_init_request">ভয়েস ইনভোকেশন, প্রাথমিক অনুরোধটির প্রক্রিয়াকরণ করা যায়নি</string>
+    <string gender="unknown" name="dat_error_mock_voice_invocation_unknown_message_type">ভয়েস ইনভোকেশন, অজানা মেসেজের ধরন</string>
+    <string gender="unknown" name="dat_error_navigation_meta_ai_not_installed">ডিভাইসে Meta AI অ্যাপ ইনস্টল করা নেই</string>
+    <string gender="unknown" name="dat_error_navigation_not_registered">অ্যাপটি AI চশমার সাথে রেজিস্টার করা নেই</string>
+    <string gender="unknown" name="dat_error_permission_connection_error">ডিভাইসের সাথে যোগাযোগ করার সময় কানেকশন সংক্রান্ত সমস্যা হয়েছে</string>
+    <string gender="unknown" name="dat_error_permission_internal_error">কোনো অপ্রত্যাশিত অভ্যন্তরীণ সমস্যা হয়েছে</string>
+    <string gender="unknown" name="dat_error_permission_meta_ai_not_installed">ডিভাইসে Meta AI কম্প্যানিয়ন অ্যাপ ইনস্টল করা নেই</string>
+    <string gender="unknown" name="dat_error_permission_no_device">কোনো পরিধানযোগ্য ডিভাইস খুঁজে পাওয়া বা রেজিস্টার করা হয়নি</string>
+    <string gender="unknown" name="dat_error_permission_no_device_with_connection">খুঁজে পাওয়া সব ডিভাইস বন্ধ করা আছে অথবা ডিসকানেক্ট করা আছে</string>
+    <string gender="unknown" name="dat_error_permission_request_in_progress">একটি অনুমতির অনুরোধ ইতিমধ্যেই প্রগতিতে রয়েছে</string>
+    <string gender="unknown" name="dat_error_permission_request_timeout">অনুমতির অনুরোধের জন্য নির্ধারিত সময়সীমা পেরিয়ে গেছে</string>
+    <string gender="unknown" name="dat_error_photo_capture_failed">ফটো ক্যাপচার করা যায়নি</string>
+    <string gender="unknown" name="dat_error_registration_already_registered">ইউজার আবার রেজিস্টার করার চেষ্টা করার সময় ইতিমধ্যেই রেজিস্টার করেছেন</string>
+    <string gender="unknown" name="dat_error_registration_configuration_invalid">ওয়্যারেবল ডিভাইস অ্যাক্সেস টুলকিট কনফিগারেশনটি ভুল বা অসম্পূর্ণ</string>
+    <string gender="unknown" name="dat_error_registration_failed_to_register">অনির্দিষ্ট কারণে রেজিস্ট্রেশন প্রক্রিয়া সম্পূর্ণ করা যায়নি</string>
+    <string gender="unknown" name="dat_error_registration_failed_to_unregister">অনির্দিষ্ট কারণে রেজিস্ট্রেশন বাতিল করার প্রক্রিয়া সম্পূর্ণ করা যায়নি</string>
+    <string gender="unknown" name="dat_error_registration_meta_ai_not_installed">ডিভাইসে Meta AI অ্যাপ ইনস্টল করা নেই, যা রেজিস্ট্রেশনের জন্য প্রয়োজন</string>
+    <string gender="unknown" name="dat_error_registration_network_unavailable">কোনো ইন্টারনেট কানেকশন উপলভ্য নেই। অনুগ্রহ করে আপনার কানেকশন পরীক্ষা করুন এবং আবার চেষ্টা করুন</string>
+    <string gender="unknown" name="dat_error_registration_unknown">রেজিস্ট্রেশন প্রক্রিয়ার সময় কোনো অজানা ত্রুটি দেখা দিয়েছে</string>
+    <string gender="unknown" name="dat_error_session_already_exists">এই ডিভাইসের জন্য আগে থেকেই একটি সেশন রয়েছে</string>
+    <string gender="unknown" name="dat_error_session_already_stopped">সেশন আগেই বন্ধ করা হয়েছে</string>
+    <string gender="unknown" name="dat_error_session_battery_critical">ডিভাইসের ব্যাটারিতে চার্জ খুবই কম আছে</string>
+    <string gender="unknown" name="dat_error_session_capability_already_active">এই ধরনের একটি ক্ষমতা সেশনে ইতিমধ্যেই সক্রিয় আছে</string>
+    <string gender="unknown" name="dat_error_session_capability_denied">ডিভাইস এটি ব্যবহারের অনুমতি দেয়নি</string>
+    <string gender="unknown" name="dat_error_session_capability_not_found">সেশনের সাথে এই ধরনের কোনো ক্ষমতা অ্যাটাচ করা নেই</string>
+    <string gender="unknown" name="dat_error_session_dat_app_on_the_glasses_update_required">আপনার চশমার আপডেট প্রয়োজন। আপডেট করতে Meta AI-এর অ্যাপ কানেকশন পেজে যান</string>
+    <string gender="unknown" name="dat_error_session_dat_app_update_required">এই সেশনটি শুরু করার আগে আপনার চশমার অ্যাপটি আপডেট করতে হবে। এটি আপডেট করার জন্য Meta AI-এর অ্যাপ কানেকশন পেজে যান।</string>
+    <string gender="unknown" name="dat_error_session_device_disconnected">ডিভাইস ডিসকানেক্ট হয়ে গেছে</string>
+    <string gender="unknown" name="dat_error_session_dwa_out_of_stu_range">এই অ্যাপ ভার্সনটি সংযুক্ত চশমার সাথে প্রত্যাশা অনুযায়ী কাজ নাও করতে পারে। সেশনটি চালু থাকতে পারে। অ্যাপটি মাঝে মাঝে আপডেটের পরামর্শ দিতে পারে।</string>
+    <string gender="unknown" name="dat_error_session_dwa_unavailable">চশমায় থাকা DAT Wearables অ্যাপের সাথে যোগাযোগ করা যাচ্ছে না</string>
+    <string gender="unknown" name="dat_error_session_ended_by_device">ডিভাইসের সেশন শেষ হয়ে গেছে</string>
+    <string gender="unknown" name="dat_error_session_idle">সেশনটি নিষ্ক্রিয় আছে। ক্ষমতা যোগ করার আগে সেশনটি শুরু করুন</string>
+    <string gender="unknown" name="dat_error_session_insufficient_sdk_version">এই অ্যাপটি এমন একটি SDK ভার্সন দিয়ে তৈরি করা হয়েছে যা আপনার চশমায় আর সাপোর্ট করে না। বর্তমান SDK দিয়ে তৈরি করা অ্যাপের একটি নতুন ভার্সন রিলিজ করুন।</string>
+    <string gender="unknown" name="dat_error_session_no_eligible_device">কোনো যোগ্য ডিভাইস উপলভ্য নেই</string>
+    <string gender="unknown" name="dat_error_session_peak_power_shutdown">ডিভাইসের সর্বোচ্চ শাটডাউন পাওয়ার</string>
+    <string gender="unknown" name="dat_error_session_thermal_critical">ডিভাইসের তাপমাত্রা বিপজ্জনক স্তরে পৌঁছে গেছে</string>
+    <string gender="unknown" name="dat_error_session_thermal_emergency">ডিভাইসের তাপমাত্রা জরুরি অবস্থায় পৌঁছেছে — বন্ধ করা হচ্ছে</string>
+    <string gender="unknown" name="dat_error_session_unexpected_error">কোনো অপ্রত্যাশিত ত্রুটি ঘটেছে</string>
+    <string gender="unknown" name="dat_error_stream_battery_low">স্ট্রিমিং করার জন্য ডিভাইসের ব্যাটারিতে চার্জ খুব কম আছে</string>
+    <string gender="unknown" name="dat_error_stream_critical_error">গুরুতর ত্রুটি, স্ট্রিম বন্ধ হয়ে যাওয়া উচিত</string>
+    <string gender="unknown" name="dat_error_stream_device_not_connected">ডিভাইস কানেক্ট করা নেই</string>
+    <string gender="unknown" name="dat_error_stream_device_not_found">ডিভাইস খুঁজে পাওয়া যায়নি</string>
+    <string gender="unknown" name="dat_error_stream_error">অনির্দিষ্ট সমস্যা, এই সত্ত্বেও স্ট্রিম চালিয়ে যেতে পারেন</string>
+    <string gender="unknown" name="dat_error_stream_hinge_closed">চশমার হিঞ্জ বন্ধ করা আছে</string>
+    <string gender="unknown" name="dat_error_stream_peak_power_limit">ডিভাইস সর্বোচ্চ পাওয়ার সীমায় পৌঁছে গেছে</string>
+    <string gender="unknown" name="dat_error_stream_permissions_denied">অনুমতি অস্বীকার করা হয়েছে</string>
+    <string gender="unknown" name="dat_error_stream_thermal_hot">ডিভাইসের তাপমাত্রা খুব বেশি, তাই এখন স্ট্রিমিং করা যাবে না</string>
+    <string gender="unknown" name="dat_error_stream_timeout">অপারেশনের সময় শেষ হয়ে গেছে</string>
+    <string gender="unknown" name="dat_error_unregistration_already_unregistered">আবার আনরেজিস্টার করার চেষ্টা করার সময় ইউজার আগেই আনরেজিস্টার করেছেন</string>
+    <string gender="unknown" name="dat_error_unregistration_configuration_invalid">ওয়্যারেবল ডিভাইস অ্যাক্সেস টুলকিট কনফিগারেশনটি ভুল বা অসম্পূর্ণ</string>
+    <string gender="unknown" name="dat_error_unregistration_meta_ai_not_installed">ডিভাইসে Meta AI অ্যাপ ইনস্টল করা নেই, যা আনরেজিস্ট্রেশনের জন্য প্রয়োজন</string>
+    <string gender="unknown" name="dat_error_unregistration_unknown">রেজিস্ট্রেশন বাতিলের প্রক্রিয়া করার সময় কোনো অজানা ত্রুটি দেখা দিয়েছে</string>
+    <string gender="unknown" name="dat_error_voice_action_failed">পদক্ষেপ ব্যর্থ হয়েছে</string>
+    <string gender="unknown" name="dat_error_voice_channel_error">চ্যানেল সংক্রান্ত ত্রুটি হয়েছে</string>
+    <string gender="unknown" name="dat_error_voice_channel_not_connected">চ্যানেল কানেক্ট করা নেই</string>
+    <string gender="unknown" name="dat_error_voice_channel_setup_failed">AI পদক্ষেপ চ্যানেল সেটআপ করা যায়নি</string>
+    <string gender="unknown" name="dat_error_voice_connection_not_available">ডিভাইসের সংযোগ উপলভ্য নয়</string>
+    <string gender="unknown" name="dat_error_voice_device_not_found">ডিভাইস খুঁজে পাওয়া যায়নি</string>
+    <string gender="unknown" name="dat_error_voice_fail_to_send_init_request">প্রাথমিক অনুরোধ পাঠানো যায়নি</string>
+    <string gender="unknown" name="dat_error_voice_init_request_error">অনুরোধ শুরু করা যায়নি</string>
+    <string gender="unknown" name="dat_error_voice_init_request_returned_error">প্রাথমিক অনুরোধের জবাবে ত্রুটি পাওয়া গিয়েছে</string>
+    <string gender="unknown" name="dat_error_voice_invalid_action_message_proto">ভুল মেসেজ প্রোটো</string>
+    <string gender="unknown" name="dat_error_voice_invalid_message_proto">ভুল মেসেজ প্রোটো</string>
+    <string gender="unknown" name="dat_error_voice_invalid_session_state">কার্যকলাপের জন্য সেশনের অবস্থা বৈধ নয়</string>
+    <string gender="unknown" name="dat_error_voice_invalid_wearables_interface">অবৈধ WearablesInterface দেওয়া হয়েছে</string>
+    <string gender="unknown" name="dat_error_voice_send_message_error">মেসেজ পাঠানো যায়নি</string>
+    <string gender="unknown" name="dat_error_voice_unknown_message_type">অজানা ধরনের মেসেজ পাওয়া গেছে</string>
+    <string gender="unknown" name="dat_error_wearables_already_configured">আগে থেকেই কনফিগার করা আছে</string>
+    <string gender="unknown" name="dat_error_wearables_already_initialized">পরিধানযোগ্য ডিভাইস ইতোমধ্যেই চালু করা হয়েছে।</string>
+    <string gender="unknown" name="dat_error_wearables_configuration_error">কনফিগারেশনে সমস্যা</string>
+    <string gender="unknown" name="dat_error_wearables_internal_error">অভ্যন্তরীণ ত্রুটি</string>
+    <string gender="unknown" name="dat_error_wearables_not_initialized">পরিধানযোগ্য ডিভাইস চালু করা হয়নি। প্রথমে Wearables.initialize(context) কল করুন।</string>
+    <string gender="unknown" name="dat_error_wearables_url_registration_error">রেজিস্ট্রেশনে সমস্যা</string>
+    <string gender="unknown" name="dat_error_wearables_url_unregistration_error">আনরেজিস্ট্রেশনে সমস্যা</string>
+    <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"৯৯৯+"</string>
+</resources>

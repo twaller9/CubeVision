@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string msgid="881409763997275156" name="call_notification_answer_action">"മറുപടി നൽകുക"</string>
+    <string msgid="8793775615905189152" name="call_notification_answer_video_action">"വീഡിയോ"</string>
+    <string msgid="3229508546291798546" name="call_notification_decline_action">"നിരസിക്കുക"</string>
+    <string msgid="2659457946726154263" name="call_notification_hang_up_action">"കോൾ നിർത്തുക"</string>
+    <string msgid="6107532579223922871" name="call_notification_incoming_text">"ഇൻകമിംഗ് കോൾ"</string>
+    <string msgid="8623827134497363134" name="call_notification_ongoing_text">"സജീവമായ കോൾ"</string>
+    <string msgid="59049573811482460" name="call_notification_screening_text">"ഇൻകമിംഗ് കോൾ സ്‌ക്രീൻ ചെയ്യുന്നു"</string>
+    <string gender="unknown" name="dat_error_permission_connection_error">ഉപകരണവുമായി ആശയവിനിമയം നടത്തുമ്പോൾ ഒരു കണക്ഷൻ പിശകുണ്ടായി</string>
+    <string gender="unknown" name="dat_error_permission_internal_error">ഒരു അപ്രതീക്ഷിത ആന്തരിക പിശക് സംഭവിച്ചു</string>
+    <string gender="unknown" name="dat_error_permission_meta_ai_not_installed">Meta AI കമ്പാനിയൻ ആപ്പ് ഉപകരണത്തിൽ ഇൻസ്റ്റാൾ ചെയ്തിട്ടില്ല</string>
+    <string gender="unknown" name="dat_error_permission_no_device">ധരിക്കാവുന്ന ഉപകരണങ്ങളൊന്നും കണ്ടെത്തുകയോ രജിസ്റ്റർ ചെയ്യുകയോ ചെയ്തിട്ടില്ല</string>
+    <string gender="unknown" name="dat_error_permission_no_device_with_connection">കണ്ടെത്തിയ എല്ലാ ഉപകരണങ്ങളും ഓഫാക്കിയിരിക്കുന്നു അല്ലെങ്കിൽ വിച്ഛേദിച്ചിരിക്കുന്നു</string>
+    <string gender="unknown" name="dat_error_permission_request_in_progress">ഒരു അനുമതി അഭ്യർത്ഥന ഇതിനകം പുരോഗതിയിലാണ്</string>
+    <string gender="unknown" name="dat_error_permission_request_timeout">അനുമതി അഭ്യർത്ഥന അനുവദിച്ച സമയ പരിധി കവിഞ്ഞു</string>
+    <string gender="unknown" name="dat_error_registration_already_registered">വീണ്ടും രജിസ്‌റ്റർ ചെയ്യാൻ ശ്രമിക്കുമ്പോൾ ഉപയോക്താവ് ഇതിനകം രജിസ്‌റ്റർ ചെയ്തിട്ടുണ്ട്</string>
+    <string gender="unknown" name="dat_error_registration_configuration_invalid">വെയറബിൾസ് ഉപകരണ ആക്‌സസ് ടൂൾകിറ്റ് കോൺഫിഗറേഷൻ അസാധുവാണ് അല്ലെങ്കിൽ അപൂർണ്ണമാണ്</string>
+    <string gender="unknown" name="dat_error_registration_meta_ai_not_installed">രജിസ്‌ട്രേഷന് ആവശ്യമായ Meta AI ആപ്പ് ഉപകരണത്തിൽ ഇൻസ്‌റ്റാൾ ചെയ്‌തിട്ടില്ല</string>
+    <string gender="unknown" name="dat_error_registration_network_unavailable">ഇന്റർനെറ്റ് കണക്ഷനൊന്നും ലഭ്യമല്ല. നിങ്ങളുടെ കണക്ഷൻ പരിശോധിച്ചതിനുശേഷം വീണ്ടും ശ്രമിക്കുക</string>
+    <string gender="unknown" name="dat_error_registration_unknown">രജിസ്ട്രേഷന്‍ പ്രോസസിനിടയിൽ ഒരു അജ്ഞാത പിശകുണ്ടായി</string>
+    <string gender="unknown" name="dat_error_session_already_exists">ഈ ഉപകരണത്തിനായി ഇതിനകം ഒരു സെഷൻ നിലവിലുണ്ട്</string>
+    <string gender="unknown" name="dat_error_session_already_stopped">സെഷൻ ഇതിനകം നിർത്തി</string>
+    <string gender="unknown" name="dat_error_session_battery_critical">ഉപകരണത്തിന്റെ ബാറ്ററി ഗുരുതരമായി കുറവാണ്</string>
+    <string gender="unknown" name="dat_error_session_capability_already_active">ഈ തരത്തിലുള്ള ഒരു കഴിവ് ഇതിനകം തന്നെ സെഷനിൽ സജീവമാണ്</string>
+    <string gender="unknown" name="dat_error_session_capability_not_found">ഈ തരത്തിലുള്ള കഴിവുകളൊന്നും സെഷനിൽ അറ്റാച്ച് ചെയ്തിട്ടില്ല</string>
+    <string gender="unknown" name="dat_error_session_idle">സെഷൻ നിഷ്‌ക്രിയമാണ്. കഴിവുകൾ ചേർക്കുന്നതിന് മുമ്പ് സെഷൻ ആരംഭിക്കുക</string>
+    <string gender="unknown" name="dat_error_session_no_eligible_device">യോഗ്യതയുള്ള ഉപകരണമൊന്നും ലഭ്യമല്ല</string>
+    <string gender="unknown" name="dat_error_session_peak_power_shutdown">ഉപകരണത്തിന്റെ പീക്ക് പവർ ഷട്ട്‌ഡൗൺ</string>
+    <string gender="unknown" name="dat_error_session_thermal_critical">ഉപകരണത്തിന്റെ താപ നില ഗുരുതരമാണ്</string>
+    <string gender="unknown" name="dat_error_session_thermal_emergency">ഉപകരണത്തിന്റെ താപനില അടിയന്തിര സാഹചര്യത്തിലാണ് — ഷട്ട് ഡൗൺ ചെയ്യുന്നു</string>
+    <string gender="unknown" name="dat_error_stream_battery_low">സ്ട്രീം ചെയ്യുന്നതിന് ഉപകരണത്തിന്റെ ബാറ്ററി നില വളരെ കുറവാണ്</string>
+    <string gender="unknown" name="dat_error_stream_critical_error">ഗുരുതര പിശക്, സ്ട്രീം അവസാനിക്കേണ്ടതുണ്ട്</string>
+    <string gender="unknown" name="dat_error_stream_error">വ്യക്തമാക്കാത്ത പിശക്, എന്തായാലും സ്ട്രീം തുടരാം</string>
+    <string gender="unknown" name="dat_error_stream_hinge_closed">ഗ്ലാസുകളിലെ ഹിഞ്ചുകൾ അടച്ചു</string>
+    <string gender="unknown" name="dat_error_stream_peak_power_limit">ഉപകരണത്തിന്റെ പീക്ക് പവർ പരിധിയിലെത്തി</string>
+    <string gender="unknown" name="dat_error_stream_permissions_denied">അനുമതികൾ നിഷേധിച്ചു</string>
+    <string gender="unknown" name="dat_error_stream_thermal_hot">ഉപകരണത്തിന്റെ തെർമൽ നില സ്‌ട്രീമിംഗിന് വളരെ കൂടുതലാണ്</string>
+    <string gender="unknown" name="dat_error_stream_timeout">പ്രവർത്തനം കാലഹരണപ്പെട്ടു</string>
+    <string gender="unknown" name="dat_error_unregistration_already_unregistered">വീണ്ടും രജിസ്‌റ്റർ ചെയ്യൽ റദ്ദാക്കാൻ ശ്രമിക്കുമ്പോൾ ഉപയോക്താവ് ഇതിനകം രജിസ്‌റ്റർ ചെയ്തത് മാറ്റിയിട്ടുണ്ട്</string>
+    <string gender="unknown" name="dat_error_unregistration_configuration_invalid">വെയറബിൾസ് ഉപകരണ ആക്‌സസ് ടൂൾകിറ്റ് കോൺഫിഗറേഷൻ അസാധുവാണ് അല്ലെങ്കിൽ അപൂർണ്ണമാണ്</string>
+    <string gender="unknown" name="dat_error_unregistration_meta_ai_not_installed">Meta AI ആപ്പ് ഉപകരണത്തിൽ ഇൻസ്‌റ്റാൾ ചെയ്‌തിട്ടില്ല, രജിസ്‌ട്രേഷൻ മാറ്റാൻ അത് ആവശ്യമാണ്</string>
+    <string gender="unknown" name="dat_error_unregistration_unknown">രജിസ്‌ട്രേഷൻ മാറ്റുന്ന പ്രോസസിൽ ഒരു അജ്ഞാത പിശകുണ്ടായി</string>
+    <string gender="unknown" name="dat_error_voice_action_failed">ആക്ഷൻ പരാജയപ്പെട്ടു</string>
+    <string gender="unknown" name="dat_error_voice_channel_setup_failed">AI ആക്ഷനുകൾ ചാനൽ സജ്ജീകരിക്കുന്നതിൽ പരാജയപ്പെട്ടു</string>
+    <string gender="unknown" name="dat_error_voice_connection_not_available">ഉപകരണ കണക്ഷൻ ലഭ്യമല്ല</string>
+    <string gender="unknown" name="dat_error_voice_device_not_found">ഉപകരണം കണ്ടെത്തിയില്ല</string>
+    <string gender="unknown" name="dat_error_voice_init_request_error">അഭ്യർത്ഥന ആരംഭിക്കാനായില്ല</string>
+    <string gender="unknown" name="dat_error_voice_invalid_message_proto">അസാധുവായ സന്ദേശ പ്രോട്ടോ</string>
+    <string gender="unknown" name="dat_error_voice_invalid_wearables_interface">അസാധുവായ WearablesInterface നൽകി</string>
+    <string gender="unknown" name="dat_error_voice_send_message_error">സന്ദേശം അയയ്ക്കുന്നതിൽ പരാജയപ്പെട്ടു</string>
+    <string gender="unknown" name="dat_error_wearables_already_configured">ഇതിനകം കോൺഫിഗർ ചെയ്തിട്ടുണ്ട്</string>
+    <string gender="unknown" name="dat_error_wearables_configuration_error">കോൺഫിഗറേഷൻ പിശക്</string>
+    <string gender="unknown" name="dat_error_wearables_internal_error">ആന്തരിക പിശക്</string>
+    <string gender="unknown" name="dat_error_wearables_url_registration_error">രജിസ്‌ട്രേഷൻ പിശക്</string>
+    <string gender="unknown" name="dat_error_wearables_url_unregistration_error">രജിസ്ട്രേഷൻ മാറ്റുന്നതിൽ പിശക്</string>
+    <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
+</resources>

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string msgid="881409763997275156" name="call_notification_answer_action">"Odgovori"</string>
+    <string msgid="8793775615905189152" name="call_notification_answer_video_action">"Videozapis"</string>
+    <string msgid="3229508546291798546" name="call_notification_decline_action">"Odbij"</string>
+    <string msgid="2659457946726154263" name="call_notification_hang_up_action">"Prekini"</string>
+    <string msgid="6107532579223922871" name="call_notification_incoming_text">"Dolazni poziv"</string>
+    <string msgid="8623827134497363134" name="call_notification_ongoing_text">"Poziv u tijeku"</string>
+    <string msgid="59049573811482460" name="call_notification_screening_text">"Filtriranje dolaznog poziva"</string>
+    <string gender="unknown" name="dat_error_capture_busy">Snimanje je zauzeto</string>
+    <string gender="unknown" name="dat_error_capture_device_disconnected">Uređaj nije povezan</string>
+    <string gender="unknown" name="dat_error_capture_device_health_critical">Kritično stanje uređaja</string>
+    <string gender="unknown" name="dat_error_capture_failure">Snimanje nije uspjelo</string>
+    <string gender="unknown" name="dat_error_capture_not_ready">Snimanje nije spremno</string>
+    <string gender="unknown" name="dat_error_capture_permission_denied">Dopuštenje za snimanje je odbijeno</string>
+    <string gender="unknown" name="dat_error_capture_service_unavailable">Usluga snimanja nije dostupna</string>
+    <string gender="unknown" name="dat_error_capture_setup_failed">Postavljanje snimanja nije uspjelo</string>
+    <string gender="unknown" name="dat_error_capture_timed_out">Isteklo je vrijeme za snimanje</string>
+    <string gender="unknown" name="dat_error_capture_unknown">Nepoznata pogreška pri snimanju</string>
+    <string gender="unknown" name="dat_error_mock_app_management_unsupported_app_id">Identifikator nepodržane aplikacije za upravljanje aplikacijama</string>
+    <string gender="unknown" name="dat_error_mock_app_management_unsupported_message_type">Vrsta poruke za upravljanje aplikacijama nije podržana</string>
+    <string gender="unknown" name="dat_error_mock_failed_sending_video_frames">Slanje videokadrova nije uspjelo</string>
+    <string gender="unknown" name="dat_error_mock_peer_building_info_unsupported_message_type">Informacije o uređaju; vrsta poruke nije podržana</string>
+    <string gender="unknown" name="dat_error_mock_permissions_unsupported_message_type">Dopuštenja, vrsta poruke nije podržana</string>
+    <string gender="unknown" name="dat_error_mock_photo_capture">Iznimka tijekom snimanja fotografije</string>
+    <string gender="unknown" name="dat_error_mock_remote_session_device_not_ready">Udaljena sesija, uređaj nije spreman</string>
+    <string gender="unknown" name="dat_error_mock_remote_session_id_mismatch">Udaljena sesija, nepodudaranje identifikatora sesije</string>
+    <string gender="unknown" name="dat_error_mock_remote_session_unsupported_message_type">Udaljena sesija, vrsta poruke nije podržana</string>
+    <string gender="unknown" name="dat_error_mock_stream_internal_error">Došlo je do interne pogreške</string>
+    <string gender="unknown" name="dat_error_mock_stream_no_camera_feed">Izvor kamere nije konfiguriran</string>
+    <string gender="unknown" name="dat_error_mock_stream_start_failure">Strujanje nije uspjelo</string>
+    <string gender="unknown" name="dat_error_mock_streaming_error">Došlo je do iznimke tijekom strujanja</string>
+    <string gender="unknown" name="dat_error_mock_streaming_unhandled_user_action">Korisnička radnja nije obrađena</string>
+    <string gender="unknown" name="dat_error_mock_voice_invocation_failed_to_parse_action_response">Glasovno pozivanje, analiza odgovora na radnju nije uspjela</string>
+    <string gender="unknown" name="dat_error_mock_voice_invocation_failed_to_parse_init_request">Pozivanje glasa, raščlanjivanje početnog zahtjeva nije uspjelo</string>
+    <string gender="unknown" name="dat_error_mock_voice_invocation_unknown_message_type">Glasovno pozivanje, nepoznata vrsta poruke</string>
+    <string gender="unknown" name="dat_error_navigation_meta_ai_not_installed">Aplikacija Meta AI nije instalirana na uređaju</string>
+    <string gender="unknown" name="dat_error_navigation_not_registered">Aplikacija nije registrirana s AI naočalama</string>
+    <string gender="unknown" name="dat_error_permission_connection_error">Pri komunikaciji s uređajem došlo je do pogreške veze</string>
+    <string gender="unknown" name="dat_error_permission_internal_error">Došlo je do neočekivane interne pogreške</string>
+    <string gender="unknown" name="dat_error_permission_meta_ai_not_installed">Pomoćna aplikacija Meta AI nije instalirana na uređaju</string>
+    <string gender="unknown" name="dat_error_permission_no_device">Nisu otkriveni ili registrirani nosivi uređaji</string>
+    <string gender="unknown" name="dat_error_permission_no_device_with_connection">Svi otkriveni uređaji isključeni su ili je njihova veza prekinuta</string>
+    <string gender="unknown" name="dat_error_permission_request_in_progress">Zahtjev za dopuštenje već je u tijeku</string>
+    <string gender="unknown" name="dat_error_permission_request_timeout">Zahtjev za dopuštenje premašio je dopušteno vremensko ograničenje</string>
+    <string gender="unknown" name="dat_error_photo_capture_failed">Snimanje fotografije nije uspjelo</string>
+    <string gender="unknown" name="dat_error_registration_already_registered">Korisnik je već registriran kada se pokuša ponovo registrirati</string>
+    <string gender="unknown" name="dat_error_registration_configuration_invalid">Konfiguracija kompleta alata za pristup nosivim uređajima nije valjana ili nije potpuna</string>
+    <string gender="unknown" name="dat_error_registration_failed_to_register">Proces registracije nije uspio iz neodređenog razloga</string>
+    <string gender="unknown" name="dat_error_registration_failed_to_unregister">Proces poništenja registracije nije uspio iz neodređenog razloga</string>
+    <string gender="unknown" name="dat_error_registration_meta_ai_not_installed">Aplikacija Meta AI nije instalirana na uređaju, što je potrebno za registraciju</string>
+    <string gender="unknown" name="dat_error_registration_network_unavailable">Nema dostupne internetske veze. Provjerite vezu i pokušajte ponovno</string>
+    <string gender="unknown" name="dat_error_registration_unknown">Došlo je do nepoznate pogreške tijekom postupka registracije</string>
+    <string gender="unknown" name="dat_error_session_already_exists">Sesija za ovaj uređaj već postoji</string>
+    <string gender="unknown" name="dat_error_session_already_stopped">Sesija je već zaustavljena</string>
+    <string gender="unknown" name="dat_error_session_battery_critical">Baterija uređaja kritično je slaba</string>
+    <string gender="unknown" name="dat_error_session_capability_already_active">Mogućnost ove vrste već je aktivna u sesiji</string>
+    <string gender="unknown" name="dat_error_session_capability_denied">Uređaj je odbio mogućnost</string>
+    <string gender="unknown" name="dat_error_session_capability_not_found">Nijedna mogućnost ove vrste nije priložena sesiji</string>
+    <string gender="unknown" name="dat_error_session_dat_app_on_the_glasses_update_required">Trebate ažurirati naočale. Otvorite stranicu Veze aplikacija u Meta AI-ju da biste ih ažurirali</string>
+    <string gender="unknown" name="dat_error_session_dat_app_update_required">Da bi ova sesija mogla započeti, potrebno je ažurirati aplikaciju na vašim naočalama. Otvorite stranicu Veze aplikacije u Meta AI-ju da biste je ažurirali.</string>
+    <string gender="unknown" name="dat_error_session_device_disconnected">Uređaj nije povezan</string>
+    <string gender="unknown" name="dat_error_session_dwa_out_of_stu_range">Ova verzija aplikacije s povezanim naočalama možda neće funkcionirati u skladu s očekivanjima. Sesija se može nastaviti. Aplikacija s vremena na vrijeme može predložiti ažuriranje.</string>
+    <string gender="unknown" name="dat_error_session_dwa_unavailable">Aplikacija DAT Wearables na naočalama nije dostupna</string>
+    <string gender="unknown" name="dat_error_session_ended_by_device">Uređaj je prekinuo sesiju</string>
+    <string gender="unknown" name="dat_error_session_idle">Sesija je u stanju mirovanja. Pokrenite sesiju prije dodavanja mogućnosti</string>
+    <string gender="unknown" name="dat_error_session_insufficient_sdk_version">Ova je aplikacija izgrađena s verzijom SDK-a koju vaše naočale više ne podržavaju. Objavite noviju verziju aplikacije izgrađenu s trenutačnom verzijom SDK-a.</string>
+    <string gender="unknown" name="dat_error_session_no_eligible_device">Nema dostupnog uređaja koji ispunjava uvjete</string>
+    <string gender="unknown" name="dat_error_session_peak_power_shutdown">Isključivanje zbog vršne snage uređaja</string>
+    <string gender="unknown" name="dat_error_session_thermal_critical">Termalno stanje uređaja je kritično</string>
+    <string gender="unknown" name="dat_error_session_thermal_emergency">Termalno stanje uređaja je hitno – isključivanje</string>
+    <string gender="unknown" name="dat_error_session_unexpected_error">Došlo je do neočekivane pogreške</string>
+    <string gender="unknown" name="dat_error_stream_battery_low">Baterija uređaja preslaba je za strujanje</string>
+    <string gender="unknown" name="dat_error_stream_critical_error">Kritična pogreška, strujanje bi trebalo završiti</string>
+    <string gender="unknown" name="dat_error_stream_device_not_connected">Uređaj nije povezan</string>
+    <string gender="unknown" name="dat_error_stream_device_not_found">Uređaj nije pronađen</string>
+    <string gender="unknown" name="dat_error_stream_error">Neodređena pogreška, strujanje se može nastaviti bez obzira na to</string>
+    <string gender="unknown" name="dat_error_stream_hinge_closed">Šarke na naočalama zatvorene su</string>
+    <string gender="unknown" name="dat_error_stream_peak_power_limit">Dosegnuto je ograničenje vršne snage uređaja</string>
+    <string gender="unknown" name="dat_error_stream_permissions_denied">Dopuštenja odbijena</string>
+    <string gender="unknown" name="dat_error_stream_thermal_hot">Razina topline uređaja previsoka je za strujanje</string>
+    <string gender="unknown" name="dat_error_stream_timeout">Radnja je istekla</string>
+    <string gender="unknown" name="dat_error_unregistration_already_unregistered">Korisnik je već odregistiran pri pokušaju ponovne registracije</string>
+    <string gender="unknown" name="dat_error_unregistration_configuration_invalid">Konfiguracija kompleta alata za pristup nosivim uređajima nije valjana ili nije potpuna</string>
+    <string gender="unknown" name="dat_error_unregistration_meta_ai_not_installed">Aplikacija Meta AI nije instalirana na uređaju, što je potrebno za poništavanje registracije</string>
+    <string gender="unknown" name="dat_error_unregistration_unknown">Došlo je do nepoznate pogreške tijekom postupka poništenja registracije</string>
+    <string gender="unknown" name="dat_error_voice_action_failed">Radnja nije uspjela</string>
+    <string gender="unknown" name="dat_error_voice_channel_error">Došlo je do pogreške kanala</string>
+    <string gender="unknown" name="dat_error_voice_channel_not_connected">Kanal nije povezan</string>
+    <string gender="unknown" name="dat_error_voice_channel_setup_failed">Postavljanje kanala AI radnji nije uspjelo</string>
+    <string gender="unknown" name="dat_error_voice_connection_not_available">Veza s uređajem nije dostupna</string>
+    <string gender="unknown" name="dat_error_voice_device_not_found">Uređaj nije pronađen</string>
+    <string gender="unknown" name="dat_error_voice_fail_to_send_init_request">Slanje početnog zahtjeva nije uspjelo</string>
+    <string gender="unknown" name="dat_error_voice_init_request_error">Pokretanje zahtjeva nije uspjelo</string>
+    <string gender="unknown" name="dat_error_voice_init_request_returned_error">Došlo je do pogreške sa zahtjevom za inicijalizaciju</string>
+    <string gender="unknown" name="dat_error_voice_invalid_action_message_proto">Prototip poruke radnje nije valjan</string>
+    <string gender="unknown" name="dat_error_voice_invalid_message_proto">Prototip poruke nije valjan</string>
+    <string gender="unknown" name="dat_error_voice_invalid_session_state">Nevažeće stanje sesije za operaciju</string>
+    <string gender="unknown" name="dat_error_voice_invalid_wearables_interface">Navedeno je nevažeće sučelje nosivih uređaja (WearablesInterface)</string>
+    <string gender="unknown" name="dat_error_voice_send_message_error">Slanje poruke nije uspjelo</string>
+    <string gender="unknown" name="dat_error_voice_unknown_message_type">Primljena je nepoznata vrsta poruke</string>
+    <string gender="unknown" name="dat_error_wearables_already_configured">Već konfigurirano</string>
+    <string gender="unknown" name="dat_error_wearables_already_initialized">Nosivi uređaji već su pokrenuti.</string>
+    <string gender="unknown" name="dat_error_wearables_configuration_error">Pogreška konfiguracije</string>
+    <string gender="unknown" name="dat_error_wearables_internal_error">Interna pogreška</string>
+    <string gender="unknown" name="dat_error_wearables_not_initialized">Nosivi uređaji nisu pokrenuti. Najprije pozovite Wearables.initialize(context).</string>
+    <string gender="unknown" name="dat_error_wearables_url_registration_error">Pogreška pri registraciji</string>
+    <string gender="unknown" name="dat_error_wearables_url_unregistration_error">Pogreška pri poništenju registracije</string>
+    <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
+</resources>

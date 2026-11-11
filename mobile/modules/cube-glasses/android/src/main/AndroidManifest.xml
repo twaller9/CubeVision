@@ -1,0 +1,18 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+  <uses-permission android:name="android.permission.BLUETOOTH" />
+  <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" />
+  <uses-permission android:name="android.permission.INTERNET" />
+  <uses-permission android:name="android.permission.RECORD_AUDIO" />
+  <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+  <!-- Only used by "mock glasses" mode (phone camera stands in for the glasses) -->
+  <uses-permission android:name="android.permission.CAMERA" />
+  <uses-feature android:name="android.hardware.camera" android:required="false" />
+
+  <application>
+    <!-- Meta Wearables Device Access Toolkit. "0" works in Developer Mode (Meta AI app >
+         your glasses > Developer Mode). For release channels put the IDs from the
+         Wearables Developer Center here. -->
+    <meta-data android:name="com.meta.wearable.mwdat.APPLICATION_ID" android:value="0" />
+    <meta-data android:name="com.meta.wearable.mwdat.CLIENT_TOKEN" android:value="0" />
+  </application>
+</manifest>

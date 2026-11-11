@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string msgid="881409763997275156" name="call_notification_answer_action">"Atender"</string>
+    <string msgid="8793775615905189152" name="call_notification_answer_video_action">"Vídeo"</string>
+    <string msgid="3229508546291798546" name="call_notification_decline_action">"Recusar"</string>
+    <string msgid="2659457946726154263" name="call_notification_hang_up_action">"Desligar"</string>
+    <string msgid="6107532579223922871" name="call_notification_incoming_text">"Chamada recebida"</string>
+    <string msgid="8623827134497363134" name="call_notification_ongoing_text">"Chamada em curso"</string>
+    <string msgid="59049573811482460" name="call_notification_screening_text">"A filtrar uma chamada recebida…"</string>
+    <string gender="unknown" name="dat_error_capture_busy">A gravação está ocupada</string>
+    <string gender="unknown" name="dat_error_capture_device_disconnected">Dispositivo desassociado</string>
+    <string gender="unknown" name="dat_error_capture_device_health_critical">Estado do dispositivo crítico</string>
+    <string gender="unknown" name="dat_error_capture_failure">A foto ou o vídeo falhou</string>
+    <string gender="unknown" name="dat_error_capture_not_ready">A foto ou o vídeo não está disponível ainda</string>
+    <string gender="unknown" name="dat_error_capture_permission_denied">Permissão para tirar foto ou gravar vídeo recusada</string>
+    <string gender="unknown" name="dat_error_capture_service_unavailable">Serviço de gravação indisponível</string>
+    <string gender="unknown" name="dat_error_capture_setup_failed">Falha na configuração da gravação</string>
+    <string gender="unknown" name="dat_error_capture_timed_out">O tempo para tirar a foto expirou</string>
+    <string gender="unknown" name="dat_error_capture_unknown">Erro desconhecido na gravação</string>
+    <string gender="unknown" name="dat_error_mock_app_management_unsupported_app_id">Identificação da app não suportada para gestão de apps</string>
+    <string gender="unknown" name="dat_error_mock_app_management_unsupported_message_type">Tipo de mensagem não suportado da gestão de apps</string>
+    <string gender="unknown" name="dat_error_mock_failed_sending_video_frames">Falha ao enviar fotogramas de vídeo</string>
+    <string gender="unknown" name="dat_error_mock_peer_building_info_unsupported_message_type">Informações sobre o dispositivo, tipo de mensagem não suportado</string>
+    <string gender="unknown" name="dat_error_mock_permissions_unsupported_message_type">Permissões, tipo de mensagem não suportado</string>
+    <string gender="unknown" name="dat_error_mock_photo_capture">Exceção durante a captura de foto</string>
+    <string gender="unknown" name="dat_error_mock_remote_session_device_not_ready">Sessão remota, dispositivo não pronto</string>
+    <string gender="unknown" name="dat_error_mock_remote_session_id_mismatch">Sessão remota, identificação da sessão não corresponde</string>
+    <string gender="unknown" name="dat_error_mock_remote_session_unsupported_message_type">Sessão remota, tipo de mensagem não suportado</string>
+    <string gender="unknown" name="dat_error_mock_stream_internal_error">Ocorreu um erro interno</string>
+    <string gender="unknown" name="dat_error_mock_stream_no_camera_feed">Nenhuma fonte da câmara configurada</string>
+    <string gender="unknown" name="dat_error_mock_stream_start_failure">Falha ao iniciar a transmissão</string>
+    <string gender="unknown" name="dat_error_mock_streaming_error">Ocorreu uma exceção durante a transmissão</string>
+    <string gender="unknown" name="dat_error_mock_streaming_unhandled_user_action">Ação do/a utilizador/a não processada</string>
+    <string gender="unknown" name="dat_error_mock_voice_invocation_failed_to_parse_action_response">Invocação de voz, falha ao analisar a resposta da ação</string>
+    <string gender="unknown" name="dat_error_mock_voice_invocation_failed_to_parse_init_request">Invocação de voz, falha ao analisar o pedido de inicialização</string>
+    <string gender="unknown" name="dat_error_mock_voice_invocation_unknown_message_type">Invocação de voz, tipo de mensagem desconhecido</string>
+    <string gender="unknown" name="dat_error_navigation_meta_ai_not_installed">A app Meta AI não está instalada no dispositivo</string>
+    <string gender="unknown" name="dat_error_navigation_not_registered">A app não está registada nos AI glasses</string>
+    <string gender="unknown" name="dat_error_permission_connection_error">Ocorreu um erro de ligação durante a comunicação com o dispositivo</string>
+    <string gender="unknown" name="dat_error_permission_internal_error">Ocorreu um erro interno inesperado</string>
+    <string gender="unknown" name="dat_error_permission_meta_ai_not_installed">A app complementar da Meta AI não está instalada no dispositivo</string>
+    <string gender="unknown" name="dat_error_permission_no_device">Não foi descoberto nem registado nenhum dispositivo utilizável</string>
+    <string gender="unknown" name="dat_error_permission_no_device_with_connection">Todos os dispositivos descobertos estão desligados ou desassociados</string>
+    <string gender="unknown" name="dat_error_permission_request_in_progress">Já está em curso um pedido de permissão</string>
+    <string gender="unknown" name="dat_error_permission_request_timeout">O pedido de permissão excedeu o limite de tempo permitido</string>
+    <string gender="unknown" name="dat_error_photo_capture_failed">Falha ao tirar a foto</string>
+    <string gender="unknown" name="dat_error_registration_already_registered">O/A utilizador/a já está registado/a ao tentar registar-se novamente</string>
+    <string gender="unknown" name="dat_error_registration_configuration_invalid">A configuração do Kit de Ferramentas de Acesso para Dispositivos Utilizáveis é inválida ou está incompleta</string>
+    <string gender="unknown" name="dat_error_registration_failed_to_register">O processo de registo falhou devido a um motivo não especificado</string>
+    <string gender="unknown" name="dat_error_registration_failed_to_unregister">O processo de cancelamento do registo falhou devido a um motivo não especificado</string>
+    <string gender="unknown" name="dat_error_registration_meta_ai_not_installed">A app Meta AI não está instalada no dispositivo, o que é necessário para o registo</string>
+    <string gender="unknown" name="dat_error_registration_network_unavailable">Nenhuma ligação à Internet disponível, por isso, verifica a tua ligação e tenta novamente</string>
+    <string gender="unknown" name="dat_error_registration_unknown">Ocorreu um erro desconhecido durante o processo de registo</string>
+    <string gender="unknown" name="dat_error_session_already_exists">Já existe uma sessão para este dispositivo</string>
+    <string gender="unknown" name="dat_error_session_already_stopped">A sessão já foi suspensa</string>
+    <string gender="unknown" name="dat_error_session_battery_critical">A bateria do dispositivo está bastante fraca</string>
+    <string gender="unknown" name="dat_error_session_capability_already_active">Uma capacidade deste tipo já está ativa na sessão</string>
+    <string gender="unknown" name="dat_error_session_capability_denied">Capacidade recusada pelo dispositivo</string>
+    <string gender="unknown" name="dat_error_session_capability_not_found">Não está anexada qualquer capacidade deste tipo à sessão</string>
+    <string gender="unknown" name="dat_error_session_dat_app_on_the_glasses_update_required">Os teus óculos precisam de ser atualizados. Acede à página Associação de apps na Meta AI para atualizar</string>
+    <string gender="unknown" name="dat_error_session_dat_app_update_required">A app nos teus óculos precisa de ser atualizada antes de iniciares esta sessão. Acede à página Associação de apps na Meta AI para atualizar.</string>
+    <string gender="unknown" name="dat_error_session_device_disconnected">Dispositivo desassociado</string>
+    <string gender="unknown" name="dat_error_session_dwa_out_of_stu_range">Esta versão da app pode não funcionar como esperado com os óculos associados. A sessão pode continuar. A app pode sugerir uma atualização ocasionalmente.</string>
+    <string gender="unknown" name="dat_error_session_dwa_unavailable">A app DAT Wearables nos óculos não está acessível</string>
+    <string gender="unknown" name="dat_error_session_ended_by_device">Sessão terminada pelo dispositivo</string>
+    <string gender="unknown" name="dat_error_session_idle">A sessão está inativa, por isso, inicia a sessão antes de adicionares capacidades</string>
+    <string gender="unknown" name="dat_error_session_insufficient_sdk_version">Esta app foi criada com uma versão do SDK que já não é suportada pelos teus óculos. Lança uma versão mais recente da app criada com o SDK atual.</string>
+    <string gender="unknown" name="dat_error_session_no_eligible_device">Nenhum dispositivo elegível disponível</string>
+    <string gender="unknown" name="dat_error_session_peak_power_shutdown">Encerramento do dispositivo devido a pico de energia</string>
+    <string gender="unknown" name="dat_error_session_thermal_critical">O estado térmico do dispositivo é crítico</string>
+    <string gender="unknown" name="dat_error_session_thermal_emergency">O estado térmico do dispositivo é de emergência, por isso, vamos proceder ao encerramento</string>
+    <string gender="unknown" name="dat_error_session_unexpected_error">Ocorreu um erro inesperado</string>
+    <string gender="unknown" name="dat_error_stream_battery_low">A bateria do dispositivo está demasiado fraca para transmitir</string>
+    <string gender="unknown" name="dat_error_stream_critical_error">Erro crítico, a transmissão deve terminar</string>
+    <string gender="unknown" name="dat_error_stream_device_not_connected">O dispositivo não está associado</string>
+    <string gender="unknown" name="dat_error_stream_device_not_found">Dispositivo não encontrado</string>
+    <string gender="unknown" name="dat_error_stream_error">Erro não especificado, por isso, a transmissão pode continuar</string>
+    <string gender="unknown" name="dat_error_stream_hinge_closed">As dobradiças dos óculos foram fechadas</string>
+    <string gender="unknown" name="dat_error_stream_peak_power_limit">Limite de pico de energia do dispositivo atingido</string>
+    <string gender="unknown" name="dat_error_stream_permissions_denied">Permissões negadas</string>
+    <string gender="unknown" name="dat_error_stream_thermal_hot">O nível térmico do dispositivo é demasiado elevado para transmitir</string>
+    <string gender="unknown" name="dat_error_stream_timeout">A operação excedeu o limite de tempo</string>
+    <string gender="unknown" name="dat_error_unregistration_already_unregistered">O/A utilizador/a já não está registado/a ao tentar cancelar o registo novamente</string>
+    <string gender="unknown" name="dat_error_unregistration_configuration_invalid">A configuração do Kit de Ferramentas de Acesso para Dispositivos Utilizáveis é inválida ou está incompleta</string>
+    <string gender="unknown" name="dat_error_unregistration_meta_ai_not_installed">A app Meta AI não está instalada no dispositivo, o que é necessário para o cancelamento do registo</string>
+    <string gender="unknown" name="dat_error_unregistration_unknown">Ocorreu um erro desconhecido durante o processo de cancelamento do registo</string>
+    <string gender="unknown" name="dat_error_voice_action_failed">Erro ao executar ação</string>
+    <string gender="unknown" name="dat_error_voice_channel_error">Ocorreu um erro no canal</string>
+    <string gender="unknown" name="dat_error_voice_channel_not_connected">O canal não está associado</string>
+    <string gender="unknown" name="dat_error_voice_channel_setup_failed">Falha ao configurar o canal de ações de IA</string>
+    <string gender="unknown" name="dat_error_voice_connection_not_available">Ligação ao dispositivo indisponível</string>
+    <string gender="unknown" name="dat_error_voice_device_not_found">Dispositivo não encontrado</string>
+    <string gender="unknown" name="dat_error_voice_fail_to_send_init_request">Falha ao enviar o pedido de inicialização</string>
+    <string gender="unknown" name="dat_error_voice_init_request_error">Falha ao iniciar pedido</string>
+    <string gender="unknown" name="dat_error_voice_init_request_returned_error">O pedido de inicialização resultou num erro</string>
+    <string gender="unknown" name="dat_error_voice_invalid_action_message_proto">Proto de mensagem de ação inválido</string>
+    <string gender="unknown" name="dat_error_voice_invalid_message_proto">Proto de mensagem inválida</string>
+    <string gender="unknown" name="dat_error_voice_invalid_session_state">Estado de sessão inválido para a operação</string>
+    <string gender="unknown" name="dat_error_voice_invalid_wearables_interface">WearablesInterface inválida fornecida</string>
+    <string gender="unknown" name="dat_error_voice_send_message_error">Falha ao enviar mensagem</string>
+    <string gender="unknown" name="dat_error_voice_unknown_message_type">Foi recebido um tipo de mensagem desconhecido</string>
+    <string gender="unknown" name="dat_error_wearables_already_configured">Já configurado</string>
+    <string gender="unknown" name="dat_error_wearables_already_initialized">Os dispositivos utilizáveis já foram iniciados.</string>
+    <string gender="unknown" name="dat_error_wearables_configuration_error">Erro de configuração</string>
+    <string gender="unknown" name="dat_error_wearables_internal_error">Erro interno</string>
+    <string gender="unknown" name="dat_error_wearables_not_initialized">A funcionalidade Wearables não foi iniciada. Primeiro, executa Wearables.initialize(context).</string>
+    <string gender="unknown" name="dat_error_wearables_url_registration_error">Erro de registo</string>
+    <string gender="unknown" name="dat_error_wearables_url_unregistration_error">Erro ao cancelar o registo</string>
+    <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
+</resources>
