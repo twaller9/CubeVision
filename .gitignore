@@ -4,3 +4,16 @@ __pycache__/
 .pytest_cache/
 .DS_Store
 dist/
+
+# Android / Gradle build output (regenerated on every build)
+**/android/build/
+**/android/.cxx/
+**/android/.gradle/
+.gradle/
+.kotlin/
+*.apk
+*.aab
+
+# Expo / iOS generated files
+.expo/
+**/ios/Pods/

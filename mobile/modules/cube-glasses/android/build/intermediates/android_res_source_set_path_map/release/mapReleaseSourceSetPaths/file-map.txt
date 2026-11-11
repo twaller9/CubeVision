@@ -1,9 +1,0 @@
-expo.modules.cubeglasses.cube-glasses-pngs-0 /Users/thomaswaller/CubeVision/mobile/modules/cube-glasses/android/build/generated/res/pngs/release
-expo.modules.cubeglasses.cube-glasses-updated_navigation_xml-1 /Users/thomaswaller/CubeVision/mobile/modules/cube-glasses/android/build/generated/updated_navigation_xml/release
-expo.modules.cubeglasses.cube-glasses-mergeReleaseResources-2 /Users/thomaswaller/CubeVision/mobile/modules/cube-glasses/android/build/intermediates/incremental/release/mergeReleaseResources/merged.dir
-expo.modules.cubeglasses.cube-glasses-mergeReleaseResources-3 /Users/thomaswaller/CubeVision/mobile/modules/cube-glasses/android/build/intermediates/incremental/release/mergeReleaseResources/stripped.dir
-expo.modules.cubeglasses.cube-glasses-release-4 /Users/thomaswaller/CubeVision/mobile/modules/cube-glasses/android/build/intermediates/merged_res/release/mergeReleaseResources
-expo.modules.cubeglasses.cube-glasses-release-5 /Users/thomaswaller/CubeVision/mobile/modules/cube-glasses/android/build/intermediates/packaged_res/release/packageReleaseResources
-expo.modules.cubeglasses.cube-glasses-main-6 /Users/thomaswaller/CubeVision/mobile/modules/cube-glasses/android/src/main/res
-expo.modules.cubeglasses.cube-glasses-release-7 /Users/thomaswaller/CubeVision/mobile/modules/cube-glasses/android/src/release/res
-gradleHome-0 /Users/thomaswaller/.gradle
