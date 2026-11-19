@@ -3,13 +3,17 @@ defineProps<{ variant: 'tall' | 'square' }>()
 </script>
 
 <template>
-  <div class="shape" :class="variant" aria-hidden="true" />
+  <div class="shape" :class="variant" :aria-hidden="$slots.default ? undefined : 'true'">
+    <slot />
+  </div>
 </template>
 
 <style scoped>
 .shape {
   background: var(--shape);
   border-radius: var(--radius);
+  position: relative;
+  overflow: hidden;
 }
 @supports (corner-shape: squircle) {
   .shape { corner-shape: squircle; }

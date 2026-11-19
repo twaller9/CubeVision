@@ -1,7 +1,13 @@
+<script setup lang="ts">
+const { speaking } = useAgent()
+</script>
+
 <template>
   <main class="layout">
     <div class="row">
-      <RoundedShape variant="tall" />
+      <RoundedShape variant="tall">
+        <AgentAvatar :speaking="speaking" />
+      </RoundedShape>
       <div class="stack">
         <RoundedShape variant="square" />
         <RoundedShape variant="square" />
