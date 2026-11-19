@@ -1,0 +1,18 @@
+:root {
+  --bg: #000000;
+  --text: #F5F5F7;
+  --shape: #1C1C1E;
+  --header-h: 48px;
+  --header-bg: rgba(22, 22, 23, 0.8);
+  --header-border: rgba(255, 255, 255, 0.12);
+  --link: #2997FF;
+  --link-hover: #6BB5FF;
+  --gap: 24px;
+  --pad: 24px;
+  --font: -apple-system, BlinkMacSystemFont, "Inter", "Helvetica Neue", Arial, sans-serif;
+}
+@media (max-width: 640px) { :root { --gap: 16px; --pad: 16px; } }
+
+html, body, #__nuxt { height: 100%; margin: 0; }
+body { background: var(--bg); color: var(--text); font-family: var(--font);
+       -webkit-font-smoothing: antialiased; overflow: hidden; }
